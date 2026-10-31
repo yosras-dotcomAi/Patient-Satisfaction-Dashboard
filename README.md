@@ -1,119 +1,100 @@
-# Patient-Satisfaction-Dashboard
-Goal: Visualize patient survey data (e.g., satisfaction with nurses, doctors, wait times, cleanliness, overall experience).
+# Patient Experience Dashboard: NHS-Style Friends and Family Test Analysis
+
+> **Important note on data:** This project uses **simulated data**. It contains no patient or hospital data. The 2,400 survey responses were generated to resemble NHS Friends and Family Test (FFT) results, with positive scores set close to figures published by an NHS trust (see Data sources). How waiting time, communication, kindness, and cleanliness affect the rating is an **assumption**, not a published effect size. The results show how the analysis works, not what any real hospital achieves.
+
+**Live dashboard:** _link will be added after deployment_
+
+## Question
+How satisfied are patients across four hospital services, and which factors (waiting time, communication, staff kindness, cleanliness) are linked to a positive experience?
+
+## The Friends and Family Test method
+NHS services ask one question: "Overall, how was your experience of our service?" with answers from Very good to Very poor. **Percent positive** is the share answering Very good or Good, out of all responses including "Don't know". This project follows the same method.
+
+## Dataset (simulated)
+| | |
+|---|---|
+| Responses | 2,400 across 2025 |
+| Services | Emergency Department, Outpatients, Inpatients, Maternity |
+| Fields | Date, service, age, sex, waiting time (minutes), communication, kindness and cleanliness ratings (1 to 5), overall experience |
+
+## Key results
+Percent positive with exact 95% confidence intervals:
+
+| Service | Responses | Percent positive | Percent negative |
+|---|---|---|---|
+| All services | 2,400 | 88.7 (87.3 to 89.9) | 3.2 |
+| Emergency Department | 795 | 80.0 (77.0 to 82.7) | 6.4 |
+| Outpatients | 747 | 92.4 (90.2 to 94.2) | 1.5 |
+| Inpatients | 605 | 95.0 (93.0 to 96.6) | 1.2 |
+| Maternity | 253 | 89.7 (85.3 to 93.2) | 3.6 |
+
+<img src="images/positive_by_service.png" alt="Percent positive by service" width="600"/>
+
+**Waiting time:** percent positive falls from about 93% for waits under 30 minutes to 82.8% for 2 to 4 hours and 71.3% (95% CI 64.1 to 77.7) for waits over 4 hours.
+
+<img src="images/positive_by_wait.png" alt="Percent positive by waiting time" width="600"/>
+
+**What is linked to a positive experience** (logistic regression, adjusted for service and age):
+
+| Factor | Odds ratio (95% CI) |
+|---|---|
+| Wait, each extra 30 minutes | 0.89 (0.85 to 0.94) |
+| Communication, each rating point | 1.60 (1.33 to 1.93) |
+| Kindness, each rating point | 1.49 (1.23 to 1.81) |
+| Cleanliness, each rating point | 0.96 (0.78 to 1.17), not significant |
+| Age, each 10 years | 1.02 (0.92 to 1.14), not significant |
+
+<img src="images/drivers.png" alt="Odds ratios for a positive experience" width="650"/>
+
+**Winter pressure in the Emergency Department:** waits were set longer in December to February (median 194 vs 156 minutes), and the share of positive responses was lower (77.2% vs 80.9%), but this difference is **not statistically significant** (Fisher's exact test, p = 0.29).
+
+<img src="images/monthly_trend.png" alt="Monthly percent positive by service" width="650"/>
+
+## Conclusion and limitations
+In this simulated survey, the Emergency Department had the lowest percent positive, and longer waits, weaker communication, and less kindness were each linked to lower odds of a positive rating. **These links are built into the simulation by design**, so they demonstrate the method (FFT scoring, exact confidence intervals, logistic regression, and an interactive dashboard) and not a real finding. One detail worth noting: cleanliness was given a small assumed effect, yet the analysis could not detect it, which shows how small effects can be missed even with 2,400 responses.
+
+Other limits: only associations are shown, ratings from the same patient are assumed independent, and a real analysis would also use free-text comments, response rates, and non-response checks.
+
+## Dashboard
+`app.py` is a Streamlit dashboard with service and month filters, headline KPIs, a monthly trend, the rating distribution, waiting-time bands, and a comparison of staff ratings. Run it with:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+## Data sources and how the simulated numbers were chosen
+| Item | Value used | Source |
+|---|---|---|
+| FFT question and answer scale | Very good to Very poor; positive = Very good or Good | [Epsom and St Helier University Hospitals, patient experience page](https://epsom-sthelier.nhs.uk/patient-experience) |
+| Inpatients positive score | 95.3% (September 2021) | [East Lancashire Hospitals NHS Trust, FFT results](https://elht.nhs.uk/download_file/3912/3263) |
+| Emergency Department positive score | 66.1% (September 2021), 82.3% (February), 86.8% (April) | East Lancashire Hospitals NHS Trust, FFT results ([September](https://elht.nhs.uk/download_file/3912/3263), [February](https://elht.nhs.uk/download_file/3304/3263), [April](https://elht.nhs.uk/download_file/3710/3263)) |
+| Outpatients positive score | 93.4% (February) | [East Lancashire Hospitals NHS Trust, FFT results](https://elht.nhs.uk/download_file/3304/3263) |
+| Maternity positive score | 86.0% (December) | [East Lancashire Hospitals NHS Trust, FFT results](https://elht.nhs.uk/download_file/3212/3057) |
+
+**Targets used:** Emergency Department 80%, Outpatients 93%, Inpatients 95%, Maternity 90%. **Assumptions:** the effect of waiting time, communication, kindness and cleanliness on the rating, and longer emergency waits in winter. All constants are at the top of `generate_data.py`.
+
+## How to reproduce
+```bash
+pip install -r requirements.txt
+python generate_data.py     # creates data/patient_survey.csv
+python analysis.py          # results tables and charts
+streamlit run app.py        # interactive dashboard
+```
+
+## Repository structure
+```
 Patient-Satisfaction-Dashboard/
-│── data/
-│   └── patient_satisfaction.csv
-│── app.py                 # Streamlit dashboard code
-│── requirements.txt       # libraries (streamlit, pandas, matplotlib, plotly)
-│── README.md              # project explanation + screenshots
-│── screenshots/           # images of dashboard
+├── generate_data.py
+├── analysis.py
+├── app.py
+├── requirements.txt
+├── data/
+│   └── patient_survey.csv
+├── images/               # charts used in this README
+└── README.md
+```
+`analysis.py` also writes result tables to a `results/` folder when it runs.
 
-import pandas as pd
-import numpy as np
-
-np.random.seed(42)
-
-n = 500
-
-departments = ["Emergency", "ICU", "OPD", "Surgery", "Radiology"]
-gender = ["Male", "Female"]
-
-data = {
-    "Patient_ID": range(1, n+1),
-    "Department": np.random.choice(departments, n),
-    "Gender": np.random.choice(gender, n),
-    "Age": np.random.randint(18, 80, n),
-    "Wait_Time": np.random.randint(5, 180, n),  # in minutes
-    "Staff_Friendliness": np.random.randint(1, 6, n),
-    "Cleanliness": np.random.randint(1, 6, n),
-    "Communication": np.random.randint(1, 6, n),
-    "Overall_Satisfaction": np.random.randint(1, 11, n),
-}
-
-df = pd.DataFrame(data)
-df.to_csv("patient_satisfaction.csv", index=False)
-
-print("✅ patient_satisfaction.csv created with", n, "rows")
-import streamlit as st
-import pandas as pd
-import plotly.express as px
-
-# ---------------------------
-# Load Data
-# ---------------------------
-@st.cache_data
-def load_data():
-    return pd.read_csv("data/patient_satisfaction.csv")
-
-df = load_data()
-
-# ---------------------------
-# Sidebar Filters
-# ---------------------------
-st.sidebar.header("Filters")
-department_filter = st.sidebar.multiselect("Select Department:", options=df["Department"].unique(), default=df["Department"].unique())
-gender_filter = st.sidebar.multiselect("Select Gender:", options=df["Gender"].unique(), default=df["Gender"].unique())
-
-df_filtered = df[(df["Department"].isin(department_filter)) & (df["Gender"].isin(gender_filter))]
-
-# ---------------------------
-# Main Dashboard
-# ---------------------------
-st.title("🏥 Patient Satisfaction Dashboard")
-
-# KPIs
-avg_wait = int(df_filtered["Wait_Time"].mean())
-avg_satisfaction = round(df_filtered["Overall_Satisfaction"].mean(), 1)
-happy_patients = round((df_filtered["Overall_Satisfaction"] >= 8).mean() * 100, 1)
-
-col1, col2, col3 = st.columns(3)
-col1.metric("⏳ Avg Wait Time (min)", avg_wait)
-col2.metric("😊 Avg Satisfaction (1-10)", avg_satisfaction)
-col3.metric("👍 % Happy Patients", f"{happy_patients}%")
-
-st.markdown("---")
-
-# ---------------------------
-# Charts
-# ---------------------------
-
-# Satisfaction by Department
-st.subheader("📊 Average Satisfaction by Department")
-dept_chart = df_filtered.groupby("Department")["Overall_Satisfaction"].mean().reset_index()
-fig_dept = px.bar(dept_chart, x="Department", y="Overall_Satisfaction", color="Department", text_auto=True)
-st.plotly_chart(fig_dept, use_container_width=True)
-
-# Cleanliness Distribution
-st.subheader("🧼 Cleanliness Ratings Distribution")
-fig_clean = px.histogram(df_filtered, x="Cleanliness", nbins=5, color="Department", barmode="group")
-st.plotly_chart(fig_clean, use_container_width=True)
-
-# Satisfaction vs Wait Time
-st.subheader("⏱️ Wait Time vs. Satisfaction")
-fig_scatter = px.scatter(df_filtered, x="Wait_Time", y="Overall_Satisfaction", color="Department", size="Communication", hover_data=["Age"])
-st.plotly_chart(fig_scatter, use_container_width=True)
-
-# Gender Comparison
-st.subheader("👩‍⚕️ Satisfaction by Gender")
-gender_chart = df_filtered.groupby("Gender")["Overall_Satisfaction"].mean().reset_index()
-fig_gender = px.bar(gender_chart, x="Gender", y="Overall_Satisfaction", color="Gender", text_auto=True)
-st.plotly_chart(fig_gender, use_container_width=True)
-
-st.markdown("📌 *This dashboard is based on simulated survey data.*")
-streamlit
-pandas
-plotly
-# 🏥 Patient Satisfaction Dashboard
-
-An interactive dashboard to analyze patient satisfaction survey data.  
-Built with **Python, Streamlit, Pandas, and Plotly**.
-
-## 📊 Features
-- KPIs: Avg wait time, Avg satisfaction, % happy patients
-- Charts:
-  - Satisfaction by Department
-  - Cleanliness distribution
-  - Wait time vs. satisfaction
-  - Gender comparison
-- Interactive filters (department, gender)
-
+## Author
+**Yosra El Nagar**, Cath Lab Head Nurse moving into Healthcare Data Analytics
+[LinkedIn](https://www.linkedin.com/in/yosra-nagar-9a6862118/) | [GitHub](https://github.com/yosras-dotcomAi)
