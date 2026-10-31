@@ -1,0 +1,2401 @@
+response_id,response_date,service,age,sex,wait_minutes,communication_rating,kindness_rating,cleanliness_rating,overall_experience
+R10000,2025-01-01,Outpatients,50,Male,12,3,4,4,Good
+R10001,2025-01-01,Outpatients,44,Male,44,5,4,4,Very good
+R10002,2025-01-01,Inpatients,52,Male,192,4,4,5,Very good
+R10003,2025-01-01,Emergency Department,80,Male,560,3,4,4,Very good
+R10004,2025-01-01,Outpatients,55,Female,18,4,4,5,Very good
+R10005,2025-01-01,Emergency Department,45,Male,187,5,5,5,Neither good nor poor
+R10006,2025-01-01,Maternity,34,Female,35,5,4,4,Very good
+R10007,2025-01-01,Emergency Department,27,Male,142,4,5,4,Very good
+R10008,2025-01-02,Inpatients,62,Male,71,4,4,4,Very good
+R10009,2025-01-02,Outpatients,44,Male,25,4,4,5,Very good
+R10010,2025-01-02,Emergency Department,48,Female,202,5,4,4,Very good
+R10011,2025-01-02,Maternity,32,Female,17,5,4,5,Neither good nor poor
+R10012,2025-01-02,Emergency Department,54,Male,208,4,5,5,Very good
+R10013,2025-01-02,Outpatients,54,Female,54,5,5,5,Very good
+R10014,2025-01-03,Outpatients,50,Female,12,5,5,4,Very good
+R10015,2025-01-03,Emergency Department,62,Female,286,5,5,4,Very good
+R10016,2025-01-03,Outpatients,43,Female,17,3,3,5,Neither good nor poor
+R10017,2025-01-03,Emergency Department,44,Female,73,5,5,5,Very good
+R10018,2025-01-03,Outpatients,60,Male,78,4,4,2,Good
+R10019,2025-01-03,Outpatients,47,Female,25,5,5,4,Very good
+R10020,2025-01-03,Emergency Department,16,Male,207,3,5,4,Very good
+R10021,2025-01-03,Inpatients,54,Female,67,5,5,5,Very good
+R10022,2025-01-03,Inpatients,59,Female,153,3,4,5,Very good
+R10023,2025-01-03,Inpatients,70,Female,27,4,4,5,Very good
+R10024,2025-01-04,Emergency Department,17,Male,120,3,4,4,Very poor
+R10025,2025-01-04,Outpatients,58,Female,17,5,5,5,Very good
+R10026,2025-01-04,Outpatients,65,Female,20,5,4,5,Very good
+R10027,2025-01-04,Inpatients,67,Female,41,5,4,5,Very good
+R10028,2025-01-05,Outpatients,52,Female,51,4,4,4,Good
+R10029,2025-01-05,Inpatients,49,Male,50,4,3,5,Very good
+R10030,2025-01-05,Inpatients,93,Female,53,3,5,4,Very good
+R10031,2025-01-05,Inpatients,28,Female,56,5,4,5,Very good
+R10032,2025-01-06,Emergency Department,51,Female,102,4,5,5,Very good
+R10033,2025-01-06,Outpatients,48,Female,45,3,5,5,Very good
+R10034,2025-01-06,Outpatients,55,Female,30,4,5,5,Good
+R10035,2025-01-06,Outpatients,79,Female,3,5,5,5,Very good
+R10036,2025-01-07,Inpatients,70,Female,68,5,4,5,Very good
+R10037,2025-01-07,Inpatients,51,Male,165,4,5,5,Very good
+R10038,2025-01-07,Inpatients,51,Male,50,4,5,4,Very good
+R10039,2025-01-07,Inpatients,81,Male,98,4,4,4,Very good
+R10040,2025-01-07,Emergency Department,55,Female,175,4,5,5,Very good
+R10041,2025-01-07,Emergency Department,49,Female,226,5,5,4,Neither good nor poor
+R10042,2025-01-07,Maternity,32,Female,51,5,5,4,Very good
+R10043,2025-01-07,Maternity,27,Female,19,4,4,4,Neither good nor poor
+R10044,2025-01-07,Outpatients,76,Male,12,5,3,3,Very good
+R10045,2025-01-08,Inpatients,74,Female,52,4,5,5,Don't know
+R10046,2025-01-08,Emergency Department,32,Male,191,5,5,4,Good
+R10047,2025-01-08,Outpatients,52,Female,59,3,3,5,Good
+R10048,2025-01-08,Outpatients,63,Male,48,4,2,4,Good
+R10049,2025-01-08,Emergency Department,40,Male,388,5,5,4,Very good
+R10050,2025-01-08,Outpatients,38,Female,11,4,4,4,Very good
+R10051,2025-01-08,Outpatients,91,Female,31,4,5,5,Good
+R10052,2025-01-08,Inpatients,59,Male,58,4,5,4,Very good
+R10053,2025-01-09,Emergency Department,44,Female,173,3,4,4,Poor
+R10054,2025-01-09,Emergency Department,36,Female,262,5,5,4,Good
+R10055,2025-01-09,Emergency Department,52,Female,88,3,4,5,Good
+R10056,2025-01-09,Emergency Department,23,Female,484,4,5,5,Very good
+R10057,2025-01-09,Outpatients,32,Female,12,4,4,5,Very good
+R10058,2025-01-09,Outpatients,62,Female,36,4,4,4,Good
+R10059,2025-01-10,Emergency Department,49,Female,130,3,3,5,Good
+R10060,2025-01-10,Maternity,38,Female,21,5,5,5,Very good
+R10061,2025-01-10,Outpatients,54,Male,8,4,5,4,Very good
+R10062,2025-01-10,Outpatients,63,Female,10,3,4,5,Very good
+R10063,2025-01-10,Inpatients,91,Female,32,4,5,4,Very good
+R10064,2025-01-11,Inpatients,79,Male,67,4,5,3,Very good
+R10065,2025-01-11,Emergency Department,16,Male,187,4,4,3,Good
+R10066,2025-01-11,Outpatients,16,Male,80,5,5,5,Neither good nor poor
+R10067,2025-01-11,Inpatients,79,Male,19,5,5,5,Very good
+R10068,2025-01-11,Maternity,33,Female,35,4,4,4,Very good
+R10069,2025-01-11,Outpatients,50,Male,28,5,4,4,Very poor
+R10070,2025-01-12,Maternity,39,Female,23,5,4,4,Very good
+R10071,2025-01-12,Maternity,18,Female,26,5,4,4,Very good
+R10072,2025-01-12,Maternity,26,Female,19,5,5,4,Good
+R10073,2025-01-12,Outpatients,50,Female,17,5,3,5,Very good
+R10074,2025-01-12,Outpatients,62,Male,49,5,3,4,Very good
+R10075,2025-01-12,Inpatients,63,Female,60,3,5,4,Very good
+R10076,2025-01-12,Maternity,21,Female,31,4,5,4,Poor
+R10077,2025-01-12,Emergency Department,68,Female,115,5,5,4,Good
+R10078,2025-01-12,Emergency Department,56,Male,364,5,5,2,Good
+R10079,2025-01-13,Outpatients,46,Female,25,5,5,4,Don't know
+R10080,2025-01-13,Inpatients,51,Female,69,5,5,4,Very good
+R10081,2025-01-13,Maternity,33,Female,60,5,5,5,Very good
+R10082,2025-01-13,Inpatients,51,Female,97,4,3,4,Neither good nor poor
+R10083,2025-01-13,Outpatients,49,Female,37,4,5,3,Very good
+R10084,2025-01-13,Maternity,34,Female,29,4,5,5,Very good
+R10085,2025-01-13,Inpatients,59,Female,68,5,5,4,Very good
+R10086,2025-01-13,Outpatients,43,Female,27,5,4,5,Good
+R10087,2025-01-14,Outpatients,53,Male,10,4,4,4,Good
+R10088,2025-01-14,Emergency Department,35,Female,118,4,4,4,Very good
+R10089,2025-01-14,Emergency Department,26,Female,352,4,5,5,Very good
+R10090,2025-01-14,Outpatients,32,Female,62,5,4,5,Very good
+R10091,2025-01-14,Emergency Department,32,Female,69,5,4,5,Good
+R10092,2025-01-14,Outpatients,59,Male,40,4,5,3,Very good
+R10093,2025-01-14,Inpatients,70,Male,64,5,5,5,Very good
+R10094,2025-01-14,Maternity,28,Female,43,5,4,3,Very good
+R10095,2025-01-15,Outpatients,53,Male,28,5,5,4,Very good
+R10096,2025-01-15,Inpatients,42,Female,47,5,4,4,Very good
+R10097,2025-01-16,Inpatients,85,Male,18,5,5,3,Very good
+R10098,2025-01-16,Emergency Department,38,Female,200,4,4,5,Very good
+R10099,2025-01-16,Outpatients,69,Female,15,5,4,5,Very good
+R10100,2025-01-16,Maternity,27,Female,27,3,4,5,Neither good nor poor
+R10101,2025-01-16,Emergency Department,37,Female,187,5,5,4,Very good
+R10102,2025-01-16,Inpatients,52,Female,38,4,3,4,Good
+R10103,2025-01-16,Outpatients,34,Female,41,5,4,4,Very good
+R10104,2025-01-16,Outpatients,45,Female,40,2,4,4,Neither good nor poor
+R10105,2025-01-16,Outpatients,49,Male,18,3,5,4,Very good
+R10106,2025-01-16,Outpatients,85,Female,38,4,5,5,Very good
+R10107,2025-01-17,Inpatients,70,Female,61,4,4,5,Good
+R10108,2025-01-17,Emergency Department,36,Female,262,5,5,4,Very good
+R10109,2025-01-17,Outpatients,89,Male,20,5,5,5,Very good
+R10110,2025-01-18,Maternity,29,Female,28,4,4,5,Very good
+R10111,2025-01-18,Outpatients,31,Female,18,3,5,4,Good
+R10112,2025-01-18,Outpatients,29,Female,21,3,5,5,Neither good nor poor
+R10113,2025-01-18,Emergency Department,31,Male,111,4,4,4,Good
+R10114,2025-01-18,Inpatients,58,Female,29,4,5,5,Very good
+R10115,2025-01-19,Inpatients,51,Female,49,5,5,4,Very good
+R10116,2025-01-19,Emergency Department,54,Male,281,4,3,5,Good
+R10117,2025-01-19,Emergency Department,42,Male,188,5,5,5,Good
+R10118,2025-01-19,Inpatients,42,Female,64,4,5,5,Very good
+R10119,2025-01-19,Inpatients,87,Male,53,5,3,5,Very good
+R10120,2025-01-19,Emergency Department,49,Male,249,3,5,4,Very good
+R10121,2025-01-19,Maternity,28,Female,32,5,5,4,Very good
+R10122,2025-01-19,Emergency Department,55,Male,503,4,5,4,Don't know
+R10123,2025-01-19,Emergency Department,59,Female,600,3,4,4,Good
+R10124,2025-01-19,Outpatients,33,Female,14,4,5,5,Very good
+R10125,2025-01-19,Emergency Department,47,Female,89,5,5,4,Very good
+R10126,2025-01-20,Maternity,31,Female,62,5,4,4,Very good
+R10127,2025-01-20,Outpatients,30,Male,12,4,4,4,Very good
+R10128,2025-01-20,Emergency Department,37,Male,157,4,4,5,Very good
+R10129,2025-01-20,Emergency Department,25,Male,131,2,4,4,Good
+R10130,2025-01-20,Emergency Department,52,Male,278,5,3,5,Good
+R10131,2025-01-20,Outpatients,58,Male,41,3,5,5,Good
+R10132,2025-01-20,Inpatients,59,Female,59,4,3,5,Very good
+R10133,2025-01-20,Emergency Department,19,Male,144,4,5,5,Very good
+R10134,2025-01-20,Inpatients,67,Male,65,4,3,5,Very good
+R10135,2025-01-20,Emergency Department,16,Male,185,5,4,5,Poor
+R10136,2025-01-21,Inpatients,47,Female,102,3,5,5,Good
+R10137,2025-01-21,Emergency Department,54,Male,130,4,4,5,Good
+R10138,2025-01-21,Outpatients,60,Female,125,3,4,5,Good
+R10139,2025-01-21,Emergency Department,29,Male,348,4,4,4,Good
+R10140,2025-01-21,Emergency Department,36,Male,210,4,3,5,Good
+R10141,2025-01-21,Outpatients,23,Female,41,4,5,4,Very good
+R10142,2025-01-21,Inpatients,75,Female,64,5,5,5,Very good
+R10143,2025-01-22,Emergency Department,34,Female,251,3,4,3,Don't know
+R10144,2025-01-22,Outpatients,85,Female,111,4,4,4,Good
+R10145,2025-01-22,Outpatients,41,Female,34,5,5,4,Very good
+R10146,2025-01-22,Outpatients,51,Male,23,5,5,5,Very good
+R10147,2025-01-22,Emergency Department,49,Female,226,4,5,4,Neither good nor poor
+R10148,2025-01-22,Inpatients,64,Female,46,3,4,4,Very good
+R10149,2025-01-22,Outpatients,23,Female,20,3,5,4,Very good
+R10150,2025-01-23,Inpatients,74,Female,53,5,5,4,Very good
+R10151,2025-01-23,Maternity,35,Female,61,4,2,5,Very good
+R10152,2025-01-23,Emergency Department,61,Female,167,5,4,5,Very good
+R10153,2025-01-23,Outpatients,49,Female,10,5,5,5,Very good
+R10154,2025-01-23,Emergency Department,53,Female,118,5,5,5,Good
+R10155,2025-01-23,Outpatients,66,Male,51,4,3,5,Very good
+R10156,2025-01-24,Maternity,28,Female,20,4,5,5,Very good
+R10157,2025-01-24,Emergency Department,36,Male,215,4,5,4,Very good
+R10158,2025-01-24,Outpatients,86,Male,30,4,5,3,Very good
+R10159,2025-01-24,Emergency Department,37,Female,204,5,4,3,Good
+R10160,2025-01-24,Outpatients,69,Female,19,4,5,5,Very good
+R10161,2025-01-24,Maternity,29,Female,13,3,4,5,Good
+R10162,2025-01-24,Emergency Department,50,Male,372,4,4,5,Good
+R10163,2025-01-25,Emergency Department,64,Female,209,4,5,5,Good
+R10164,2025-01-25,Emergency Department,49,Female,145,4,5,4,Very good
+R10165,2025-01-25,Outpatients,68,Male,19,5,5,4,Very good
+R10166,2025-01-25,Maternity,24,Female,6,4,5,5,Very good
+R10167,2025-01-25,Inpatients,84,Female,38,5,4,5,Good
+R10168,2025-01-25,Outpatients,36,Male,8,4,5,5,Very good
+R10169,2025-01-25,Emergency Department,62,Female,323,4,5,4,Neither good nor poor
+R10170,2025-01-25,Outpatients,74,Male,18,4,5,4,Very good
+R10171,2025-01-25,Inpatients,38,Male,48,4,5,3,Very good
+R10172,2025-01-26,Outpatients,62,Male,12,5,4,4,Very good
+R10173,2025-01-26,Outpatients,75,Male,7,3,5,5,Very good
+R10174,2025-01-26,Maternity,29,Female,44,3,3,4,Good
+R10175,2025-01-27,Emergency Department,69,Female,112,5,4,4,Good
+R10176,2025-01-27,Emergency Department,47,Male,253,5,5,5,Good
+R10177,2025-01-27,Emergency Department,58,Female,315,5,5,5,Very good
+R10178,2025-01-27,Emergency Department,37,Female,161,4,5,3,Neither good nor poor
+R10179,2025-01-27,Emergency Department,59,Female,125,5,4,5,Very good
+R10180,2025-01-27,Emergency Department,41,Female,156,5,3,4,Good
+R10181,2025-01-28,Inpatients,78,Male,45,5,4,4,Very good
+R10182,2025-01-28,Inpatients,76,Female,72,5,5,4,Very good
+R10183,2025-01-28,Maternity,25,Female,20,5,3,5,Very good
+R10184,2025-01-28,Emergency Department,72,Female,238,5,5,4,Very good
+R10185,2025-01-28,Emergency Department,55,Female,448,5,5,4,Very good
+R10186,2025-01-28,Inpatients,50,Female,55,4,3,3,Don't know
+R10187,2025-01-29,Outpatients,65,Male,29,4,4,3,Very good
+R10188,2025-01-29,Emergency Department,66,Female,167,5,3,5,Good
+R10189,2025-01-29,Inpatients,71,Male,183,3,5,4,Very good
+R10190,2025-01-29,Outpatients,34,Male,21,4,5,5,Very good
+R10191,2025-01-29,Emergency Department,39,Male,220,5,4,4,Good
+R10192,2025-01-29,Inpatients,38,Male,103,3,4,5,Good
+R10193,2025-01-29,Inpatients,38,Male,54,4,4,3,Very good
+R10194,2025-01-29,Maternity,28,Female,33,4,5,4,Very good
+R10195,2025-01-29,Outpatients,46,Male,8,3,4,4,Good
+R10196,2025-01-30,Outpatients,35,Female,45,4,5,4,Good
+R10197,2025-01-30,Emergency Department,44,Male,303,4,4,4,Very poor
+R10198,2025-01-30,Outpatients,67,Male,39,5,4,5,Very good
+R10199,2025-01-30,Inpatients,71,Male,119,5,5,5,Very good
+R10200,2025-01-30,Inpatients,43,Female,45,4,4,5,Very good
+R10201,2025-01-30,Emergency Department,31,Female,100,5,5,2,Good
+R10202,2025-01-30,Emergency Department,56,Male,292,4,4,4,Very good
+R10203,2025-01-30,Outpatients,41,Female,26,4,4,3,Very good
+R10204,2025-01-31,Emergency Department,44,Male,218,3,5,4,Good
+R10205,2025-01-31,Emergency Department,64,Female,250,4,5,4,Poor
+R10206,2025-01-31,Outpatients,36,Female,29,4,4,4,Neither good nor poor
+R10207,2025-01-31,Outpatients,62,Female,22,5,4,5,Don't know
+R10208,2025-01-31,Inpatients,37,Male,103,4,4,4,Very good
+R10209,2025-01-31,Outpatients,65,Female,2,5,5,3,Very good
+R10210,2025-01-31,Outpatients,46,Male,24,5,5,5,Very good
+R10211,2025-02-01,Outpatients,39,Female,75,4,4,4,Very good
+R10212,2025-02-01,Maternity,37,Female,104,5,4,4,Very good
+R10213,2025-02-01,Outpatients,50,Male,29,5,5,5,Very good
+R10214,2025-02-02,Inpatients,45,Female,62,5,5,4,Very good
+R10215,2025-02-02,Emergency Department,16,Male,458,3,5,5,Neither good nor poor
+R10216,2025-02-02,Maternity,24,Female,58,4,5,5,Very good
+R10217,2025-02-02,Outpatients,68,Female,55,4,5,4,Very good
+R10218,2025-02-02,Outpatients,41,Male,17,5,3,4,Very good
+R10219,2025-02-03,Emergency Department,16,Female,267,4,5,5,Very good
+R10220,2025-02-03,Maternity,24,Female,25,5,4,3,Very good
+R10221,2025-02-03,Emergency Department,63,Female,130,5,4,5,Good
+R10222,2025-02-03,Emergency Department,21,Female,163,5,5,5,Don't know
+R10223,2025-02-03,Emergency Department,53,Male,185,3,5,5,Very good
+R10224,2025-02-04,Outpatients,67,Male,13,3,4,4,Good
+R10225,2025-02-04,Maternity,35,Female,6,5,3,4,Very good
+R10226,2025-02-04,Emergency Department,59,Male,107,4,5,3,Good
+R10227,2025-02-04,Emergency Department,65,Female,249,5,5,5,Very good
+R10228,2025-02-04,Inpatients,30,Male,57,4,3,5,Good
+R10229,2025-02-04,Inpatients,73,Female,124,3,4,3,Good
+R10230,2025-02-04,Outpatients,71,Male,14,4,5,4,Very good
+R10231,2025-02-04,Inpatients,55,Male,77,4,4,3,Good
+R10232,2025-02-04,Outpatients,46,Male,115,2,5,5,Very good
+R10233,2025-02-04,Emergency Department,54,Female,118,4,4,4,Very good
+R10234,2025-02-05,Maternity,28,Female,18,4,5,4,Very good
+R10235,2025-02-05,Outpatients,58,Male,28,4,4,3,Poor
+R10236,2025-02-05,Outpatients,59,Female,31,5,3,5,Good
+R10237,2025-02-05,Inpatients,53,Male,38,5,5,5,Very good
+R10238,2025-02-05,Emergency Department,51,Female,90,5,5,5,Very good
+R10239,2025-02-05,Inpatients,77,Female,78,4,5,4,Very good
+R10240,2025-02-06,Emergency Department,49,Female,374,4,4,5,Good
+R10241,2025-02-06,Maternity,32,Female,47,4,4,5,Very good
+R10242,2025-02-07,Outpatients,46,Female,20,4,5,5,Good
+R10243,2025-02-07,Inpatients,67,Female,79,5,3,4,Very good
+R10244,2025-02-07,Emergency Department,54,Female,169,4,5,4,Very good
+R10245,2025-02-07,Maternity,37,Female,17,4,5,3,Very good
+R10246,2025-02-07,Outpatients,46,Male,27,3,5,5,Very good
+R10247,2025-02-07,Maternity,24,Female,12,5,4,5,Very good
+R10248,2025-02-08,Inpatients,67,Male,86,3,5,4,Very good
+R10249,2025-02-08,Outpatients,47,Male,14,4,5,4,Don't know
+R10250,2025-02-08,Emergency Department,22,Male,226,5,3,2,Very good
+R10251,2025-02-09,Inpatients,74,Female,145,3,4,3,Very good
+R10252,2025-02-09,Outpatients,76,Male,14,5,5,4,Very good
+R10253,2025-02-09,Emergency Department,58,Male,131,4,5,4,Poor
+R10254,2025-02-10,Maternity,31,Female,46,4,4,5,Very good
+R10255,2025-02-10,Outpatients,36,Female,5,4,5,4,Very good
+R10256,2025-02-10,Inpatients,47,Female,75,4,5,4,Very good
+R10257,2025-02-10,Emergency Department,62,Female,217,5,5,3,Good
+R10258,2025-02-10,Maternity,25,Female,35,4,4,4,Very good
+R10259,2025-02-10,Inpatients,64,Female,58,3,4,4,Good
+R10260,2025-02-11,Outpatients,54,Female,82,4,4,4,Good
+R10261,2025-02-11,Inpatients,39,Male,78,4,5,4,Good
+R10262,2025-02-11,Emergency Department,30,Male,600,3,5,4,Very good
+R10263,2025-02-11,Maternity,37,Female,11,5,5,4,Very good
+R10264,2025-02-11,Emergency Department,47,Female,147,5,4,5,Neither good nor poor
+R10265,2025-02-11,Outpatients,49,Male,37,5,5,4,Very good
+R10266,2025-02-12,Emergency Department,23,Female,114,5,4,5,Very good
+R10267,2025-02-12,Inpatients,80,Male,35,5,4,4,Neither good nor poor
+R10268,2025-02-12,Outpatients,55,Male,9,4,3,4,Very good
+R10269,2025-02-12,Inpatients,56,Male,22,4,4,4,Very good
+R10270,2025-02-12,Emergency Department,37,Male,288,5,4,5,Neither good nor poor
+R10271,2025-02-12,Emergency Department,38,Female,197,5,5,5,Very good
+R10272,2025-02-12,Outpatients,58,Female,4,3,4,5,Very good
+R10273,2025-02-12,Outpatients,49,Male,21,4,4,4,Very good
+R10274,2025-02-12,Emergency Department,38,Male,123,5,5,3,Good
+R10275,2025-02-13,Outpatients,63,Female,19,5,4,5,Very good
+R10276,2025-02-13,Emergency Department,42,Male,203,4,3,3,Good
+R10277,2025-02-13,Inpatients,55,Female,189,5,4,5,Very good
+R10278,2025-02-13,Outpatients,69,Male,8,5,5,5,Very good
+R10279,2025-02-13,Outpatients,39,Female,17,5,5,4,Very good
+R10280,2025-02-13,Maternity,17,Female,41,5,5,3,Very good
+R10281,2025-02-13,Outpatients,63,Male,41,4,5,5,Very good
+R10282,2025-02-14,Outpatients,51,Female,21,5,5,5,Very good
+R10283,2025-02-14,Maternity,31,Female,61,5,4,5,Very good
+R10284,2025-02-14,Outpatients,41,Female,2,4,4,4,Good
+R10285,2025-02-14,Emergency Department,48,Male,130,5,5,5,Very good
+R10286,2025-02-14,Outpatients,55,Male,17,5,5,4,Don't know
+R10287,2025-02-14,Inpatients,78,Female,36,4,3,4,Very good
+R10288,2025-02-14,Emergency Department,69,Female,475,4,5,3,Neither good nor poor
+R10289,2025-02-15,Maternity,28,Female,13,5,5,5,Very good
+R10290,2025-02-15,Maternity,28,Female,29,5,5,5,Very good
+R10291,2025-02-15,Emergency Department,42,Female,154,5,4,4,Very good
+R10292,2025-02-15,Emergency Department,31,Female,78,5,3,5,Very good
+R10293,2025-02-15,Emergency Department,34,Female,128,5,5,5,Very good
+R10294,2025-02-15,Emergency Department,56,Female,376,4,4,3,Neither good nor poor
+R10295,2025-02-15,Maternity,31,Female,12,4,4,4,Very good
+R10296,2025-02-15,Outpatients,36,Male,6,5,4,5,Very good
+R10297,2025-02-16,Maternity,34,Female,68,5,3,3,Very good
+R10298,2025-02-16,Emergency Department,19,Female,159,5,4,4,Good
+R10299,2025-02-16,Emergency Department,45,Male,151,4,4,4,Very good
+R10300,2025-02-16,Maternity,31,Female,27,5,4,5,Very good
+R10301,2025-02-16,Outpatients,56,Female,19,4,5,5,Very good
+R10302,2025-02-17,Outpatients,39,Female,49,5,4,4,Poor
+R10303,2025-02-17,Outpatients,28,Female,16,4,5,4,Good
+R10304,2025-02-17,Outpatients,39,Female,18,5,4,4,Very good
+R10305,2025-02-17,Emergency Department,51,Male,229,5,4,5,Very good
+R10306,2025-02-17,Inpatients,87,Male,67,5,5,5,Very good
+R10307,2025-02-18,Outpatients,60,Female,18,4,3,4,Very good
+R10308,2025-02-18,Emergency Department,30,Female,150,5,4,4,Very good
+R10309,2025-02-18,Outpatients,80,Female,29,5,4,5,Very good
+R10310,2025-02-18,Maternity,30,Female,24,4,5,4,Very good
+R10311,2025-02-18,Inpatients,70,Female,53,5,5,5,Very good
+R10312,2025-02-18,Outpatients,76,Male,9,4,5,4,Good
+R10313,2025-02-18,Outpatients,68,Male,17,4,5,4,Very good
+R10314,2025-02-18,Emergency Department,39,Male,252,3,5,5,Good
+R10315,2025-02-19,Maternity,22,Female,19,5,4,4,Very good
+R10316,2025-02-19,Outpatients,62,Female,16,4,5,5,Very good
+R10317,2025-02-19,Emergency Department,46,Male,144,5,4,4,Very good
+R10318,2025-02-19,Emergency Department,66,Male,134,5,4,3,Good
+R10319,2025-02-20,Outpatients,46,Female,52,3,3,3,Very good
+R10320,2025-02-20,Outpatients,56,Male,29,5,4,5,Very good
+R10321,2025-02-20,Emergency Department,60,Female,256,3,4,5,Neither good nor poor
+R10322,2025-02-20,Emergency Department,48,Male,281,4,4,5,Good
+R10323,2025-02-20,Emergency Department,25,Female,117,5,4,5,Good
+R10324,2025-02-21,Emergency Department,21,Female,236,3,4,3,Very poor
+R10325,2025-02-21,Emergency Department,42,Female,144,4,5,3,Very good
+R10326,2025-02-21,Outpatients,44,Female,92,4,5,5,Very good
+R10327,2025-02-21,Outpatients,38,Female,26,3,5,4,Good
+R10328,2025-02-21,Emergency Department,56,Female,259,4,4,4,Very good
+R10329,2025-02-21,Inpatients,66,Female,122,5,5,3,Very good
+R10330,2025-02-21,Outpatients,43,Female,56,4,5,5,Very good
+R10331,2025-02-22,Emergency Department,35,Female,107,4,4,4,Neither good nor poor
+R10332,2025-02-22,Emergency Department,61,Female,238,4,4,5,Good
+R10333,2025-02-22,Outpatients,63,Female,40,4,4,4,Good
+R10334,2025-02-22,Outpatients,68,Male,7,3,3,5,Very good
+R10335,2025-02-23,Emergency Department,33,Female,165,4,4,5,Good
+R10336,2025-02-23,Emergency Department,17,Male,263,5,4,4,Neither good nor poor
+R10337,2025-02-23,Inpatients,64,Female,14,3,5,5,Very good
+R10338,2025-02-23,Inpatients,55,Female,84,5,3,4,Neither good nor poor
+R10339,2025-02-23,Inpatients,30,Male,120,4,4,4,Very good
+R10340,2025-02-23,Inpatients,61,Male,49,4,5,5,Very good
+R10341,2025-02-23,Emergency Department,41,Female,138,5,5,5,Good
+R10342,2025-02-23,Inpatients,30,Male,79,4,3,4,Neither good nor poor
+R10343,2025-02-23,Inpatients,42,Female,41,5,5,4,Very good
+R10344,2025-02-24,Maternity,22,Female,16,4,3,5,Good
+R10345,2025-02-24,Emergency Department,45,Female,204,5,5,4,Very good
+R10346,2025-02-24,Outpatients,67,Female,21,4,4,4,Very good
+R10347,2025-02-24,Inpatients,53,Male,90,4,4,5,Very good
+R10348,2025-02-24,Inpatients,76,Female,30,5,4,4,Very good
+R10349,2025-02-24,Outpatients,40,Female,54,5,5,4,Good
+R10350,2025-02-24,Outpatients,71,Female,21,5,4,3,Very good
+R10351,2025-02-24,Maternity,29,Female,33,5,4,4,Very good
+R10352,2025-02-24,Outpatients,40,Female,49,5,5,4,Very good
+R10353,2025-02-25,Inpatients,77,Male,94,5,5,4,Very good
+R10354,2025-02-25,Emergency Department,54,Female,113,3,4,5,Very good
+R10355,2025-02-25,Emergency Department,35,Male,200,4,3,5,Very good
+R10356,2025-02-25,Outpatients,16,Female,22,3,3,4,Very good
+R10357,2025-02-25,Maternity,34,Female,26,4,4,4,Very good
+R10358,2025-02-25,Inpatients,50,Male,24,3,5,4,Very good
+R10359,2025-02-25,Outpatients,65,Male,5,5,5,4,Good
+R10360,2025-02-25,Emergency Department,37,Female,164,3,4,4,Good
+R10361,2025-02-25,Outpatients,54,Female,19,5,4,4,Very good
+R10362,2025-02-26,Outpatients,55,Female,14,5,4,4,Good
+R10363,2025-02-26,Outpatients,62,Male,23,5,4,4,Very good
+R10364,2025-02-26,Outpatients,48,Female,23,5,3,5,Good
+R10365,2025-02-26,Inpatients,70,Female,35,5,5,5,Very good
+R10366,2025-02-26,Outpatients,71,Female,26,4,4,4,Very good
+R10367,2025-02-26,Outpatients,49,Female,10,5,5,4,Very good
+R10368,2025-02-26,Maternity,28,Female,10,3,5,4,Very good
+R10369,2025-02-28,Emergency Department,58,Female,382,5,4,5,Very good
+R10370,2025-02-28,Outpatients,43,Female,29,4,4,5,Very good
+R10371,2025-02-28,Outpatients,82,Male,15,5,5,5,Very good
+R10372,2025-02-28,Emergency Department,20,Female,212,4,4,5,Neither good nor poor
+R10373,2025-02-28,Outpatients,60,Female,40,3,5,4,Very good
+R10374,2025-02-28,Outpatients,49,Male,28,4,5,4,Good
+R10375,2025-03-01,Outpatients,43,Male,31,4,4,5,Very good
+R10376,2025-03-01,Maternity,33,Female,46,5,3,5,Very good
+R10377,2025-03-01,Inpatients,25,Female,38,5,5,4,Very good
+R10378,2025-03-01,Emergency Department,58,Male,210,4,4,4,Good
+R10379,2025-03-02,Inpatients,39,Male,94,5,4,4,Very good
+R10380,2025-03-02,Emergency Department,46,Male,128,5,4,5,Very good
+R10381,2025-03-02,Emergency Department,46,Female,83,4,4,5,Good
+R10382,2025-03-02,Inpatients,73,Male,173,5,3,4,Very good
+R10383,2025-03-02,Emergency Department,31,Female,72,4,5,4,Very good
+R10384,2025-03-02,Outpatients,50,Female,29,3,5,3,Good
+R10385,2025-03-03,Emergency Department,49,Female,144,3,4,4,Very good
+R10386,2025-03-03,Outpatients,60,Female,21,5,4,4,Very good
+R10387,2025-03-03,Maternity,31,Female,121,5,4,4,Good
+R10388,2025-03-03,Inpatients,76,Male,51,5,5,5,Very good
+R10389,2025-03-03,Maternity,25,Female,13,5,5,4,Very good
+R10390,2025-03-03,Emergency Department,57,Male,278,4,5,4,Very good
+R10391,2025-03-03,Emergency Department,57,Female,411,4,5,4,Good
+R10392,2025-03-03,Emergency Department,28,Male,136,5,4,4,Good
+R10393,2025-03-03,Outpatients,44,Female,8,3,5,4,Very good
+R10394,2025-03-03,Outpatients,44,Female,3,5,4,5,Very good
+R10395,2025-03-04,Inpatients,72,Male,41,4,4,4,Good
+R10396,2025-03-04,Maternity,20,Female,6,3,5,4,Very good
+R10397,2025-03-04,Inpatients,52,Male,58,3,4,4,Neither good nor poor
+R10398,2025-03-04,Inpatients,58,Female,41,4,5,4,Very good
+R10399,2025-03-05,Emergency Department,62,Male,173,5,5,4,Good
+R10400,2025-03-05,Emergency Department,58,Male,199,4,5,5,Good
+R10401,2025-03-05,Inpatients,70,Male,123,3,4,3,Very good
+R10402,2025-03-05,Outpatients,41,Female,29,4,5,4,Very good
+R10403,2025-03-06,Inpatients,45,Male,53,5,4,5,Very good
+R10404,2025-03-06,Emergency Department,50,Female,471,5,3,5,Good
+R10405,2025-03-06,Outpatients,65,Male,27,4,4,3,Very good
+R10406,2025-03-06,Emergency Department,67,Male,81,3,4,4,Good
+R10407,2025-03-06,Emergency Department,57,Male,52,5,5,4,Good
+R10408,2025-03-07,Emergency Department,27,Male,263,5,3,4,Very good
+R10409,2025-03-07,Outpatients,44,Male,21,5,4,4,Very good
+R10410,2025-03-07,Maternity,30,Female,28,5,5,4,Very good
+R10411,2025-03-07,Outpatients,33,Male,17,5,3,4,Very good
+R10412,2025-03-07,Outpatients,21,Female,16,5,4,3,Very good
+R10413,2025-03-07,Inpatients,57,Female,55,5,5,4,Very good
+R10414,2025-03-07,Outpatients,70,Male,10,5,4,4,Very good
+R10415,2025-03-08,Outpatients,49,Male,7,5,4,5,Very good
+R10416,2025-03-08,Outpatients,46,Female,9,5,5,5,Very good
+R10417,2025-03-08,Emergency Department,61,Female,193,5,4,5,Very good
+R10418,2025-03-08,Inpatients,61,Female,65,4,3,3,Very good
+R10419,2025-03-08,Maternity,26,Female,59,5,4,5,Very good
+R10420,2025-03-08,Emergency Department,42,Male,147,4,4,4,Very good
+R10421,2025-03-08,Outpatients,60,Female,14,5,5,4,Very good
+R10422,2025-03-09,Emergency Department,39,Female,227,3,4,4,Very good
+R10423,2025-03-09,Emergency Department,28,Male,215,4,3,5,Good
+R10424,2025-03-09,Outpatients,29,Female,13,4,4,5,Very good
+R10425,2025-03-09,Outpatients,54,Female,67,4,3,5,Good
+R10426,2025-03-09,Emergency Department,53,Female,133,5,4,5,Good
+R10427,2025-03-10,Inpatients,71,Female,47,3,5,3,Good
+R10428,2025-03-10,Emergency Department,23,Male,86,3,4,5,Good
+R10429,2025-03-10,Inpatients,50,Female,39,5,4,4,Good
+R10430,2025-03-10,Inpatients,60,Male,165,4,4,5,Very good
+R10431,2025-03-10,Inpatients,64,Male,65,3,5,4,Very good
+R10432,2025-03-10,Inpatients,65,Male,77,4,5,4,Very good
+R10433,2025-03-10,Inpatients,74,Male,42,4,4,4,Very good
+R10434,2025-03-10,Emergency Department,66,Male,83,5,5,5,Very good
+R10435,2025-03-10,Maternity,28,Female,61,3,5,4,Very good
+R10436,2025-03-11,Maternity,24,Female,21,5,5,4,Good
+R10437,2025-03-11,Outpatients,63,Female,13,4,3,3,Good
+R10438,2025-03-11,Outpatients,68,Female,52,4,4,4,Neither good nor poor
+R10439,2025-03-11,Outpatients,75,Female,9,3,3,4,Very good
+R10440,2025-03-11,Inpatients,54,Male,74,5,3,5,Very good
+R10441,2025-03-12,Outpatients,69,Male,21,5,4,4,Good
+R10442,2025-03-12,Inpatients,57,Female,77,5,4,5,Very good
+R10443,2025-03-12,Outpatients,54,Male,24,4,4,4,Very good
+R10444,2025-03-12,Emergency Department,55,Male,117,4,5,4,Good
+R10445,2025-03-13,Outpatients,54,Female,6,5,4,4,Very good
+R10446,2025-03-13,Outpatients,55,Female,44,4,4,4,Very good
+R10447,2025-03-13,Emergency Department,58,Female,160,4,4,4,Good
+R10448,2025-03-13,Outpatients,49,Female,8,4,3,5,Good
+R10449,2025-03-13,Emergency Department,48,Female,196,3,5,4,Good
+R10450,2025-03-13,Outpatients,39,Male,35,5,3,5,Don't know
+R10451,2025-03-13,Emergency Department,50,Male,316,3,5,5,Good
+R10452,2025-03-13,Inpatients,50,Female,15,4,4,5,Very good
+R10453,2025-03-13,Inpatients,60,Female,64,4,4,5,Very good
+R10454,2025-03-13,Maternity,30,Female,54,5,4,5,Good
+R10455,2025-03-13,Emergency Department,53,Female,68,5,5,5,Very good
+R10456,2025-03-13,Outpatients,52,Male,7,4,4,5,Very good
+R10457,2025-03-14,Emergency Department,16,Male,181,4,5,4,Neither good nor poor
+R10458,2025-03-14,Emergency Department,49,Female,72,4,4,4,Neither good nor poor
+R10459,2025-03-14,Inpatients,84,Male,102,3,5,4,Good
+R10460,2025-03-14,Outpatients,70,Female,54,3,4,5,Very good
+R10461,2025-03-14,Inpatients,55,Female,67,3,5,3,Good
+R10462,2025-03-14,Emergency Department,70,Female,206,4,5,5,Good
+R10463,2025-03-14,Emergency Department,43,Male,206,3,3,3,Good
+R10464,2025-03-14,Outpatients,68,Male,38,3,5,4,Very good
+R10465,2025-03-14,Outpatients,49,Female,33,5,5,3,Very good
+R10466,2025-03-14,Outpatients,75,Female,61,4,5,5,Neither good nor poor
+R10467,2025-03-14,Emergency Department,71,Male,132,5,4,5,Very good
+R10468,2025-03-14,Emergency Department,42,Male,172,5,4,4,Very good
+R10469,2025-03-15,Outpatients,36,Male,29,5,5,5,Very good
+R10470,2025-03-15,Outpatients,35,Male,25,2,4,4,Good
+R10471,2025-03-15,Emergency Department,39,Female,378,5,4,4,Good
+R10472,2025-03-15,Emergency Department,45,Male,399,3,5,3,Good
+R10473,2025-03-15,Outpatients,28,Female,16,4,5,4,Very good
+R10474,2025-03-15,Inpatients,54,Female,81,3,5,4,Very good
+R10475,2025-03-15,Maternity,22,Female,66,4,5,3,Neither good nor poor
+R10476,2025-03-15,Inpatients,44,Male,94,4,5,3,Very good
+R10477,2025-03-15,Outpatients,91,Female,15,4,5,5,Very good
+R10478,2025-03-15,Inpatients,65,Female,37,4,5,5,Very good
+R10479,2025-03-15,Maternity,31,Female,29,5,5,4,Don't know
+R10480,2025-03-16,Inpatients,42,Male,34,4,4,5,Very good
+R10481,2025-03-16,Inpatients,82,Male,117,4,5,4,Very good
+R10482,2025-03-16,Outpatients,52,Female,23,5,3,5,Don't know
+R10483,2025-03-16,Emergency Department,31,Male,116,5,4,4,Good
+R10484,2025-03-17,Maternity,26,Female,82,5,4,4,Very good
+R10485,2025-03-17,Emergency Department,61,Male,165,3,5,4,Very good
+R10486,2025-03-17,Inpatients,73,Female,55,3,4,5,Very good
+R10487,2025-03-17,Inpatients,58,Female,47,4,5,5,Very good
+R10488,2025-03-17,Outpatients,50,Female,90,3,4,5,Good
+R10489,2025-03-18,Emergency Department,62,Female,242,4,5,5,Good
+R10490,2025-03-18,Emergency Department,66,Female,232,5,4,5,Very good
+R10491,2025-03-18,Outpatients,90,Male,18,5,4,4,Good
+R10492,2025-03-18,Inpatients,70,Female,105,4,4,5,Very good
+R10493,2025-03-19,Outpatients,54,Male,72,3,4,3,Good
+R10494,2025-03-19,Outpatients,65,Female,102,3,5,3,Neither good nor poor
+R10495,2025-03-19,Outpatients,47,Male,25,5,5,5,Very good
+R10496,2025-03-19,Outpatients,63,Male,39,5,4,5,Very good
+R10497,2025-03-20,Emergency Department,84,Male,144,4,4,4,Very good
+R10498,2025-03-20,Maternity,23,Female,32,4,5,4,Good
+R10499,2025-03-20,Inpatients,55,Male,27,4,4,3,Very good
+R10500,2025-03-20,Emergency Department,45,Male,226,4,5,3,Poor
+R10501,2025-03-20,Inpatients,39,Male,31,5,5,4,Very good
+R10502,2025-03-21,Outpatients,33,Female,44,4,5,4,Good
+R10503,2025-03-21,Maternity,34,Female,23,4,4,4,Very good
+R10504,2025-03-21,Inpatients,53,Female,30,5,4,3,Very good
+R10505,2025-03-21,Outpatients,66,Female,16,3,4,4,Very good
+R10506,2025-03-21,Emergency Department,34,Male,211,4,5,3,Good
+R10507,2025-03-22,Maternity,27,Female,6,4,4,3,Very good
+R10508,2025-03-22,Inpatients,73,Male,70,5,4,5,Very good
+R10509,2025-03-22,Inpatients,53,Female,96,5,5,4,Very good
+R10510,2025-03-23,Inpatients,67,Male,65,4,4,4,Very good
+R10511,2025-03-23,Emergency Department,36,Male,105,5,4,4,Good
+R10512,2025-03-23,Outpatients,49,Female,74,3,4,3,Neither good nor poor
+R10513,2025-03-24,Emergency Department,50,Female,53,5,5,4,Good
+R10514,2025-03-24,Emergency Department,52,Male,163,5,5,2,Very good
+R10515,2025-03-24,Emergency Department,37,Female,195,5,4,5,Poor
+R10516,2025-03-24,Inpatients,67,Male,31,5,3,3,Very good
+R10517,2025-03-24,Emergency Department,51,Female,117,4,4,5,Neither good nor poor
+R10518,2025-03-24,Inpatients,62,Female,77,4,4,3,Very good
+R10519,2025-03-24,Emergency Department,57,Female,165,3,5,5,Good
+R10520,2025-03-24,Emergency Department,54,Female,149,5,5,4,Very good
+R10521,2025-03-25,Emergency Department,34,Female,268,4,4,5,Good
+R10522,2025-03-25,Maternity,23,Female,30,4,3,5,Very good
+R10523,2025-03-25,Emergency Department,40,Male,143,4,3,4,Very good
+R10524,2025-03-25,Emergency Department,37,Male,105,5,5,5,Very good
+R10525,2025-03-26,Maternity,42,Female,35,4,4,4,Very good
+R10526,2025-03-26,Inpatients,80,Female,180,4,2,4,Poor
+R10527,2025-03-26,Inpatients,61,Female,35,5,4,4,Very good
+R10528,2025-03-26,Outpatients,26,Male,15,2,5,5,Very good
+R10529,2025-03-26,Outpatients,46,Male,14,5,4,4,Very good
+R10530,2025-03-26,Inpatients,45,Female,81,5,4,4,Very good
+R10531,2025-03-26,Emergency Department,42,Male,109,5,5,4,Very good
+R10532,2025-03-26,Outpatients,54,Female,14,4,5,5,Very good
+R10533,2025-03-26,Maternity,22,Female,12,5,5,5,Very good
+R10534,2025-03-26,Outpatients,52,Female,74,4,2,3,Very good
+R10535,2025-03-26,Emergency Department,76,Female,101,4,5,4,Very good
+R10536,2025-03-26,Emergency Department,65,Male,384,4,5,5,Poor
+R10537,2025-03-26,Emergency Department,41,Female,188,4,5,4,Very good
+R10538,2025-03-26,Outpatients,59,Female,32,4,3,5,Good
+R10539,2025-03-27,Outpatients,37,Female,6,2,3,5,Very good
+R10540,2025-03-27,Outpatients,59,Male,7,4,4,4,Very good
+R10541,2025-03-27,Emergency Department,39,Male,184,4,3,5,Very good
+R10542,2025-03-27,Emergency Department,59,Male,235,4,4,4,Very good
+R10543,2025-03-27,Inpatients,65,Female,57,4,4,4,Very good
+R10544,2025-03-27,Outpatients,74,Male,22,4,3,4,Very good
+R10545,2025-03-28,Maternity,23,Female,20,4,5,4,Very good
+R10546,2025-03-28,Outpatients,44,Female,18,4,3,5,Very good
+R10547,2025-03-28,Outpatients,72,Female,14,5,5,4,Very good
+R10548,2025-03-28,Emergency Department,64,Male,136,5,4,4,Good
+R10549,2025-03-28,Emergency Department,40,Female,195,5,3,4,Good
+R10550,2025-03-28,Inpatients,55,Male,20,4,5,4,Very good
+R10551,2025-03-29,Emergency Department,49,Male,264,5,4,3,Very good
+R10552,2025-03-29,Emergency Department,22,Female,117,3,5,5,Very good
+R10553,2025-03-29,Emergency Department,43,Female,135,5,3,5,Very good
+R10554,2025-03-29,Emergency Department,45,Male,309,4,4,5,Good
+R10555,2025-03-30,Inpatients,63,Female,31,4,4,5,Very good
+R10556,2025-03-30,Inpatients,57,Male,55,5,5,3,Very good
+R10557,2025-03-30,Outpatients,64,Female,15,5,5,5,Very good
+R10558,2025-03-30,Outpatients,63,Female,49,4,5,5,Very good
+R10559,2025-03-30,Inpatients,45,Female,73,5,4,4,Very good
+R10560,2025-03-30,Outpatients,50,Female,9,3,4,5,Very good
+R10561,2025-03-30,Emergency Department,45,Female,115,5,5,3,Neither good nor poor
+R10562,2025-03-30,Emergency Department,77,Male,275,4,4,3,Good
+R10563,2025-03-30,Inpatients,51,Male,110,5,5,3,Good
+R10564,2025-03-30,Emergency Department,51,Female,134,5,5,5,Very good
+R10565,2025-03-30,Outpatients,50,Male,5,4,5,5,Good
+R10566,2025-03-31,Inpatients,45,Male,71,4,4,4,Very good
+R10567,2025-03-31,Emergency Department,44,Male,253,4,5,5,Good
+R10568,2025-03-31,Emergency Department,38,Female,52,5,4,5,Very good
+R10569,2025-03-31,Outpatients,76,Female,9,5,4,5,Very good
+R10570,2025-04-01,Outpatients,41,Female,4,5,4,5,Very good
+R10571,2025-04-01,Outpatients,46,Male,284,3,5,5,Very good
+R10572,2025-04-01,Emergency Department,16,Female,124,4,5,3,Very good
+R10573,2025-04-02,Emergency Department,52,Male,257,4,5,5,Neither good nor poor
+R10574,2025-04-02,Inpatients,34,Female,29,4,5,4,Very good
+R10575,2025-04-02,Inpatients,95,Male,70,3,5,4,Good
+R10576,2025-04-02,Emergency Department,33,Male,72,5,4,5,Very good
+R10577,2025-04-02,Emergency Department,64,Male,195,4,5,3,Very good
+R10578,2025-04-03,Outpatients,30,Male,5,3,5,5,Very good
+R10579,2025-04-03,Emergency Department,38,Female,250,4,4,4,Very good
+R10580,2025-04-03,Maternity,36,Female,10,4,5,3,Good
+R10581,2025-04-03,Emergency Department,80,Female,96,4,5,5,Good
+R10582,2025-04-03,Emergency Department,40,Male,180,4,5,3,Good
+R10583,2025-04-04,Inpatients,60,Female,66,4,3,3,Very good
+R10584,2025-04-04,Emergency Department,65,Female,128,5,5,4,Very good
+R10585,2025-04-04,Inpatients,60,Female,88,4,5,4,Good
+R10586,2025-04-04,Emergency Department,47,Female,246,4,4,5,Very good
+R10587,2025-04-04,Inpatients,29,Male,45,5,4,4,Very good
+R10588,2025-04-04,Outpatients,59,Male,34,3,5,3,Very good
+R10589,2025-04-04,Outpatients,63,Female,8,4,5,5,Very good
+R10590,2025-04-04,Maternity,31,Female,33,4,5,5,Very good
+R10591,2025-04-04,Outpatients,53,Female,8,5,5,3,Very good
+R10592,2025-04-05,Emergency Department,51,Male,155,2,4,4,Very good
+R10593,2025-04-05,Outpatients,44,Male,34,4,4,5,Very good
+R10594,2025-04-05,Emergency Department,36,Female,257,5,4,5,Very good
+R10595,2025-04-05,Inpatients,89,Male,67,4,5,4,Very good
+R10596,2025-04-05,Inpatients,60,Female,42,5,5,3,Very good
+R10597,2025-04-05,Emergency Department,40,Male,210,4,5,4,Very good
+R10598,2025-04-05,Outpatients,55,Male,30,5,5,4,Very good
+R10599,2025-04-06,Maternity,27,Female,18,5,4,3,Very good
+R10600,2025-04-06,Inpatients,83,Male,15,5,5,3,Very good
+R10601,2025-04-06,Inpatients,68,Female,25,5,5,4,Very good
+R10602,2025-04-06,Outpatients,63,Male,19,4,4,4,Very good
+R10603,2025-04-06,Maternity,21,Female,23,4,5,5,Very good
+R10604,2025-04-06,Inpatients,76,Male,84,5,5,4,Very good
+R10605,2025-04-06,Maternity,19,Female,78,3,4,4,Very good
+R10606,2025-04-07,Outpatients,50,Male,2,3,5,4,Very good
+R10607,2025-04-07,Emergency Department,43,Male,60,3,4,4,Very good
+R10608,2025-04-07,Inpatients,48,Female,80,5,4,5,Very good
+R10609,2025-04-07,Maternity,35,Female,22,4,5,2,Very good
+R10610,2025-04-07,Inpatients,95,Male,34,4,4,4,Very good
+R10611,2025-04-08,Inpatients,28,Female,35,4,5,3,Very good
+R10612,2025-04-08,Outpatients,65,Female,39,5,5,5,Good
+R10613,2025-04-08,Outpatients,54,Female,7,4,3,3,Very good
+R10614,2025-04-08,Outpatients,51,Female,61,3,5,3,Good
+R10615,2025-04-08,Emergency Department,67,Male,108,4,5,4,Very good
+R10616,2025-04-08,Outpatients,62,Male,8,5,2,4,Very good
+R10617,2025-04-08,Inpatients,56,Male,84,5,5,5,Very good
+R10618,2025-04-08,Inpatients,75,Male,128,4,4,5,Very good
+R10619,2025-04-08,Outpatients,53,Female,14,4,4,4,Good
+R10620,2025-04-08,Inpatients,76,Male,18,4,4,5,Very good
+R10621,2025-04-08,Outpatients,78,Male,18,4,4,3,Very good
+R10622,2025-04-09,Inpatients,76,Female,37,3,4,5,Very good
+R10623,2025-04-09,Outpatients,95,Male,11,4,3,4,Good
+R10624,2025-04-10,Emergency Department,36,Female,231,5,5,5,Good
+R10625,2025-04-10,Inpatients,64,Female,91,5,5,4,Very good
+R10626,2025-04-10,Inpatients,63,Female,55,5,5,4,Very good
+R10627,2025-04-10,Emergency Department,36,Female,140,4,5,4,Good
+R10628,2025-04-10,Inpatients,55,Male,30,4,3,4,Very good
+R10629,2025-04-10,Inpatients,60,Female,50,3,5,3,Good
+R10630,2025-04-10,Outpatients,33,Male,32,4,5,4,Very good
+R10631,2025-04-10,Emergency Department,35,Male,186,4,5,5,Very poor
+R10632,2025-04-10,Emergency Department,26,Male,67,5,5,4,Very good
+R10633,2025-04-11,Maternity,30,Female,13,5,3,5,Very good
+R10634,2025-04-11,Emergency Department,41,Female,199,4,5,3,Good
+R10635,2025-04-11,Outpatients,39,Male,36,5,4,5,Very good
+R10636,2025-04-11,Emergency Department,72,Female,170,4,3,3,Very good
+R10637,2025-04-11,Emergency Department,28,Male,162,5,5,4,Very good
+R10638,2025-04-12,Outpatients,72,Male,15,4,5,5,Very good
+R10639,2025-04-12,Inpatients,78,Male,58,4,5,5,Very good
+R10640,2025-04-12,Inpatients,65,Female,29,5,5,4,Very good
+R10641,2025-04-12,Outpatients,62,Female,18,4,4,3,Very good
+R10642,2025-04-13,Outpatients,35,Male,17,4,5,4,Very good
+R10643,2025-04-13,Emergency Department,46,Female,592,4,4,5,Neither good nor poor
+R10644,2025-04-13,Emergency Department,44,Female,224,5,4,4,Good
+R10645,2025-04-13,Emergency Department,68,Male,199,5,3,3,Good
+R10646,2025-04-13,Inpatients,45,Male,241,5,5,4,Very good
+R10647,2025-04-13,Outpatients,60,Male,19,5,5,5,Good
+R10648,2025-04-14,Emergency Department,52,Female,328,4,4,5,Good
+R10649,2025-04-14,Emergency Department,43,Female,158,5,4,5,Very good
+R10650,2025-04-14,Inpatients,77,Male,35,4,5,4,Very good
+R10651,2025-04-14,Inpatients,60,Male,162,4,3,3,Very good
+R10652,2025-04-14,Outpatients,57,Female,4,5,5,5,Very good
+R10653,2025-04-15,Maternity,23,Female,79,5,5,5,Good
+R10654,2025-04-15,Emergency Department,29,Female,162,4,3,3,Good
+R10655,2025-04-15,Emergency Department,40,Male,242,4,5,5,Very good
+R10656,2025-04-15,Maternity,23,Female,58,5,4,5,Very good
+R10657,2025-04-15,Inpatients,58,Male,74,5,4,5,Good
+R10658,2025-04-15,Maternity,21,Female,89,4,5,3,Good
+R10659,2025-04-15,Outpatients,57,Female,43,4,5,5,Very good
+R10660,2025-04-16,Inpatients,62,Female,98,3,5,4,Very good
+R10661,2025-04-16,Inpatients,78,Male,32,3,4,5,Very good
+R10662,2025-04-16,Outpatients,52,Female,10,4,5,4,Very good
+R10663,2025-04-16,Outpatients,49,Female,84,4,5,4,Neither good nor poor
+R10664,2025-04-16,Inpatients,54,Male,39,4,4,4,Very good
+R10665,2025-04-16,Emergency Department,27,Male,69,3,5,5,Good
+R10666,2025-04-16,Emergency Department,28,Male,177,5,4,3,Good
+R10667,2025-04-17,Outpatients,45,Male,18,5,5,3,Very good
+R10668,2025-04-17,Emergency Department,55,Male,152,5,5,4,Very good
+R10669,2025-04-17,Outpatients,55,Female,5,5,5,5,Very good
+R10670,2025-04-17,Inpatients,68,Female,28,3,5,4,Very good
+R10671,2025-04-17,Emergency Department,57,Male,386,5,5,5,Very good
+R10672,2025-04-17,Inpatients,63,Male,92,5,5,5,Very good
+R10673,2025-04-17,Outpatients,37,Female,46,3,4,5,Very good
+R10674,2025-04-18,Outpatients,58,Male,26,4,4,5,Very good
+R10675,2025-04-18,Emergency Department,44,Female,233,5,4,4,Very poor
+R10676,2025-04-18,Emergency Department,58,Female,127,4,5,4,Good
+R10677,2025-04-18,Inpatients,53,Female,46,4,4,4,Very good
+R10678,2025-04-19,Emergency Department,42,Male,260,5,4,4,Very good
+R10679,2025-04-19,Maternity,27,Female,32,4,5,3,Good
+R10680,2025-04-19,Outpatients,48,Male,15,5,5,4,Very good
+R10681,2025-04-19,Emergency Department,45,Male,173,5,4,3,Very good
+R10682,2025-04-19,Inpatients,59,Female,169,5,5,4,Very good
+R10683,2025-04-19,Outpatients,35,Male,21,5,3,4,Very good
+R10684,2025-04-19,Outpatients,54,Male,50,4,4,4,Very good
+R10685,2025-04-20,Outpatients,57,Female,29,5,5,4,Very good
+R10686,2025-04-20,Outpatients,73,Male,18,5,5,3,Very good
+R10687,2025-04-20,Emergency Department,28,Female,66,5,5,3,Very good
+R10688,2025-04-20,Inpatients,52,Male,45,5,4,4,Very good
+R10689,2025-04-20,Emergency Department,27,Female,379,4,5,4,Good
+R10690,2025-04-20,Inpatients,81,Male,39,4,5,4,Very good
+R10691,2025-04-20,Maternity,20,Female,110,5,5,4,Very good
+R10692,2025-04-20,Outpatients,76,Male,19,4,5,4,Good
+R10693,2025-04-20,Outpatients,28,Male,24,5,4,3,Very good
+R10694,2025-04-20,Outpatients,34,Female,29,4,4,4,Good
+R10695,2025-04-20,Outpatients,48,Male,10,5,5,4,Very good
+R10696,2025-04-20,Emergency Department,59,Male,143,5,5,3,Good
+R10697,2025-04-20,Inpatients,78,Male,91,5,3,4,Very good
+R10698,2025-04-20,Maternity,27,Female,33,5,5,5,Very good
+R10699,2025-04-20,Outpatients,66,Male,8,3,4,4,Very good
+R10700,2025-04-20,Inpatients,65,Male,56,4,4,5,Very good
+R10701,2025-04-20,Emergency Department,64,Female,170,5,4,5,Good
+R10702,2025-04-21,Inpatients,79,Male,32,4,3,5,Good
+R10703,2025-04-21,Inpatients,53,Male,92,5,5,5,Very good
+R10704,2025-04-22,Emergency Department,32,Female,253,5,5,4,Good
+R10705,2025-04-22,Outpatients,57,Male,36,5,5,5,Very good
+R10706,2025-04-22,Inpatients,57,Female,119,4,5,4,Very good
+R10707,2025-04-22,Outpatients,22,Female,19,5,5,2,Very good
+R10708,2025-04-22,Outpatients,70,Male,10,4,5,4,Very good
+R10709,2025-04-23,Emergency Department,57,Male,110,3,4,3,Very good
+R10710,2025-04-23,Emergency Department,51,Male,283,4,4,4,Good
+R10711,2025-04-23,Inpatients,59,Male,97,5,5,3,Very good
+R10712,2025-04-23,Inpatients,63,Male,80,5,5,4,Very good
+R10713,2025-04-23,Inpatients,49,Female,46,4,5,4,Very good
+R10714,2025-04-23,Emergency Department,49,Male,191,4,5,4,Good
+R10715,2025-04-24,Outpatients,53,Male,60,5,5,4,Very good
+R10716,2025-04-24,Inpatients,79,Female,30,4,4,4,Very good
+R10717,2025-04-24,Outpatients,39,Male,20,2,4,3,Good
+R10718,2025-04-24,Emergency Department,69,Female,39,4,4,5,Good
+R10719,2025-04-24,Emergency Department,50,Female,240,4,4,5,Good
+R10720,2025-04-24,Outpatients,49,Female,28,5,4,4,Very good
+R10721,2025-04-25,Emergency Department,60,Female,221,5,4,5,Good
+R10722,2025-04-25,Inpatients,69,Male,53,3,5,4,Good
+R10723,2025-04-25,Inpatients,70,Male,93,4,4,5,Very good
+R10724,2025-04-25,Emergency Department,26,Female,287,4,5,5,Poor
+R10725,2025-04-26,Emergency Department,55,Male,147,5,4,4,Good
+R10726,2025-04-26,Emergency Department,63,Female,120,3,4,4,Good
+R10727,2025-04-26,Outpatients,76,Male,25,5,5,5,Very good
+R10728,2025-04-26,Inpatients,69,Male,63,5,5,5,Very good
+R10729,2025-04-26,Outpatients,49,Female,17,4,3,4,Very good
+R10730,2025-04-27,Outpatients,76,Male,54,5,5,5,Very good
+R10731,2025-04-27,Emergency Department,72,Female,72,5,5,3,Don't know
+R10732,2025-04-27,Outpatients,84,Female,49,5,5,3,Very good
+R10733,2025-04-27,Emergency Department,54,Male,233,4,5,5,Very good
+R10734,2025-04-27,Maternity,33,Female,21,4,4,5,Very good
+R10735,2025-04-27,Outpatients,80,Female,36,5,5,5,Very good
+R10736,2025-04-28,Outpatients,16,Female,17,4,4,4,Good
+R10737,2025-04-28,Inpatients,72,Male,57,4,3,4,Very good
+R10738,2025-04-28,Outpatients,53,Female,25,4,4,5,Good
+R10739,2025-04-28,Inpatients,76,Female,254,4,5,5,Very good
+R10740,2025-04-28,Inpatients,83,Male,388,5,5,4,Very good
+R10741,2025-04-28,Emergency Department,46,Female,112,4,5,3,Very good
+R10742,2025-04-28,Emergency Department,38,Male,64,4,5,3,Very good
+R10743,2025-04-28,Inpatients,70,Male,77,5,5,5,Very good
+R10744,2025-04-28,Inpatients,55,Female,34,3,5,4,Good
+R10745,2025-04-28,Inpatients,64,Female,48,3,4,2,Very good
+R10746,2025-04-28,Outpatients,22,Female,11,5,3,4,Very poor
+R10747,2025-04-29,Emergency Department,59,Female,52,5,4,3,Good
+R10748,2025-04-29,Inpatients,62,Female,49,5,3,4,Very good
+R10749,2025-04-29,Inpatients,79,Female,22,5,3,3,Very good
+R10750,2025-04-29,Outpatients,32,Female,15,4,5,5,Good
+R10751,2025-04-29,Emergency Department,44,Female,107,5,4,5,Neither good nor poor
+R10752,2025-04-29,Inpatients,38,Female,32,5,5,5,Very good
+R10753,2025-04-29,Emergency Department,42,Male,88,4,3,3,Good
+R10754,2025-04-30,Outpatients,62,Male,29,5,4,4,Very good
+R10755,2025-04-30,Emergency Department,49,Female,125,5,4,5,Very good
+R10756,2025-04-30,Inpatients,62,Male,94,5,4,5,Very good
+R10757,2025-04-30,Inpatients,94,Male,82,5,5,5,Very good
+R10758,2025-04-30,Emergency Department,55,Female,140,5,5,5,Very good
+R10759,2025-04-30,Maternity,33,Female,30,4,4,4,Neither good nor poor
+R10760,2025-05-01,Emergency Department,41,Male,114,4,3,4,Good
+R10761,2025-05-01,Outpatients,67,Male,24,4,3,4,Very good
+R10762,2025-05-01,Inpatients,58,Female,31,4,4,5,Very good
+R10763,2025-05-01,Emergency Department,47,Male,126,5,5,4,Good
+R10764,2025-05-01,Inpatients,61,Female,85,5,5,5,Good
+R10765,2025-05-01,Outpatients,47,Male,8,5,4,4,Very good
+R10766,2025-05-01,Emergency Department,42,Female,173,4,4,5,Very good
+R10767,2025-05-01,Emergency Department,50,Male,82,5,5,3,Very good
+R10768,2025-05-02,Inpatients,55,Female,40,5,5,5,Very good
+R10769,2025-05-02,Outpatients,16,Male,7,4,4,4,Very good
+R10770,2025-05-02,Maternity,33,Female,31,3,4,4,Very good
+R10771,2025-05-02,Emergency Department,25,Female,270,5,3,4,Good
+R10772,2025-05-02,Inpatients,81,Female,87,4,4,5,Very good
+R10773,2025-05-02,Emergency Department,29,Female,112,5,4,5,Very good
+R10774,2025-05-02,Outpatients,67,Male,8,4,3,5,Very good
+R10775,2025-05-02,Outpatients,48,Female,16,4,5,4,Very good
+R10776,2025-05-02,Emergency Department,61,Male,164,4,5,4,Very good
+R10777,2025-05-02,Emergency Department,36,Female,243,4,5,5,Good
+R10778,2025-05-02,Outpatients,29,Female,19,3,5,5,Good
+R10779,2025-05-02,Emergency Department,28,Female,147,4,4,4,Good
+R10780,2025-05-03,Outpatients,57,Female,13,4,5,4,Very good
+R10781,2025-05-03,Emergency Department,40,Male,118,4,3,5,Very good
+R10782,2025-05-04,Emergency Department,30,Male,306,3,4,5,Good
+R10783,2025-05-04,Inpatients,65,Male,78,4,5,5,Very good
+R10784,2025-05-04,Emergency Department,56,Male,192,4,5,4,Very good
+R10785,2025-05-04,Outpatients,75,Female,17,4,3,4,Very good
+R10786,2025-05-04,Maternity,27,Female,16,5,5,5,Very good
+R10787,2025-05-04,Outpatients,74,Female,17,5,4,3,Very good
+R10788,2025-05-04,Inpatients,51,Male,55,4,4,4,Very good
+R10789,2025-05-04,Maternity,26,Female,26,5,4,3,Very good
+R10790,2025-05-05,Maternity,30,Female,15,5,5,5,Very good
+R10791,2025-05-05,Outpatients,50,Female,79,3,3,3,Good
+R10792,2025-05-05,Emergency Department,32,Male,176,4,5,3,Don't know
+R10793,2025-05-05,Maternity,28,Female,22,5,3,3,Very good
+R10794,2025-05-05,Inpatients,59,Male,72,5,5,5,Very good
+R10795,2025-05-05,Emergency Department,45,Female,89,4,4,4,Good
+R10796,2025-05-06,Inpatients,63,Male,179,3,3,5,Neither good nor poor
+R10797,2025-05-06,Inpatients,78,Female,76,5,5,4,Very good
+R10798,2025-05-06,Outpatients,49,Male,81,4,4,5,Neither good nor poor
+R10799,2025-05-06,Emergency Department,24,Female,49,5,4,5,Good
+R10800,2025-05-06,Emergency Department,36,Female,211,3,5,4,Very good
+R10801,2025-05-06,Emergency Department,52,Male,196,3,5,4,Very good
+R10802,2025-05-06,Inpatients,63,Female,29,5,5,5,Very good
+R10803,2025-05-07,Inpatients,24,Female,21,5,4,4,Very good
+R10804,2025-05-07,Inpatients,64,Male,65,5,5,4,Good
+R10805,2025-05-07,Emergency Department,48,Female,265,4,3,5,Good
+R10806,2025-05-07,Outpatients,45,Male,39,5,5,3,Very good
+R10807,2025-05-07,Emergency Department,59,Female,105,3,4,4,Very good
+R10808,2025-05-07,Outpatients,82,Female,19,4,5,4,Very good
+R10809,2025-05-08,Outpatients,62,Male,18,4,5,5,Very good
+R10810,2025-05-08,Outpatients,44,Male,63,3,5,5,Poor
+R10811,2025-05-08,Emergency Department,57,Female,196,5,5,4,Very good
+R10812,2025-05-08,Outpatients,59,Female,10,3,3,4,Very good
+R10813,2025-05-08,Emergency Department,27,Female,145,5,3,5,Very good
+R10814,2025-05-08,Outpatients,41,Male,7,4,4,5,Very good
+R10815,2025-05-09,Emergency Department,40,Male,231,4,4,5,Good
+R10816,2025-05-09,Emergency Department,69,Female,193,5,3,5,Neither good nor poor
+R10817,2025-05-09,Inpatients,71,Female,46,4,5,5,Very good
+R10818,2025-05-09,Emergency Department,32,Female,144,2,4,3,Neither good nor poor
+R10819,2025-05-09,Inpatients,88,Female,44,4,5,5,Very good
+R10820,2025-05-09,Outpatients,64,Female,34,5,4,5,Good
+R10821,2025-05-10,Inpatients,59,Male,76,5,5,5,Very good
+R10822,2025-05-10,Maternity,29,Female,68,5,5,3,Very good
+R10823,2025-05-10,Inpatients,40,Female,134,4,5,4,Don't know
+R10824,2025-05-10,Outpatients,59,Male,45,4,4,4,Poor
+R10825,2025-05-10,Outpatients,45,Male,43,5,5,5,Very good
+R10826,2025-05-10,Outpatients,73,Female,20,4,5,3,Very good
+R10827,2025-05-10,Emergency Department,59,Female,452,5,5,4,Neither good nor poor
+R10828,2025-05-10,Maternity,24,Female,66,3,5,3,Very good
+R10829,2025-05-10,Outpatients,59,Male,9,3,5,4,Good
+R10830,2025-05-11,Emergency Department,27,Male,158,5,4,5,Very good
+R10831,2025-05-11,Outpatients,66,Male,16,3,5,5,Very good
+R10832,2025-05-11,Emergency Department,28,Female,149,4,4,4,Good
+R10833,2025-05-11,Inpatients,70,Female,87,5,4,5,Very good
+R10834,2025-05-12,Emergency Department,45,Female,212,5,3,5,Good
+R10835,2025-05-12,Inpatients,79,Male,33,5,5,5,Very good
+R10836,2025-05-12,Outpatients,56,Female,23,5,3,4,Very good
+R10837,2025-05-12,Outpatients,58,Female,11,4,5,5,Very good
+R10838,2025-05-12,Outpatients,57,Male,8,5,5,5,Very good
+R10839,2025-05-12,Inpatients,50,Male,60,4,5,5,Very good
+R10840,2025-05-12,Emergency Department,37,Male,113,4,5,4,Very good
+R10841,2025-05-12,Emergency Department,43,Female,130,3,5,4,Neither good nor poor
+R10842,2025-05-12,Outpatients,59,Female,19,5,4,5,Very good
+R10843,2025-05-13,Emergency Department,21,Female,161,4,4,3,Good
+R10844,2025-05-13,Emergency Department,40,Female,132,5,5,5,Very good
+R10845,2025-05-13,Inpatients,63,Male,25,4,5,4,Very good
+R10846,2025-05-13,Maternity,20,Female,70,5,4,4,Good
+R10847,2025-05-14,Outpatients,44,Male,18,3,4,4,Don't know
+R10848,2025-05-14,Emergency Department,53,Male,212,5,4,5,Very good
+R10849,2025-05-14,Inpatients,62,Male,26,4,5,3,Very good
+R10850,2025-05-14,Inpatients,66,Male,46,4,3,4,Very good
+R10851,2025-05-15,Emergency Department,49,Female,198,5,3,5,Very good
+R10852,2025-05-15,Outpatients,43,Female,7,4,4,4,Don't know
+R10853,2025-05-15,Outpatients,63,Male,71,5,4,4,Very good
+R10854,2025-05-15,Emergency Department,44,Male,162,3,5,5,Very good
+R10855,2025-05-15,Outpatients,56,Female,20,5,5,5,Very good
+R10856,2025-05-16,Outpatients,57,Female,21,3,5,4,Very good
+R10857,2025-05-16,Emergency Department,57,Female,255,3,4,4,Good
+R10858,2025-05-16,Inpatients,51,Female,54,5,5,5,Very good
+R10859,2025-05-16,Emergency Department,19,Male,124,4,5,5,Neither good nor poor
+R10860,2025-05-17,Outpatients,53,Male,14,5,4,5,Very good
+R10861,2025-05-17,Outpatients,77,Male,49,4,4,5,Very good
+R10862,2025-05-17,Inpatients,45,Male,21,5,4,4,Very good
+R10863,2025-05-17,Outpatients,61,Male,6,4,4,4,Don't know
+R10864,2025-05-17,Inpatients,21,Male,37,4,3,5,Very good
+R10865,2025-05-17,Outpatients,57,Male,15,5,5,4,Very good
+R10866,2025-05-17,Emergency Department,44,Male,218,4,4,3,Very good
+R10867,2025-05-17,Outpatients,57,Male,13,4,3,3,Neither good nor poor
+R10868,2025-05-17,Inpatients,72,Male,143,5,5,4,Very good
+R10869,2025-05-18,Inpatients,53,Male,74,4,3,4,Very good
+R10870,2025-05-18,Outpatients,52,Female,10,5,5,5,Very good
+R10871,2025-05-18,Outpatients,46,Female,65,4,3,5,Good
+R10872,2025-05-18,Outpatients,30,Male,30,5,4,4,Very good
+R10873,2025-05-18,Emergency Department,59,Female,67,4,4,4,Very good
+R10874,2025-05-18,Outpatients,26,Male,18,5,3,5,Very good
+R10875,2025-05-19,Outpatients,74,Male,30,4,5,4,Very good
+R10876,2025-05-19,Inpatients,62,Male,40,5,3,5,Very good
+R10877,2025-05-19,Outpatients,39,Male,20,3,4,4,Very good
+R10878,2025-05-19,Inpatients,71,Female,125,5,4,4,Very good
+R10879,2025-05-19,Outpatients,34,Male,6,5,4,4,Very good
+R10880,2025-05-19,Inpatients,59,Male,81,5,5,4,Very good
+R10881,2025-05-19,Emergency Department,33,Female,192,4,3,3,Good
+R10882,2025-05-19,Inpatients,60,Female,61,5,4,4,Very good
+R10883,2025-05-20,Maternity,29,Female,12,5,4,3,Good
+R10884,2025-05-20,Outpatients,61,Male,34,5,5,3,Very good
+R10885,2025-05-20,Outpatients,43,Male,44,4,4,5,Very good
+R10886,2025-05-20,Emergency Department,74,Female,238,4,5,4,Good
+R10887,2025-05-20,Inpatients,43,Male,52,5,4,2,Very good
+R10888,2025-05-21,Outpatients,68,Male,24,5,5,4,Good
+R10889,2025-05-21,Outpatients,55,Male,32,4,4,4,Very good
+R10890,2025-05-21,Emergency Department,35,Female,260,4,5,5,Very good
+R10891,2025-05-21,Emergency Department,55,Female,285,4,4,3,Good
+R10892,2025-05-21,Inpatients,68,Female,52,5,4,4,Very good
+R10893,2025-05-21,Outpatients,30,Female,88,5,5,5,Good
+R10894,2025-05-21,Inpatients,61,Male,108,3,4,2,Very good
+R10895,2025-05-22,Outpatients,63,Female,16,5,5,3,Very good
+R10896,2025-05-22,Emergency Department,36,Male,204,5,5,4,Very good
+R10897,2025-05-22,Outpatients,72,Female,15,4,4,4,Good
+R10898,2025-05-22,Inpatients,41,Male,54,4,5,4,Very good
+R10899,2025-05-22,Emergency Department,51,Female,203,5,5,4,Good
+R10900,2025-05-22,Emergency Department,32,Female,102,3,4,5,Very good
+R10901,2025-05-22,Inpatients,60,Male,47,5,4,4,Very good
+R10902,2025-05-22,Inpatients,87,Male,49,5,4,5,Very good
+R10903,2025-05-22,Outpatients,38,Female,15,5,3,4,Very good
+R10904,2025-05-22,Emergency Department,73,Female,50,5,5,5,Very good
+R10905,2025-05-23,Inpatients,50,Male,63,3,4,4,Very good
+R10906,2025-05-23,Inpatients,44,Male,62,5,3,5,Good
+R10907,2025-05-23,Emergency Department,59,Male,260,4,3,5,Poor
+R10908,2025-05-23,Outpatients,32,Female,11,4,4,5,Very good
+R10909,2025-05-23,Emergency Department,56,Male,88,3,4,4,Very good
+R10910,2025-05-23,Emergency Department,33,Female,36,4,5,4,Good
+R10911,2025-05-23,Inpatients,74,Female,83,5,4,5,Very poor
+R10912,2025-05-23,Outpatients,53,Female,35,5,4,4,Very good
+R10913,2025-05-23,Outpatients,57,Female,14,5,4,4,Very good
+R10914,2025-05-23,Outpatients,41,Female,110,4,5,4,Very good
+R10915,2025-05-23,Emergency Department,66,Female,117,5,4,5,Very good
+R10916,2025-05-23,Outpatients,30,Female,27,3,5,5,Very good
+R10917,2025-05-24,Maternity,21,Female,27,5,5,5,Very good
+R10918,2025-05-24,Emergency Department,42,Female,43,4,5,3,Very good
+R10919,2025-05-24,Outpatients,63,Female,47,4,5,4,Good
+R10920,2025-05-24,Outpatients,36,Female,13,5,5,3,Very good
+R10921,2025-05-25,Emergency Department,41,Female,58,4,5,5,Very good
+R10922,2025-05-25,Inpatients,85,Female,113,5,2,4,Very good
+R10923,2025-05-25,Emergency Department,31,Male,349,4,5,3,Good
+R10924,2025-05-25,Inpatients,60,Male,33,4,5,5,Very good
+R10925,2025-05-25,Inpatients,58,Female,94,4,5,4,Very good
+R10926,2025-05-26,Outpatients,53,Female,38,3,4,4,Very good
+R10927,2025-05-26,Emergency Department,32,Male,370,4,5,4,Very poor
+R10928,2025-05-26,Emergency Department,64,Male,113,3,3,4,Poor
+R10929,2025-05-26,Emergency Department,45,Male,179,4,5,5,Very good
+R10930,2025-05-26,Outpatients,32,Male,10,5,5,3,Very good
+R10931,2025-05-26,Emergency Department,65,Female,253,3,2,4,Neither good nor poor
+R10932,2025-05-26,Emergency Department,35,Male,128,4,5,4,Good
+R10933,2025-05-26,Emergency Department,43,Female,162,4,5,5,Good
+R10934,2025-05-26,Outpatients,37,Female,29,4,5,4,Very good
+R10935,2025-05-26,Outpatients,42,Male,18,5,3,5,Very good
+R10936,2025-05-26,Outpatients,29,Male,41,5,4,3,Very good
+R10937,2025-05-27,Maternity,22,Female,37,5,4,5,Good
+R10938,2025-05-27,Outpatients,66,Female,25,4,5,4,Very good
+R10939,2025-05-27,Emergency Department,56,Female,86,5,5,5,Very good
+R10940,2025-05-27,Emergency Department,54,Female,117,4,4,4,Don't know
+R10941,2025-05-27,Inpatients,63,Female,125,3,4,4,Very good
+R10942,2025-05-27,Maternity,23,Female,15,4,4,5,Very good
+R10943,2025-05-27,Outpatients,46,Male,17,5,5,4,Very good
+R10944,2025-05-28,Emergency Department,36,Male,95,5,4,4,Very good
+R10945,2025-05-28,Outpatients,72,Male,9,4,5,5,Very good
+R10946,2025-05-28,Emergency Department,21,Female,83,4,4,5,Good
+R10947,2025-05-28,Emergency Department,46,Male,331,4,3,5,Neither good nor poor
+R10948,2025-05-28,Emergency Department,65,Female,428,3,4,5,Don't know
+R10949,2025-05-28,Inpatients,53,Male,70,5,4,5,Very good
+R10950,2025-05-28,Emergency Department,34,Female,116,4,4,4,Very good
+R10951,2025-05-28,Emergency Department,75,Male,178,4,4,4,Good
+R10952,2025-05-29,Outpatients,29,Male,25,5,5,5,Very good
+R10953,2025-05-29,Outpatients,63,Female,33,5,4,3,Very good
+R10954,2025-05-29,Emergency Department,45,Female,125,4,3,5,Good
+R10955,2025-05-29,Emergency Department,50,Male,125,3,4,4,Good
+R10956,2025-05-29,Outpatients,88,Female,19,5,4,5,Very good
+R10957,2025-05-29,Emergency Department,46,Female,154,5,5,4,Very good
+R10958,2025-05-29,Outpatients,58,Female,27,4,5,3,Very good
+R10959,2025-05-30,Inpatients,55,Female,40,3,4,4,Good
+R10960,2025-05-30,Inpatients,59,Female,110,5,5,5,Very good
+R10961,2025-05-30,Emergency Department,60,Female,159,4,5,5,Good
+R10962,2025-05-30,Emergency Department,43,Female,110,5,5,5,Very good
+R10963,2025-05-30,Emergency Department,58,Male,116,4,3,5,Neither good nor poor
+R10964,2025-05-30,Outpatients,65,Female,34,4,5,4,Very good
+R10965,2025-05-30,Outpatients,72,Female,8,5,4,4,Very good
+R10966,2025-05-30,Emergency Department,67,Female,226,4,4,3,Very good
+R10967,2025-05-31,Emergency Department,36,Female,82,5,4,4,Good
+R10968,2025-05-31,Inpatients,58,Female,116,5,5,3,Very good
+R10969,2025-05-31,Outpatients,76,Female,12,4,5,5,Very good
+R10970,2025-05-31,Outpatients,31,Female,9,5,5,4,Very good
+R10971,2025-05-31,Outpatients,37,Female,25,5,4,4,Very good
+R10972,2025-05-31,Outpatients,47,Male,12,5,3,5,Very good
+R10973,2025-05-31,Inpatients,54,Male,37,4,4,5,Very good
+R10974,2025-05-31,Emergency Department,55,Female,198,4,5,4,Very good
+R10975,2025-06-01,Outpatients,63,Male,8,4,5,4,Very good
+R10976,2025-06-01,Emergency Department,53,Female,71,5,5,4,Very good
+R10977,2025-06-01,Emergency Department,30,Male,186,5,5,4,Neither good nor poor
+R10978,2025-06-01,Outpatients,66,Male,10,3,5,5,Very good
+R10979,2025-06-01,Emergency Department,67,Female,145,4,3,4,Neither good nor poor
+R10980,2025-06-01,Outpatients,26,Male,22,5,5,5,Very good
+R10981,2025-06-01,Inpatients,44,Female,84,5,4,3,Good
+R10982,2025-06-02,Emergency Department,56,Male,229,3,3,4,Neither good nor poor
+R10983,2025-06-02,Inpatients,47,Male,57,4,4,4,Very good
+R10984,2025-06-02,Outpatients,57,Female,33,4,5,4,Very good
+R10985,2025-06-02,Emergency Department,49,Female,80,4,4,5,Good
+R10986,2025-06-02,Outpatients,95,Male,12,4,4,4,Very good
+R10987,2025-06-02,Outpatients,66,Female,26,4,3,5,Good
+R10988,2025-06-02,Inpatients,63,Female,41,5,4,5,Very good
+R10989,2025-06-02,Outpatients,65,Male,14,4,4,4,Very good
+R10990,2025-06-03,Outpatients,62,Male,24,5,4,2,Very good
+R10991,2025-06-03,Outpatients,52,Female,72,4,4,4,Very good
+R10992,2025-06-03,Outpatients,41,Female,6,5,4,5,Very good
+R10993,2025-06-03,Outpatients,45,Male,26,5,5,4,Very good
+R10994,2025-06-03,Outpatients,67,Female,27,3,4,4,Good
+R10995,2025-06-03,Emergency Department,49,Female,80,4,3,4,Good
+R10996,2025-06-03,Outpatients,61,Male,29,4,5,4,Very good
+R10997,2025-06-04,Outpatients,47,Male,8,4,5,4,Very good
+R10998,2025-06-04,Outpatients,48,Female,17,5,4,5,Very good
+R10999,2025-06-04,Emergency Department,42,Male,135,5,4,4,Good
+R11000,2025-06-04,Inpatients,55,Female,77,4,4,4,Very good
+R11001,2025-06-04,Maternity,37,Female,34,5,4,5,Very good
+R11002,2025-06-05,Inpatients,61,Male,17,5,5,3,Very good
+R11003,2025-06-05,Inpatients,60,Female,43,4,4,5,Very good
+R11004,2025-06-05,Emergency Department,57,Female,234,4,3,3,Neither good nor poor
+R11005,2025-06-05,Outpatients,48,Female,19,5,4,5,Very good
+R11006,2025-06-05,Emergency Department,77,Female,184,5,5,4,Very good
+R11007,2025-06-05,Inpatients,43,Female,34,4,4,3,Very good
+R11008,2025-06-05,Outpatients,40,Female,50,5,5,5,Very good
+R11009,2025-06-05,Inpatients,62,Male,31,5,4,3,Very good
+R11010,2025-06-05,Maternity,33,Female,61,3,5,4,Good
+R11011,2025-06-06,Maternity,27,Female,54,5,3,5,Very good
+R11012,2025-06-06,Outpatients,56,Female,25,5,4,5,Very good
+R11013,2025-06-06,Inpatients,35,Female,57,5,4,5,Very good
+R11014,2025-06-06,Inpatients,56,Female,72,4,4,5,Good
+R11015,2025-06-06,Emergency Department,51,Female,100,4,5,5,Very good
+R11016,2025-06-06,Inpatients,55,Female,41,3,4,4,Good
+R11017,2025-06-07,Outpatients,58,Male,11,5,5,3,Very good
+R11018,2025-06-07,Emergency Department,54,Female,113,3,4,5,Very good
+R11019,2025-06-07,Inpatients,50,Male,154,4,5,4,Good
+R11020,2025-06-07,Emergency Department,53,Female,305,5,5,5,Don't know
+R11021,2025-06-07,Outpatients,29,Male,17,4,4,4,Very good
+R11022,2025-06-07,Maternity,37,Female,38,5,4,5,Very good
+R11023,2025-06-08,Maternity,32,Female,50,4,5,5,Very good
+R11024,2025-06-08,Emergency Department,41,Male,217,3,4,4,Very good
+R11025,2025-06-08,Inpatients,77,Male,184,4,5,4,Very good
+R11026,2025-06-08,Emergency Department,48,Male,175,5,3,4,Very good
+R11027,2025-06-08,Outpatients,68,Female,22,4,4,5,Very good
+R11028,2025-06-08,Inpatients,89,Female,80,3,5,5,Very good
+R11029,2025-06-08,Emergency Department,62,Male,144,4,5,5,Very good
+R11030,2025-06-08,Outpatients,16,Male,34,4,4,5,Good
+R11031,2025-06-09,Inpatients,67,Male,57,5,2,3,Very good
+R11032,2025-06-09,Maternity,26,Female,40,3,3,5,Good
+R11033,2025-06-09,Inpatients,64,Male,93,3,5,4,Very good
+R11034,2025-06-09,Maternity,34,Female,44,4,5,4,Very good
+R11035,2025-06-09,Inpatients,64,Female,24,4,5,4,Very good
+R11036,2025-06-09,Emergency Department,23,Female,355,4,5,3,Very good
+R11037,2025-06-09,Maternity,32,Female,24,4,5,5,Neither good nor poor
+R11038,2025-06-10,Outpatients,55,Female,5,5,3,4,Very good
+R11039,2025-06-10,Emergency Department,42,Male,264,5,3,4,Very good
+R11040,2025-06-10,Emergency Department,27,Male,102,5,5,4,Very good
+R11041,2025-06-10,Outpatients,48,Male,12,5,4,4,Very good
+R11042,2025-06-10,Emergency Department,48,Male,362,5,5,4,Good
+R11043,2025-06-10,Outpatients,57,Male,14,5,2,4,Very good
+R11044,2025-06-10,Emergency Department,16,Female,161,5,4,5,Neither good nor poor
+R11045,2025-06-10,Outpatients,42,Female,13,4,4,4,Very good
+R11046,2025-06-10,Inpatients,60,Female,35,4,5,3,Very good
+R11047,2025-06-10,Emergency Department,40,Female,84,4,5,3,Very good
+R11048,2025-06-11,Emergency Department,66,Male,132,5,4,5,Poor
+R11049,2025-06-11,Emergency Department,30,Female,103,4,3,3,Very good
+R11050,2025-06-11,Maternity,30,Female,21,5,4,5,Very good
+R11051,2025-06-11,Emergency Department,73,Female,158,5,4,4,Good
+R11052,2025-06-11,Inpatients,77,Female,129,3,5,4,Very good
+R11053,2025-06-11,Inpatients,64,Male,28,5,4,5,Very good
+R11054,2025-06-11,Inpatients,67,Male,37,5,5,4,Don't know
+R11055,2025-06-11,Outpatients,52,Female,57,3,5,5,Good
+R11056,2025-06-12,Inpatients,31,Female,74,4,3,4,Very good
+R11057,2025-06-12,Outpatients,70,Female,11,5,4,4,Very good
+R11058,2025-06-12,Outpatients,50,Female,10,5,4,5,Very good
+R11059,2025-06-12,Emergency Department,66,Male,179,4,4,5,Don't know
+R11060,2025-06-12,Outpatients,51,Female,20,5,3,5,Neither good nor poor
+R11061,2025-06-12,Outpatients,37,Male,89,2,5,4,Very good
+R11062,2025-06-12,Inpatients,66,Male,70,4,4,4,Very good
+R11063,2025-06-12,Inpatients,63,Female,122,4,4,4,Very good
+R11064,2025-06-12,Inpatients,31,Female,50,5,5,3,Very good
+R11065,2025-06-12,Maternity,36,Female,80,3,5,5,Good
+R11066,2025-06-13,Emergency Department,37,Female,296,4,5,5,Good
+R11067,2025-06-13,Emergency Department,25,Male,176,4,4,5,Good
+R11068,2025-06-13,Emergency Department,33,Female,182,5,5,4,Very good
+R11069,2025-06-13,Outpatients,57,Male,8,4,5,4,Very good
+R11070,2025-06-13,Emergency Department,48,Male,141,4,4,4,Good
+R11071,2025-06-14,Outpatients,44,Female,10,5,4,5,Very good
+R11072,2025-06-14,Inpatients,63,Female,56,4,5,4,Very good
+R11073,2025-06-14,Inpatients,37,Female,60,4,4,4,Very good
+R11074,2025-06-14,Emergency Department,78,Male,168,4,5,3,Very good
+R11075,2025-06-14,Emergency Department,56,Female,132,5,5,4,Very good
+R11076,2025-06-15,Outpatients,66,Female,47,5,5,3,Very good
+R11077,2025-06-15,Inpatients,71,Male,74,5,4,4,Very good
+R11078,2025-06-15,Outpatients,36,Male,14,5,4,4,Very good
+R11079,2025-06-15,Emergency Department,56,Male,186,5,4,5,Very good
+R11080,2025-06-15,Outpatients,48,Male,13,5,3,5,Very good
+R11081,2025-06-15,Inpatients,58,Male,86,5,5,5,Very good
+R11082,2025-06-15,Emergency Department,55,Male,158,4,5,3,Good
+R11083,2025-06-16,Emergency Department,32,Female,159,4,5,5,Very good
+R11084,2025-06-16,Emergency Department,61,Male,195,5,5,4,Good
+R11085,2025-06-16,Emergency Department,41,Female,116,4,4,4,Neither good nor poor
+R11086,2025-06-16,Emergency Department,59,Female,108,5,4,4,Good
+R11087,2025-06-17,Emergency Department,59,Male,84,2,5,5,Very good
+R11088,2025-06-17,Inpatients,77,Male,82,3,5,5,Very good
+R11089,2025-06-17,Outpatients,41,Female,10,3,5,5,Very good
+R11090,2025-06-17,Outpatients,20,Female,21,4,4,3,Very good
+R11091,2025-06-17,Maternity,31,Female,19,4,4,4,Poor
+R11092,2025-06-17,Inpatients,42,Male,113,4,4,5,Good
+R11093,2025-06-17,Maternity,25,Female,60,5,4,4,Very good
+R11094,2025-06-18,Emergency Department,87,Female,158,2,4,4,Neither good nor poor
+R11095,2025-06-18,Outpatients,43,Male,27,5,4,5,Very good
+R11096,2025-06-18,Outpatients,49,Female,13,4,4,4,Very good
+R11097,2025-06-18,Inpatients,35,Female,31,3,5,5,Very good
+R11098,2025-06-18,Maternity,41,Female,48,4,5,5,Very good
+R11099,2025-06-19,Emergency Department,66,Male,164,4,4,4,Good
+R11100,2025-06-19,Inpatients,67,Female,29,5,4,4,Very good
+R11101,2025-06-19,Maternity,22,Female,31,4,3,5,Good
+R11102,2025-06-19,Inpatients,60,Female,35,5,5,4,Very good
+R11103,2025-06-19,Emergency Department,66,Male,133,5,5,4,Good
+R11104,2025-06-19,Emergency Department,40,Female,162,3,4,5,Very poor
+R11105,2025-06-19,Outpatients,55,Male,102,4,4,2,Good
+R11106,2025-06-19,Inpatients,95,Female,80,4,5,5,Very good
+R11107,2025-06-20,Maternity,28,Female,29,3,5,4,Very good
+R11108,2025-06-20,Emergency Department,52,Female,335,5,5,4,Good
+R11109,2025-06-20,Outpatients,50,Female,28,4,2,5,Very good
+R11110,2025-06-20,Outpatients,45,Male,55,3,5,3,Very good
+R11111,2025-06-20,Inpatients,63,Female,29,5,4,4,Good
+R11112,2025-06-20,Emergency Department,52,Male,235,3,4,5,Neither good nor poor
+R11113,2025-06-20,Outpatients,47,Male,36,5,5,5,Very good
+R11114,2025-06-20,Inpatients,42,Male,163,4,5,4,Very good
+R11115,2025-06-20,Inpatients,74,Female,39,3,4,3,Very good
+R11116,2025-06-21,Emergency Department,41,Female,75,3,5,5,Good
+R11117,2025-06-21,Emergency Department,46,Male,158,4,5,5,Neither good nor poor
+R11118,2025-06-21,Emergency Department,47,Male,155,4,5,4,Good
+R11119,2025-06-22,Outpatients,62,Female,12,3,5,5,Poor
+R11120,2025-06-22,Inpatients,69,Female,56,5,5,4,Very good
+R11121,2025-06-22,Maternity,25,Female,51,5,5,4,Neither good nor poor
+R11122,2025-06-22,Outpatients,67,Male,9,4,5,5,Very good
+R11123,2025-06-23,Emergency Department,37,Male,102,4,4,4,Very good
+R11124,2025-06-23,Inpatients,64,Female,39,5,5,5,Very good
+R11125,2025-06-23,Emergency Department,63,Male,129,4,3,5,Very good
+R11126,2025-06-23,Outpatients,24,Male,39,3,4,3,Neither good nor poor
+R11127,2025-06-23,Maternity,35,Female,16,4,4,3,Very good
+R11128,2025-06-24,Emergency Department,22,Male,41,4,5,4,Very good
+R11129,2025-06-24,Outpatients,74,Female,20,4,4,5,Very good
+R11130,2025-06-24,Inpatients,85,Male,21,5,5,4,Very good
+R11131,2025-06-24,Outpatients,28,Female,7,4,5,5,Very good
+R11132,2025-06-24,Inpatients,54,Female,127,4,5,5,Very good
+R11133,2025-06-24,Emergency Department,78,Female,190,4,4,4,Poor
+R11134,2025-06-25,Emergency Department,50,Female,89,4,5,5,Good
+R11135,2025-06-25,Outpatients,53,Female,21,3,5,4,Very good
+R11136,2025-06-25,Inpatients,66,Male,43,4,2,3,Very good
+R11137,2025-06-25,Inpatients,39,Female,46,4,4,5,Very good
+R11138,2025-06-25,Emergency Department,27,Male,258,4,5,4,Good
+R11139,2025-06-25,Outpatients,48,Male,11,4,5,4,Very good
+R11140,2025-06-25,Emergency Department,57,Female,62,4,5,4,Very good
+R11141,2025-06-26,Emergency Department,61,Female,73,5,5,5,Very poor
+R11142,2025-06-26,Outpatients,48,Female,12,4,5,4,Very good
+R11143,2025-06-26,Emergency Department,16,Male,63,5,5,4,Very good
+R11144,2025-06-26,Emergency Department,45,Male,242,4,4,4,Very good
+R11145,2025-06-26,Emergency Department,37,Female,443,4,4,3,Poor
+R11146,2025-06-26,Inpatients,69,Male,15,4,5,4,Very good
+R11147,2025-06-26,Emergency Department,26,Female,94,4,3,4,Very good
+R11148,2025-06-26,Outpatients,44,Female,50,3,4,5,Good
+R11149,2025-06-26,Outpatients,39,Male,18,5,4,5,Very good
+R11150,2025-06-27,Emergency Department,24,Female,129,5,3,5,Very good
+R11151,2025-06-27,Inpatients,48,Male,34,4,4,4,Very good
+R11152,2025-06-27,Emergency Department,39,Female,152,5,4,5,Neither good nor poor
+R11153,2025-06-27,Inpatients,77,Female,56,3,4,5,Very good
+R11154,2025-06-27,Emergency Department,40,Male,174,3,5,4,Very good
+R11155,2025-06-27,Emergency Department,32,Female,190,4,3,5,Good
+R11156,2025-06-27,Outpatients,60,Female,9,4,5,3,Very good
+R11157,2025-06-27,Maternity,30,Female,99,5,4,5,Very good
+R11158,2025-06-28,Maternity,26,Female,90,3,5,4,Poor
+R11159,2025-06-28,Outpatients,47,Male,6,5,4,4,Very good
+R11160,2025-06-28,Inpatients,44,Male,357,4,5,4,Very good
+R11161,2025-06-28,Emergency Department,57,Female,300,2,5,5,Very good
+R11162,2025-06-28,Outpatients,42,Male,13,4,4,4,Very good
+R11163,2025-06-28,Inpatients,81,Male,32,4,4,3,Very good
+R11164,2025-06-28,Outpatients,66,Female,16,4,3,5,Very good
+R11165,2025-06-28,Emergency Department,36,Female,83,5,4,4,Very good
+R11166,2025-06-28,Emergency Department,23,Male,600,4,5,3,Good
+R11167,2025-06-28,Maternity,32,Female,8,4,3,5,Very good
+R11168,2025-06-28,Emergency Department,64,Male,142,4,5,3,Very poor
+R11169,2025-06-28,Outpatients,64,Female,27,4,3,5,Very good
+R11170,2025-06-29,Emergency Department,38,Male,143,4,5,4,Very good
+R11171,2025-06-29,Emergency Department,25,Female,176,4,4,5,Neither good nor poor
+R11172,2025-06-29,Emergency Department,43,Female,322,4,5,5,Good
+R11173,2025-06-29,Maternity,31,Female,27,5,4,5,Very good
+R11174,2025-06-29,Emergency Department,66,Female,71,3,4,5,Very good
+R11175,2025-06-29,Emergency Department,68,Female,218,5,5,5,Good
+R11176,2025-06-29,Maternity,32,Female,25,5,5,4,Poor
+R11177,2025-06-29,Emergency Department,52,Male,160,4,4,5,Very good
+R11178,2025-06-29,Inpatients,74,Male,26,3,4,4,Very good
+R11179,2025-06-29,Inpatients,57,Female,44,5,4,4,Very good
+R11180,2025-06-30,Outpatients,44,Female,22,4,4,5,Good
+R11181,2025-06-30,Outpatients,77,Female,10,4,4,4,Good
+R11182,2025-06-30,Outpatients,53,Male,11,5,5,3,Very good
+R11183,2025-06-30,Maternity,29,Female,41,4,5,4,Very good
+R11184,2025-06-30,Emergency Department,63,Female,105,5,4,4,Very good
+R11185,2025-06-30,Emergency Department,42,Female,88,4,4,5,Neither good nor poor
+R11186,2025-06-30,Emergency Department,37,Male,126,3,4,5,Very good
+R11187,2025-06-30,Outpatients,51,Male,17,4,5,5,Very good
+R11188,2025-06-30,Emergency Department,37,Male,90,4,4,4,Very poor
+R11189,2025-07-01,Inpatients,52,Female,79,4,5,4,Very good
+R11190,2025-07-01,Inpatients,51,Female,133,4,4,4,Good
+R11191,2025-07-01,Outpatients,34,Male,10,5,4,2,Very good
+R11192,2025-07-01,Emergency Department,39,Male,101,3,5,4,Neither good nor poor
+R11193,2025-07-01,Emergency Department,45,Male,207,5,4,4,Neither good nor poor
+R11194,2025-07-01,Emergency Department,42,Female,416,3,5,5,Very poor
+R11195,2025-07-02,Outpatients,36,Male,52,3,5,4,Good
+R11196,2025-07-02,Maternity,34,Female,34,4,3,4,Neither good nor poor
+R11197,2025-07-02,Emergency Department,16,Female,104,4,5,5,Good
+R11198,2025-07-02,Inpatients,95,Female,40,5,5,5,Very good
+R11199,2025-07-02,Inpatients,40,Female,25,5,4,4,Very good
+R11200,2025-07-03,Emergency Department,32,Female,310,5,5,5,Good
+R11201,2025-07-03,Emergency Department,37,Female,263,3,5,4,Neither good nor poor
+R11202,2025-07-03,Maternity,31,Female,39,5,4,3,Very good
+R11203,2025-07-03,Outpatients,44,Female,63,4,5,3,Very good
+R11204,2025-07-04,Inpatients,40,Female,38,5,4,4,Very good
+R11205,2025-07-04,Outpatients,51,Male,20,4,5,3,Very good
+R11206,2025-07-04,Emergency Department,74,Male,113,4,5,4,Very good
+R11207,2025-07-05,Emergency Department,33,Female,238,3,5,4,Good
+R11208,2025-07-05,Inpatients,46,Female,19,5,4,5,Very good
+R11209,2025-07-05,Outpatients,45,Male,68,3,3,5,Good
+R11210,2025-07-05,Outpatients,57,Female,27,5,3,5,Very good
+R11211,2025-07-05,Emergency Department,49,Female,224,4,5,5,Good
+R11212,2025-07-06,Inpatients,48,Female,28,3,5,4,Very good
+R11213,2025-07-06,Inpatients,67,Female,57,5,4,4,Very good
+R11214,2025-07-06,Outpatients,78,Female,3,5,5,5,Very good
+R11215,2025-07-06,Maternity,30,Female,36,5,5,5,Good
+R11216,2025-07-07,Emergency Department,51,Female,100,4,4,3,Neither good nor poor
+R11217,2025-07-07,Inpatients,86,Male,22,5,3,3,Very good
+R11218,2025-07-07,Outpatients,24,Female,21,5,5,3,Very good
+R11219,2025-07-07,Emergency Department,49,Male,113,4,5,2,Neither good nor poor
+R11220,2025-07-07,Maternity,20,Female,72,4,4,4,Very good
+R11221,2025-07-07,Inpatients,70,Female,43,4,5,3,Very good
+R11222,2025-07-08,Outpatients,58,Male,4,4,4,4,Very good
+R11223,2025-07-08,Outpatients,42,Male,84,3,4,4,Don't know
+R11224,2025-07-08,Emergency Department,33,Female,551,3,4,5,Neither good nor poor
+R11225,2025-07-08,Maternity,31,Female,23,4,5,5,Good
+R11226,2025-07-08,Emergency Department,64,Male,125,4,3,5,Very good
+R11227,2025-07-09,Emergency Department,33,Female,88,4,5,5,Very poor
+R11228,2025-07-09,Outpatients,51,Male,16,5,4,5,Very good
+R11229,2025-07-09,Inpatients,78,Female,32,5,3,5,Good
+R11230,2025-07-09,Inpatients,70,Male,71,4,3,4,Very good
+R11231,2025-07-09,Inpatients,53,Male,39,4,4,3,Very good
+R11232,2025-07-09,Emergency Department,31,Male,152,4,5,5,Good
+R11233,2025-07-10,Maternity,29,Female,76,4,5,4,Good
+R11234,2025-07-10,Outpatients,41,Male,24,3,5,4,Very good
+R11235,2025-07-10,Outpatients,31,Male,17,5,5,5,Very good
+R11236,2025-07-10,Emergency Department,32,Male,209,4,4,5,Neither good nor poor
+R11237,2025-07-10,Emergency Department,31,Male,161,4,5,3,Good
+R11238,2025-07-10,Outpatients,69,Male,26,4,4,4,Good
+R11239,2025-07-11,Emergency Department,46,Female,54,4,4,5,Very good
+R11240,2025-07-11,Outpatients,57,Female,34,5,5,5,Very good
+R11241,2025-07-11,Inpatients,51,Female,79,3,5,4,Very good
+R11242,2025-07-11,Emergency Department,52,Female,195,5,4,4,Very good
+R11243,2025-07-11,Outpatients,41,Male,19,5,5,4,Don't know
+R11244,2025-07-11,Inpatients,31,Female,116,4,5,4,Very good
+R11245,2025-07-11,Emergency Department,34,Male,159,4,4,5,Very good
+R11246,2025-07-11,Outpatients,45,Male,11,4,4,4,Very good
+R11247,2025-07-12,Outpatients,60,Male,5,4,4,4,Very good
+R11248,2025-07-12,Outpatients,62,Female,9,5,4,4,Very good
+R11249,2025-07-12,Outpatients,39,Male,18,4,3,4,Very good
+R11250,2025-07-12,Outpatients,73,Female,10,5,5,5,Very good
+R11251,2025-07-12,Inpatients,61,Female,67,5,5,5,Good
+R11252,2025-07-12,Emergency Department,41,Female,172,3,4,4,Good
+R11253,2025-07-13,Outpatients,41,Male,57,3,5,5,Poor
+R11254,2025-07-13,Inpatients,44,Male,51,5,4,3,Very good
+R11255,2025-07-13,Emergency Department,46,Female,190,5,3,3,Good
+R11256,2025-07-13,Emergency Department,43,Male,220,5,5,5,Good
+R11257,2025-07-13,Emergency Department,37,Female,71,2,5,5,Very good
+R11258,2025-07-13,Emergency Department,46,Male,111,4,5,4,Very good
+R11259,2025-07-13,Emergency Department,52,Male,119,5,3,4,Very good
+R11260,2025-07-13,Maternity,31,Female,9,3,4,4,Neither good nor poor
+R11261,2025-07-13,Maternity,38,Female,61,4,4,5,Very good
+R11262,2025-07-13,Inpatients,54,Male,42,3,3,5,Very good
+R11263,2025-07-13,Inpatients,37,Male,41,5,4,4,Good
+R11264,2025-07-14,Emergency Department,48,Male,213,5,4,3,Very good
+R11265,2025-07-14,Outpatients,40,Male,18,5,3,3,Very good
+R11266,2025-07-14,Inpatients,43,Male,40,4,5,4,Very good
+R11267,2025-07-14,Outpatients,26,Female,51,4,5,4,Good
+R11268,2025-07-14,Emergency Department,45,Male,340,5,3,4,Good
+R11269,2025-07-14,Inpatients,43,Male,86,5,4,4,Very good
+R11270,2025-07-15,Maternity,16,Female,23,5,5,4,Very good
+R11271,2025-07-15,Outpatients,65,Female,28,4,4,5,Don't know
+R11272,2025-07-15,Outpatients,55,Female,3,4,5,5,Very good
+R11273,2025-07-15,Outpatients,32,Female,100,3,5,5,Very good
+R11274,2025-07-15,Outpatients,33,Male,20,5,3,4,Very good
+R11275,2025-07-15,Emergency Department,29,Male,238,4,4,4,Good
+R11276,2025-07-15,Emergency Department,26,Female,118,5,4,5,Good
+R11277,2025-07-15,Outpatients,42,Male,9,5,5,5,Very good
+R11278,2025-07-16,Inpatients,62,Female,308,4,4,5,Neither good nor poor
+R11279,2025-07-16,Outpatients,50,Male,54,4,4,5,Neither good nor poor
+R11280,2025-07-16,Emergency Department,34,Male,88,4,5,4,Very good
+R11281,2025-07-16,Emergency Department,48,Female,159,5,5,4,Very good
+R11282,2025-07-16,Emergency Department,29,Female,79,5,5,5,Very good
+R11283,2025-07-16,Emergency Department,39,Female,169,5,5,4,Good
+R11284,2025-07-16,Outpatients,52,Male,52,4,5,4,Very good
+R11285,2025-07-17,Emergency Department,29,Female,136,4,5,4,Neither good nor poor
+R11286,2025-07-17,Inpatients,54,Female,25,4,4,4,Very good
+R11287,2025-07-17,Maternity,33,Female,30,4,4,4,Very good
+R11288,2025-07-18,Inpatients,65,Male,71,4,5,3,Good
+R11289,2025-07-18,Emergency Department,44,Female,254,5,4,4,Very good
+R11290,2025-07-18,Inpatients,76,Male,76,3,5,5,Good
+R11291,2025-07-18,Inpatients,51,Female,48,3,5,5,Very good
+R11292,2025-07-18,Inpatients,39,Male,123,5,4,4,Very poor
+R11293,2025-07-18,Maternity,28,Female,24,4,4,5,Very good
+R11294,2025-07-18,Emergency Department,77,Male,130,5,4,5,Very good
+R11295,2025-07-19,Outpatients,66,Male,7,5,5,5,Very good
+R11296,2025-07-19,Outpatients,49,Female,5,3,5,3,Good
+R11297,2025-07-19,Maternity,36,Female,33,5,5,5,Very good
+R11298,2025-07-19,Emergency Department,40,Male,184,4,4,4,Good
+R11299,2025-07-19,Emergency Department,47,Female,150,3,5,5,Very good
+R11300,2025-07-19,Outpatients,42,Male,40,5,4,5,Good
+R11301,2025-07-19,Emergency Department,51,Female,115,5,4,5,Very good
+R11302,2025-07-20,Maternity,26,Female,29,5,5,5,Very good
+R11303,2025-07-20,Maternity,27,Female,158,3,5,4,Good
+R11304,2025-07-20,Maternity,32,Female,14,4,4,5,Very good
+R11305,2025-07-21,Outpatients,78,Male,30,3,3,3,Very good
+R11306,2025-07-21,Outpatients,27,Male,29,4,5,5,Very good
+R11307,2025-07-21,Inpatients,76,Female,28,4,4,3,Very good
+R11308,2025-07-21,Inpatients,79,Female,90,5,5,4,Very good
+R11309,2025-07-21,Emergency Department,53,Male,234,4,4,3,Good
+R11310,2025-07-21,Emergency Department,82,Male,338,5,4,4,Good
+R11311,2025-07-21,Emergency Department,71,Female,92,5,3,4,Neither good nor poor
+R11312,2025-07-21,Outpatients,65,Male,152,3,4,3,Very good
+R11313,2025-07-22,Maternity,28,Female,21,4,4,4,Good
+R11314,2025-07-22,Emergency Department,35,Female,108,5,3,5,Good
+R11315,2025-07-22,Inpatients,49,Female,125,5,5,5,Very good
+R11316,2025-07-22,Emergency Department,47,Female,154,4,5,4,Very good
+R11317,2025-07-22,Emergency Department,32,Male,449,5,4,5,Neither good nor poor
+R11318,2025-07-22,Outpatients,82,Female,21,3,5,4,Good
+R11319,2025-07-22,Emergency Department,39,Male,106,4,5,4,Very good
+R11320,2025-07-22,Emergency Department,35,Male,286,5,4,4,Good
+R11321,2025-07-22,Maternity,33,Female,21,3,4,5,Very good
+R11322,2025-07-22,Inpatients,89,Male,58,4,3,4,Very good
+R11323,2025-07-22,Outpatients,67,Female,46,4,5,5,Very good
+R11324,2025-07-23,Emergency Department,50,Female,140,4,4,4,Very good
+R11325,2025-07-23,Emergency Department,42,Male,119,5,4,3,Neither good nor poor
+R11326,2025-07-23,Maternity,27,Female,47,3,4,5,Very good
+R11327,2025-07-23,Emergency Department,57,Male,121,4,5,4,Good
+R11328,2025-07-23,Emergency Department,79,Female,183,3,3,4,Good
+R11329,2025-07-23,Emergency Department,33,Male,254,3,4,3,Very good
+R11330,2025-07-23,Inpatients,65,Female,44,5,5,5,Very good
+R11331,2025-07-23,Emergency Department,22,Female,113,4,4,4,Good
+R11332,2025-07-23,Inpatients,47,Female,72,4,4,4,Good
+R11333,2025-07-23,Outpatients,55,Female,14,4,3,4,Very good
+R11334,2025-07-23,Emergency Department,26,Male,450,3,5,4,Good
+R11335,2025-07-24,Inpatients,57,Female,111,4,4,4,Very good
+R11336,2025-07-24,Outpatients,46,Male,6,3,5,5,Very good
+R11337,2025-07-24,Emergency Department,63,Female,132,5,5,3,Very good
+R11338,2025-07-24,Outpatients,30,Female,13,4,5,5,Very good
+R11339,2025-07-24,Emergency Department,79,Male,103,5,5,4,Very good
+R11340,2025-07-24,Outpatients,68,Female,20,5,3,5,Very good
+R11341,2025-07-24,Inpatients,69,Female,67,4,5,4,Very good
+R11342,2025-07-24,Emergency Department,59,Female,123,5,5,5,Very good
+R11343,2025-07-25,Outpatients,32,Female,12,3,5,2,Good
+R11344,2025-07-25,Emergency Department,44,Female,120,5,5,5,Very good
+R11345,2025-07-25,Emergency Department,48,Male,215,5,4,4,Good
+R11346,2025-07-26,Emergency Department,43,Female,122,5,4,4,Good
+R11347,2025-07-26,Maternity,24,Female,50,5,3,4,Good
+R11348,2025-07-26,Inpatients,70,Female,76,5,4,5,Very good
+R11349,2025-07-26,Inpatients,73,Female,77,4,3,4,Good
+R11350,2025-07-26,Emergency Department,43,Female,147,4,5,3,Very good
+R11351,2025-07-26,Emergency Department,18,Female,238,4,5,4,Very good
+R11352,2025-07-27,Inpatients,79,Female,23,4,4,4,Very good
+R11353,2025-07-27,Emergency Department,44,Female,215,4,5,5,Very good
+R11354,2025-07-27,Emergency Department,60,Female,84,5,5,4,Good
+R11355,2025-07-27,Inpatients,59,Female,42,5,3,4,Very good
+R11356,2025-07-27,Outpatients,49,Male,34,5,4,4,Very good
+R11357,2025-07-27,Outpatients,68,Male,12,4,5,4,Don't know
+R11358,2025-07-27,Maternity,31,Female,25,5,4,4,Good
+R11359,2025-07-28,Inpatients,65,Female,89,4,5,4,Very good
+R11360,2025-07-28,Emergency Department,46,Male,256,3,4,5,Neither good nor poor
+R11361,2025-07-28,Emergency Department,21,Female,94,4,5,5,Good
+R11362,2025-07-28,Inpatients,45,Male,18,4,5,5,Very good
+R11363,2025-07-28,Maternity,29,Female,82,4,2,3,Good
+R11364,2025-07-28,Emergency Department,52,Female,112,3,4,4,Very good
+R11365,2025-07-28,Emergency Department,48,Female,61,5,4,3,Good
+R11366,2025-07-28,Inpatients,55,Female,123,4,4,5,Neither good nor poor
+R11367,2025-07-28,Emergency Department,32,Female,86,3,5,5,Very good
+R11368,2025-07-29,Inpatients,83,Female,81,4,4,5,Very good
+R11369,2025-07-29,Emergency Department,39,Male,59,4,3,5,Good
+R11370,2025-07-29,Outpatients,74,Female,18,5,4,5,Very good
+R11371,2025-07-29,Outpatients,42,Male,25,5,5,5,Very good
+R11372,2025-07-29,Inpatients,45,Male,26,5,5,5,Very good
+R11373,2025-07-29,Inpatients,74,Male,302,3,3,4,Very good
+R11374,2025-07-30,Maternity,34,Female,21,4,5,5,Neither good nor poor
+R11375,2025-07-30,Outpatients,37,Female,5,5,5,4,Very good
+R11376,2025-07-30,Outpatients,84,Female,7,3,4,5,Very good
+R11377,2025-07-30,Inpatients,89,Female,121,4,3,5,Very good
+R11378,2025-07-30,Emergency Department,82,Female,202,4,3,5,Very good
+R11379,2025-07-30,Emergency Department,50,Female,129,3,4,4,Good
+R11380,2025-07-30,Outpatients,52,Male,12,4,3,5,Good
+R11381,2025-07-30,Inpatients,79,Female,56,5,4,4,Very good
+R11382,2025-07-31,Emergency Department,44,Female,166,5,4,3,Very good
+R11383,2025-07-31,Outpatients,49,Female,42,4,4,3,Neither good nor poor
+R11384,2025-07-31,Inpatients,67,Female,23,5,5,5,Very good
+R11385,2025-07-31,Outpatients,35,Female,24,5,5,5,Very good
+R11386,2025-07-31,Emergency Department,58,Male,91,4,4,5,Good
+R11387,2025-07-31,Maternity,33,Female,22,4,4,5,Very good
+R11388,2025-08-01,Outpatients,58,Female,43,5,5,3,Neither good nor poor
+R11389,2025-08-01,Emergency Department,83,Male,121,5,3,4,Good
+R11390,2025-08-02,Inpatients,59,Male,40,5,4,5,Very good
+R11391,2025-08-02,Maternity,21,Female,68,4,4,3,Good
+R11392,2025-08-02,Maternity,34,Female,86,3,5,4,Good
+R11393,2025-08-02,Inpatients,53,Male,25,4,4,4,Very good
+R11394,2025-08-02,Outpatients,65,Female,74,2,5,5,Good
+R11395,2025-08-02,Inpatients,69,Male,25,5,4,5,Very good
+R11396,2025-08-02,Emergency Department,43,Male,156,5,5,5,Very good
+R11397,2025-08-02,Outpatients,35,Male,109,4,5,5,Very good
+R11398,2025-08-02,Inpatients,59,Female,49,3,5,5,Very good
+R11399,2025-08-03,Outpatients,39,Female,6,5,5,5,Very good
+R11400,2025-08-03,Inpatients,95,Male,109,3,5,3,Very good
+R11401,2025-08-03,Inpatients,39,Male,69,4,4,4,Good
+R11402,2025-08-04,Emergency Department,22,Male,178,4,4,5,Very good
+R11403,2025-08-04,Outpatients,39,Female,13,3,4,4,Good
+R11404,2025-08-04,Emergency Department,41,Male,268,3,5,5,Very good
+R11405,2025-08-04,Outpatients,64,Male,14,4,3,4,Good
+R11406,2025-08-05,Maternity,29,Female,42,4,4,4,Very good
+R11407,2025-08-05,Inpatients,35,Female,43,5,3,5,Very good
+R11408,2025-08-05,Outpatients,44,Male,43,3,3,3,Very good
+R11409,2025-08-05,Outpatients,79,Male,5,4,4,5,Very good
+R11410,2025-08-05,Emergency Department,33,Female,228,5,5,5,Good
+R11411,2025-08-05,Emergency Department,42,Female,121,4,4,4,Very good
+R11412,2025-08-06,Inpatients,78,Female,80,4,4,4,Very good
+R11413,2025-08-06,Inpatients,95,Female,40,5,5,3,Very good
+R11414,2025-08-06,Outpatients,60,Male,9,5,4,4,Good
+R11415,2025-08-07,Outpatients,89,Female,17,5,3,4,Neither good nor poor
+R11416,2025-08-07,Maternity,23,Female,20,5,5,4,Very good
+R11417,2025-08-07,Emergency Department,71,Female,259,4,4,4,Don't know
+R11418,2025-08-07,Emergency Department,28,Female,286,5,4,4,Neither good nor poor
+R11419,2025-08-07,Outpatients,58,Male,45,3,5,4,Good
+R11420,2025-08-07,Emergency Department,39,Female,64,5,3,4,Neither good nor poor
+R11421,2025-08-07,Inpatients,51,Female,32,3,4,3,Good
+R11422,2025-08-08,Emergency Department,31,Female,83,4,5,4,Very good
+R11423,2025-08-08,Inpatients,83,Male,49,5,4,5,Don't know
+R11424,2025-08-08,Inpatients,42,Female,70,4,5,5,Neither good nor poor
+R11425,2025-08-08,Inpatients,63,Female,98,3,5,5,Very good
+R11426,2025-08-08,Inpatients,79,Female,30,5,4,3,Good
+R11427,2025-08-08,Inpatients,42,Female,35,5,4,5,Very good
+R11428,2025-08-08,Inpatients,29,Female,77,3,4,4,Very good
+R11429,2025-08-09,Maternity,23,Female,24,4,5,4,Very good
+R11430,2025-08-09,Maternity,26,Female,23,3,4,5,Very good
+R11431,2025-08-09,Emergency Department,45,Male,143,4,4,3,Very good
+R11432,2025-08-09,Outpatients,61,Female,12,3,5,4,Very good
+R11433,2025-08-09,Maternity,31,Female,66,4,5,4,Good
+R11434,2025-08-09,Inpatients,51,Male,128,4,4,3,Very good
+R11435,2025-08-09,Outpatients,46,Male,17,4,4,4,Very good
+R11436,2025-08-09,Outpatients,61,Female,3,3,4,4,Very good
+R11437,2025-08-09,Maternity,31,Female,19,4,5,4,Don't know
+R11438,2025-08-10,Inpatients,51,Female,48,4,4,3,Very good
+R11439,2025-08-10,Inpatients,70,Male,27,5,4,5,Very good
+R11440,2025-08-10,Inpatients,77,Female,76,5,5,4,Very good
+R11441,2025-08-10,Emergency Department,40,Male,157,5,5,4,Good
+R11442,2025-08-10,Emergency Department,58,Female,145,5,4,5,Very good
+R11443,2025-08-10,Outpatients,45,Male,4,4,5,4,Very good
+R11444,2025-08-11,Inpatients,58,Male,62,5,4,3,Very good
+R11445,2025-08-11,Outpatients,64,Male,29,4,3,4,Very good
+R11446,2025-08-11,Inpatients,54,Female,82,5,4,4,Very good
+R11447,2025-08-11,Inpatients,64,Female,97,3,5,5,Very good
+R11448,2025-08-11,Outpatients,45,Female,15,4,4,5,Good
+R11449,2025-08-11,Outpatients,38,Female,17,4,5,3,Very good
+R11450,2025-08-11,Emergency Department,58,Female,228,4,4,3,Neither good nor poor
+R11451,2025-08-12,Emergency Department,61,Male,100,5,3,4,Good
+R11452,2025-08-12,Inpatients,69,Male,27,5,5,4,Very good
+R11453,2025-08-12,Inpatients,39,Male,74,3,4,4,Good
+R11454,2025-08-12,Inpatients,53,Male,167,4,3,5,Very good
+R11455,2025-08-12,Maternity,27,Female,31,3,3,5,Good
+R11456,2025-08-12,Outpatients,61,Female,71,3,3,5,Good
+R11457,2025-08-12,Emergency Department,30,Male,181,4,4,4,Very good
+R11458,2025-08-12,Outpatients,30,Male,18,5,5,3,Very good
+R11459,2025-08-13,Outpatients,63,Male,14,4,5,5,Good
+R11460,2025-08-13,Inpatients,61,Female,372,4,4,5,Good
+R11461,2025-08-13,Outpatients,49,Male,15,4,5,4,Very good
+R11462,2025-08-13,Emergency Department,52,Female,294,4,3,4,Neither good nor poor
+R11463,2025-08-14,Emergency Department,16,Male,87,5,4,4,Very good
+R11464,2025-08-14,Inpatients,49,Male,63,4,4,5,Very good
+R11465,2025-08-14,Emergency Department,55,Male,108,4,4,2,Good
+R11466,2025-08-14,Outpatients,39,Female,20,5,4,5,Very good
+R11467,2025-08-14,Maternity,28,Female,37,5,5,5,Don't know
+R11468,2025-08-15,Outpatients,22,Male,26,5,4,4,Very good
+R11469,2025-08-15,Outpatients,57,Female,9,4,5,5,Very good
+R11470,2025-08-15,Emergency Department,69,Male,121,5,4,5,Neither good nor poor
+R11471,2025-08-15,Emergency Department,41,Female,196,5,4,5,Very good
+R11472,2025-08-15,Outpatients,36,Male,5,2,5,5,Very good
+R11473,2025-08-15,Emergency Department,74,Female,109,4,5,4,Neither good nor poor
+R11474,2025-08-16,Outpatients,66,Male,5,4,4,4,Very good
+R11475,2025-08-16,Emergency Department,42,Female,173,4,4,5,Good
+R11476,2025-08-16,Emergency Department,72,Female,155,5,5,4,Very good
+R11477,2025-08-16,Emergency Department,38,Female,77,5,4,5,Very good
+R11478,2025-08-16,Outpatients,63,Female,27,4,5,4,Very good
+R11479,2025-08-16,Emergency Department,66,Female,158,5,5,3,Very good
+R11480,2025-08-16,Maternity,27,Female,22,4,5,3,Very good
+R11481,2025-08-16,Outpatients,72,Female,27,4,3,3,Very good
+R11482,2025-08-16,Outpatients,37,Male,4,4,5,4,Very good
+R11483,2025-08-16,Emergency Department,71,Female,125,4,5,5,Very good
+R11484,2025-08-16,Inpatients,62,Male,84,5,4,3,Very good
+R11485,2025-08-17,Inpatients,42,Male,35,5,3,4,Very good
+R11486,2025-08-17,Emergency Department,41,Female,147,5,3,5,Very good
+R11487,2025-08-17,Inpatients,54,Male,190,4,3,4,Very good
+R11488,2025-08-17,Emergency Department,40,Female,395,4,5,5,Neither good nor poor
+R11489,2025-08-17,Emergency Department,61,Female,109,3,3,4,Good
+R11490,2025-08-17,Outpatients,28,Male,19,5,5,4,Very good
+R11491,2025-08-17,Outpatients,63,Male,13,5,5,4,Good
+R11492,2025-08-18,Emergency Department,33,Female,82,4,4,5,Very good
+R11493,2025-08-18,Outpatients,33,Male,4,4,4,5,Neither good nor poor
+R11494,2025-08-18,Inpatients,61,Male,41,5,5,4,Very good
+R11495,2025-08-18,Inpatients,73,Female,77,5,4,4,Good
+R11496,2025-08-18,Maternity,27,Female,20,5,5,3,Good
+R11497,2025-08-18,Inpatients,76,Male,46,5,5,4,Very good
+R11498,2025-08-18,Outpatients,56,Male,73,5,5,5,Very good
+R11499,2025-08-18,Emergency Department,24,Female,132,3,4,4,Good
+R11500,2025-08-18,Outpatients,22,Female,33,4,5,4,Very good
+R11501,2025-08-19,Emergency Department,47,Female,106,4,5,5,Very good
+R11502,2025-08-19,Maternity,37,Female,39,4,5,3,Very good
+R11503,2025-08-19,Maternity,21,Female,32,5,5,5,Very good
+R11504,2025-08-19,Maternity,35,Female,45,5,5,3,Good
+R11505,2025-08-20,Emergency Department,27,Male,54,3,4,3,Good
+R11506,2025-08-20,Inpatients,77,Female,114,5,5,4,Very good
+R11507,2025-08-20,Outpatients,50,Male,45,5,4,5,Good
+R11508,2025-08-20,Maternity,32,Female,15,4,3,3,Very good
+R11509,2025-08-20,Inpatients,64,Female,80,5,4,5,Very good
+R11510,2025-08-20,Maternity,27,Female,29,3,4,4,Very good
+R11511,2025-08-20,Emergency Department,20,Female,282,4,4,5,Very good
+R11512,2025-08-21,Outpatients,69,Male,97,3,4,4,Good
+R11513,2025-08-21,Outpatients,71,Female,35,5,5,4,Very good
+R11514,2025-08-21,Outpatients,66,Female,32,5,4,5,Very good
+R11515,2025-08-22,Emergency Department,42,Female,139,4,5,5,Very good
+R11516,2025-08-22,Outpatients,54,Female,6,5,4,5,Very good
+R11517,2025-08-22,Outpatients,43,Female,6,5,5,5,Very good
+R11518,2025-08-22,Outpatients,34,Male,19,5,5,5,Very good
+R11519,2025-08-22,Emergency Department,45,Female,104,3,4,5,Good
+R11520,2025-08-22,Outpatients,57,Female,13,4,3,4,Very good
+R11521,2025-08-22,Inpatients,74,Male,139,4,5,5,Very good
+R11522,2025-08-22,Outpatients,67,Female,26,4,3,3,Very good
+R11523,2025-08-22,Emergency Department,75,Female,96,5,3,5,Neither good nor poor
+R11524,2025-08-23,Maternity,26,Female,12,4,5,5,Very good
+R11525,2025-08-23,Emergency Department,55,Female,172,5,4,5,Very good
+R11526,2025-08-23,Inpatients,61,Male,48,3,4,4,Very good
+R11527,2025-08-23,Outpatients,30,Male,40,4,4,4,Good
+R11528,2025-08-23,Inpatients,71,Female,16,3,4,4,Very good
+R11529,2025-08-23,Emergency Department,47,Male,232,4,5,4,Very good
+R11530,2025-08-23,Inpatients,71,Female,49,5,5,4,Very good
+R11531,2025-08-23,Inpatients,30,Male,288,5,3,3,Very good
+R11532,2025-08-24,Emergency Department,52,Male,89,4,4,4,Neither good nor poor
+R11533,2025-08-24,Emergency Department,38,Female,233,3,5,4,Good
+R11534,2025-08-24,Emergency Department,54,Female,244,4,4,4,Very poor
+R11535,2025-08-24,Inpatients,79,Female,59,5,5,5,Very good
+R11536,2025-08-24,Emergency Department,38,Male,142,4,3,4,Very poor
+R11537,2025-08-24,Emergency Department,77,Male,187,4,4,5,Very good
+R11538,2025-08-24,Emergency Department,33,Male,169,4,5,4,Good
+R11539,2025-08-24,Emergency Department,60,Male,100,5,3,3,Very good
+R11540,2025-08-25,Outpatients,26,Male,29,4,4,5,Good
+R11541,2025-08-25,Outpatients,71,Male,8,5,4,5,Very good
+R11542,2025-08-25,Inpatients,53,Female,58,5,5,3,Very good
+R11543,2025-08-25,Emergency Department,42,Male,188,3,5,4,Neither good nor poor
+R11544,2025-08-26,Inpatients,60,Female,106,5,5,3,Good
+R11545,2025-08-26,Outpatients,45,Male,18,5,3,5,Good
+R11546,2025-08-26,Inpatients,94,Female,81,4,5,4,Very good
+R11547,2025-08-26,Inpatients,78,Female,88,5,3,4,Good
+R11548,2025-08-26,Emergency Department,42,Male,106,3,5,3,Very good
+R11549,2025-08-27,Outpatients,35,Female,29,5,5,4,Good
+R11550,2025-08-27,Outpatients,27,Male,7,4,5,3,Very good
+R11551,2025-08-27,Outpatients,52,Male,41,5,3,5,Good
+R11552,2025-08-27,Outpatients,38,Male,79,5,5,4,Very good
+R11553,2025-08-27,Emergency Department,42,Male,139,5,5,3,Good
+R11554,2025-08-28,Outpatients,76,Female,27,4,3,5,Very good
+R11555,2025-08-28,Emergency Department,43,Female,64,5,5,4,Very good
+R11556,2025-08-28,Outpatients,73,Male,50,4,5,4,Very good
+R11557,2025-08-28,Emergency Department,79,Male,145,4,5,3,Very good
+R11558,2025-08-28,Maternity,38,Female,13,4,4,5,Don't know
+R11559,2025-08-28,Outpatients,52,Female,7,5,4,5,Very good
+R11560,2025-08-29,Outpatients,65,Female,7,4,4,4,Good
+R11561,2025-08-29,Inpatients,79,Male,78,4,5,4,Good
+R11562,2025-08-29,Emergency Department,28,Female,204,3,5,3,Very good
+R11563,2025-08-29,Emergency Department,52,Male,66,5,4,4,Very good
+R11564,2025-08-29,Outpatients,49,Male,86,3,5,5,Good
+R11565,2025-08-29,Inpatients,67,Male,88,4,5,4,Very good
+R11566,2025-08-29,Inpatients,62,Female,172,3,5,4,Very good
+R11567,2025-08-29,Inpatients,84,Male,74,4,5,3,Very good
+R11568,2025-08-30,Emergency Department,60,Male,149,5,4,3,Very good
+R11569,2025-08-30,Outpatients,33,Male,40,5,5,5,Very good
+R11570,2025-08-30,Emergency Department,45,Male,219,4,5,5,Neither good nor poor
+R11571,2025-08-30,Outpatients,61,Female,9,4,5,4,Don't know
+R11572,2025-08-30,Emergency Department,46,Male,72,4,5,2,Very good
+R11573,2025-08-30,Emergency Department,62,Female,292,4,4,4,Very good
+R11574,2025-08-30,Maternity,36,Female,37,4,4,5,Very good
+R11575,2025-08-30,Emergency Department,46,Male,155,3,5,4,Good
+R11576,2025-08-30,Outpatients,64,Male,71,3,5,4,Very good
+R11577,2025-08-31,Outpatients,50,Female,32,5,4,5,Very good
+R11578,2025-08-31,Emergency Department,53,Male,167,4,4,5,Very good
+R11579,2025-08-31,Emergency Department,39,Female,75,5,4,5,Very good
+R11580,2025-08-31,Inpatients,54,Female,38,4,4,3,Good
+R11581,2025-08-31,Inpatients,56,Male,111,5,5,5,Very good
+R11582,2025-08-31,Emergency Department,39,Male,93,4,3,4,Good
+R11583,2025-08-31,Outpatients,48,Female,11,5,3,3,Very good
+R11584,2025-08-31,Outpatients,45,Female,11,3,5,4,Good
+R11585,2025-08-31,Emergency Department,41,Male,159,4,5,5,Don't know
+R11586,2025-08-31,Outpatients,58,Female,32,4,4,3,Good
+R11587,2025-08-31,Emergency Department,58,Female,326,4,5,4,Very good
+R11588,2025-08-31,Outpatients,70,Female,7,5,5,5,Very good
+R11589,2025-08-31,Inpatients,64,Female,61,4,5,4,Very good
+R11590,2025-09-01,Outpatients,51,Male,23,3,5,4,Very good
+R11591,2025-09-01,Emergency Department,40,Female,211,4,5,4,Very good
+R11592,2025-09-01,Outpatients,55,Female,25,4,5,5,Good
+R11593,2025-09-01,Inpatients,47,Male,35,5,3,4,Very good
+R11594,2025-09-02,Inpatients,56,Female,60,4,4,4,Very good
+R11595,2025-09-02,Outpatients,32,Female,12,5,5,5,Very good
+R11596,2025-09-02,Inpatients,52,Female,32,4,4,4,Very good
+R11597,2025-09-02,Outpatients,34,Male,11,5,3,5,Very good
+R11598,2025-09-02,Maternity,43,Female,29,5,4,4,Very good
+R11599,2025-09-02,Outpatients,38,Male,32,3,4,4,Good
+R11600,2025-09-03,Inpatients,81,Male,65,5,4,4,Very good
+R11601,2025-09-03,Outpatients,68,Female,128,3,5,5,Very good
+R11602,2025-09-03,Maternity,31,Female,29,3,5,4,Very poor
+R11603,2025-09-03,Inpatients,47,Female,61,2,5,5,Very good
+R11604,2025-09-03,Emergency Department,47,Female,200,2,3,3,Good
+R11605,2025-09-03,Inpatients,65,Male,26,3,4,5,Poor
+R11606,2025-09-03,Outpatients,50,Female,15,5,5,5,Very good
+R11607,2025-09-03,Inpatients,80,Female,70,4,5,5,Very good
+R11608,2025-09-03,Maternity,27,Female,54,3,4,5,Very poor
+R11609,2025-09-03,Emergency Department,54,Female,115,5,4,4,Good
+R11610,2025-09-04,Inpatients,58,Male,112,4,3,3,Don't know
+R11611,2025-09-04,Outpatients,76,Female,9,3,4,4,Good
+R11612,2025-09-04,Inpatients,49,Female,53,4,4,5,Good
+R11613,2025-09-04,Emergency Department,51,Male,142,5,3,4,Good
+R11614,2025-09-04,Inpatients,75,Male,24,5,3,5,Very good
+R11615,2025-09-04,Outpatients,36,Male,23,5,3,5,Very good
+R11616,2025-09-04,Maternity,29,Female,25,3,5,4,Good
+R11617,2025-09-04,Emergency Department,47,Male,290,4,4,5,Good
+R11618,2025-09-04,Inpatients,88,Female,95,5,4,4,Very good
+R11619,2025-09-05,Outpatients,70,Female,15,4,4,4,Good
+R11620,2025-09-05,Outpatients,33,Female,18,4,5,4,Very good
+R11621,2025-09-05,Inpatients,54,Male,43,4,5,5,Very good
+R11622,2025-09-05,Outpatients,66,Female,6,5,4,4,Very good
+R11623,2025-09-05,Emergency Department,17,Male,306,4,4,5,Good
+R11624,2025-09-05,Outpatients,68,Male,27,4,4,5,Very good
+R11625,2025-09-05,Inpatients,33,Female,40,4,5,4,Very good
+R11626,2025-09-05,Emergency Department,46,Female,123,4,4,5,Very poor
+R11627,2025-09-06,Outpatients,47,Female,41,5,5,4,Very good
+R11628,2025-09-06,Outpatients,64,Female,47,5,5,4,Very good
+R11629,2025-09-06,Emergency Department,54,Male,192,4,5,4,Good
+R11630,2025-09-06,Emergency Department,35,Female,77,5,5,5,Very good
+R11631,2025-09-06,Inpatients,83,Male,32,3,4,5,Very good
+R11632,2025-09-06,Inpatients,65,Female,64,4,4,3,Very good
+R11633,2025-09-06,Emergency Department,46,Female,145,4,3,5,Good
+R11634,2025-09-07,Inpatients,79,Female,33,5,5,3,Very good
+R11635,2025-09-07,Outpatients,40,Female,58,5,4,4,Good
+R11636,2025-09-07,Emergency Department,50,Female,372,5,4,4,Good
+R11637,2025-09-07,Inpatients,64,Female,88,3,4,3,Very good
+R11638,2025-09-07,Inpatients,84,Male,66,5,5,5,Very good
+R11639,2025-09-07,Outpatients,45,Female,48,4,5,5,Very good
+R11640,2025-09-07,Outpatients,57,Female,10,4,4,4,Very good
+R11641,2025-09-07,Inpatients,77,Female,79,4,5,4,Good
+R11642,2025-09-07,Inpatients,53,Male,90,4,4,4,Very good
+R11643,2025-09-07,Outpatients,53,Male,41,5,4,5,Very good
+R11644,2025-09-07,Outpatients,36,Male,19,4,4,5,Very good
+R11645,2025-09-07,Maternity,16,Female,44,5,5,3,Good
+R11646,2025-09-07,Outpatients,62,Male,17,5,4,4,Very good
+R11647,2025-09-08,Emergency Department,68,Female,72,5,5,5,Good
+R11648,2025-09-08,Inpatients,68,Male,77,4,4,4,Very good
+R11649,2025-09-08,Emergency Department,62,Female,106,4,5,4,Very good
+R11650,2025-09-08,Inpatients,73,Male,95,3,5,5,Very good
+R11651,2025-09-08,Inpatients,81,Male,62,5,5,5,Very good
+R11652,2025-09-08,Inpatients,36,Female,32,3,5,5,Very good
+R11653,2025-09-09,Maternity,26,Female,21,4,5,5,Very good
+R11654,2025-09-09,Inpatients,92,Male,96,4,5,5,Very good
+R11655,2025-09-09,Emergency Department,50,Male,68,3,5,4,Very good
+R11656,2025-09-09,Emergency Department,60,Male,186,4,3,5,Very poor
+R11657,2025-09-09,Inpatients,66,Female,58,3,5,5,Very good
+R11658,2025-09-09,Inpatients,78,Female,114,5,4,5,Very good
+R11659,2025-09-09,Emergency Department,40,Male,134,5,4,3,Very good
+R11660,2025-09-09,Inpatients,70,Male,62,5,5,4,Very good
+R11661,2025-09-09,Outpatients,26,Female,20,5,4,4,Very good
+R11662,2025-09-09,Emergency Department,36,Male,222,4,4,3,Good
+R11663,2025-09-09,Emergency Department,21,Female,105,3,4,5,Good
+R11664,2025-09-10,Inpatients,37,Female,106,4,5,5,Very good
+R11665,2025-09-10,Inpatients,66,Female,33,4,5,4,Very good
+R11666,2025-09-11,Inpatients,43,Male,95,4,5,4,Very good
+R11667,2025-09-11,Inpatients,74,Female,73,5,4,4,Very good
+R11668,2025-09-11,Maternity,31,Female,26,5,3,5,Good
+R11669,2025-09-11,Emergency Department,60,Male,345,4,4,5,Very poor
+R11670,2025-09-11,Outpatients,64,Female,5,5,5,3,Very good
+R11671,2025-09-11,Inpatients,72,Male,71,4,5,4,Very good
+R11672,2025-09-11,Emergency Department,26,Male,98,4,5,5,Very good
+R11673,2025-09-11,Emergency Department,32,Male,83,5,4,4,Good
+R11674,2025-09-11,Emergency Department,57,Female,129,4,3,4,Very good
+R11675,2025-09-12,Inpatients,61,Female,55,4,5,4,Very good
+R11676,2025-09-12,Inpatients,60,Male,77,4,5,5,Don't know
+R11677,2025-09-12,Emergency Department,73,Female,185,5,5,4,Good
+R11678,2025-09-12,Emergency Department,71,Male,75,5,4,5,Neither good nor poor
+R11679,2025-09-12,Emergency Department,55,Female,147,3,5,4,Neither good nor poor
+R11680,2025-09-12,Emergency Department,60,Male,319,4,5,5,Very good
+R11681,2025-09-13,Emergency Department,23,Male,115,4,3,4,Good
+R11682,2025-09-13,Outpatients,67,Male,6,4,3,3,Good
+R11683,2025-09-13,Maternity,29,Female,26,4,5,5,Very good
+R11684,2025-09-13,Emergency Department,70,Female,160,4,4,4,Very good
+R11685,2025-09-13,Outpatients,52,Male,31,4,5,5,Good
+R11686,2025-09-13,Outpatients,48,Male,37,5,5,4,Very good
+R11687,2025-09-14,Inpatients,45,Male,51,4,5,3,Very good
+R11688,2025-09-14,Emergency Department,19,Female,251,4,4,4,Good
+R11689,2025-09-14,Inpatients,74,Female,17,3,3,5,Very good
+R11690,2025-09-14,Outpatients,77,Female,25,5,3,4,Very good
+R11691,2025-09-14,Outpatients,64,Female,29,4,4,4,Very good
+R11692,2025-09-14,Outpatients,45,Female,15,4,5,5,Very good
+R11693,2025-09-14,Emergency Department,44,Male,291,4,5,5,Good
+R11694,2025-09-14,Outpatients,61,Female,74,3,5,4,Very good
+R11695,2025-09-14,Outpatients,56,Male,21,3,3,4,Neither good nor poor
+R11696,2025-09-14,Inpatients,58,Male,61,5,4,3,Very good
+R11697,2025-09-14,Outpatients,45,Female,9,2,4,3,Very good
+R11698,2025-09-15,Outpatients,61,Female,7,5,5,4,Very good
+R11699,2025-09-15,Inpatients,95,Female,30,4,3,4,Very good
+R11700,2025-09-15,Inpatients,59,Female,38,5,5,5,Very good
+R11701,2025-09-15,Inpatients,63,Male,14,5,4,4,Very good
+R11702,2025-09-15,Maternity,23,Female,14,4,4,5,Very good
+R11703,2025-09-16,Emergency Department,52,Male,168,4,4,4,Neither good nor poor
+R11704,2025-09-16,Outpatients,47,Male,11,4,3,5,Very good
+R11705,2025-09-16,Inpatients,51,Female,32,4,5,5,Very good
+R11706,2025-09-16,Inpatients,40,Female,169,4,4,3,Good
+R11707,2025-09-16,Emergency Department,57,Female,95,4,5,4,Good
+R11708,2025-09-16,Inpatients,67,Male,93,3,5,4,Very good
+R11709,2025-09-17,Inpatients,60,Male,79,4,4,5,Very good
+R11710,2025-09-17,Maternity,21,Female,7,4,4,4,Very good
+R11711,2025-09-17,Emergency Department,29,Female,101,3,5,4,Neither good nor poor
+R11712,2025-09-17,Inpatients,19,Male,38,4,4,4,Very good
+R11713,2025-09-17,Inpatients,69,Male,42,4,4,4,Very good
+R11714,2025-09-17,Maternity,37,Female,35,4,3,5,Very good
+R11715,2025-09-18,Emergency Department,66,Male,274,2,5,3,Poor
+R11716,2025-09-18,Outpatients,70,Female,22,3,4,3,Very good
+R11717,2025-09-18,Emergency Department,43,Female,102,5,5,5,Very good
+R11718,2025-09-19,Emergency Department,38,Female,189,4,4,4,Very good
+R11719,2025-09-19,Outpatients,31,Female,29,5,5,4,Very good
+R11720,2025-09-19,Emergency Department,62,Female,176,5,5,4,Very good
+R11721,2025-09-19,Emergency Department,46,Female,200,5,4,4,Neither good nor poor
+R11722,2025-09-19,Outpatients,36,Female,38,5,3,3,Good
+R11723,2025-09-19,Maternity,34,Female,19,5,3,4,Very good
+R11724,2025-09-19,Inpatients,90,Female,39,3,4,5,Very good
+R11725,2025-09-20,Maternity,28,Female,20,4,3,3,Very good
+R11726,2025-09-20,Outpatients,45,Male,7,4,5,4,Very good
+R11727,2025-09-20,Outpatients,63,Male,23,4,4,4,Good
+R11728,2025-09-20,Emergency Department,40,Male,124,4,4,3,Good
+R11729,2025-09-20,Outpatients,54,Female,5,3,5,5,Very good
+R11730,2025-09-20,Maternity,34,Female,26,5,5,4,Very good
+R11731,2025-09-21,Outpatients,57,Female,4,5,4,5,Very good
+R11732,2025-09-21,Emergency Department,39,Male,71,5,5,4,Neither good nor poor
+R11733,2025-09-22,Maternity,29,Female,15,4,2,5,Very good
+R11734,2025-09-22,Maternity,34,Female,22,5,5,3,Good
+R11735,2025-09-22,Outpatients,35,Male,21,5,5,4,Very good
+R11736,2025-09-22,Outpatients,39,Male,10,4,4,5,Neither good nor poor
+R11737,2025-09-22,Outpatients,41,Female,3,5,4,4,Very good
+R11738,2025-09-22,Inpatients,68,Female,59,4,5,4,Very good
+R11739,2025-09-22,Inpatients,62,Female,120,4,5,5,Very good
+R11740,2025-09-23,Emergency Department,39,Male,182,4,4,3,Good
+R11741,2025-09-23,Maternity,30,Female,86,2,4,3,Good
+R11742,2025-09-23,Inpatients,45,Male,101,4,5,5,Very good
+R11743,2025-09-23,Inpatients,58,Male,153,4,4,5,Very good
+R11744,2025-09-23,Inpatients,82,Female,50,3,3,4,Poor
+R11745,2025-09-23,Outpatients,57,Female,13,5,4,5,Very good
+R11746,2025-09-23,Inpatients,50,Male,47,4,4,5,Very good
+R11747,2025-09-23,Emergency Department,63,Male,212,5,3,4,Neither good nor poor
+R11748,2025-09-23,Outpatients,93,Male,13,4,5,4,Very good
+R11749,2025-09-23,Outpatients,66,Male,31,4,4,4,Very good
+R11750,2025-09-23,Maternity,37,Female,37,4,5,3,Very good
+R11751,2025-09-24,Emergency Department,60,Female,284,4,5,5,Good
+R11752,2025-09-24,Maternity,24,Female,56,3,4,4,Good
+R11753,2025-09-24,Outpatients,33,Female,4,4,4,5,Very good
+R11754,2025-09-25,Inpatients,61,Male,42,4,5,5,Very good
+R11755,2025-09-25,Outpatients,63,Female,24,5,5,4,Very good
+R11756,2025-09-25,Inpatients,52,Male,64,4,5,5,Very good
+R11757,2025-09-25,Outpatients,16,Male,86,4,3,5,Good
+R11758,2025-09-25,Emergency Department,25,Male,154,3,5,5,Very good
+R11759,2025-09-26,Emergency Department,67,Male,359,3,4,3,Good
+R11760,2025-09-26,Maternity,16,Female,14,3,5,4,Don't know
+R11761,2025-09-26,Emergency Department,49,Female,90,4,5,3,Good
+R11762,2025-09-26,Maternity,27,Female,133,4,4,5,Very good
+R11763,2025-09-26,Maternity,16,Female,43,4,4,4,Very good
+R11764,2025-09-27,Maternity,34,Female,88,5,5,5,Very good
+R11765,2025-09-27,Outpatients,43,Female,19,5,4,4,Very good
+R11766,2025-09-27,Inpatients,46,Male,53,3,4,4,Very good
+R11767,2025-09-27,Maternity,24,Female,64,5,4,4,Very good
+R11768,2025-09-27,Maternity,24,Female,65,4,4,4,Very good
+R11769,2025-09-28,Inpatients,48,Female,49,3,5,5,Very good
+R11770,2025-09-28,Emergency Department,42,Female,271,5,5,5,Neither good nor poor
+R11771,2025-09-28,Maternity,30,Female,19,5,4,5,Good
+R11772,2025-09-28,Inpatients,57,Male,25,5,5,5,Very good
+R11773,2025-09-29,Emergency Department,46,Female,85,4,4,5,Good
+R11774,2025-09-29,Maternity,31,Female,40,5,5,2,Very good
+R11775,2025-09-29,Inpatients,58,Female,393,3,5,5,Very good
+R11776,2025-09-29,Outpatients,53,Female,100,3,3,5,Very good
+R11777,2025-09-29,Outpatients,58,Female,14,4,3,4,Very good
+R11778,2025-09-29,Emergency Department,42,Female,94,5,5,3,Very good
+R11779,2025-09-30,Emergency Department,47,Female,162,3,5,4,Neither good nor poor
+R11780,2025-09-30,Emergency Department,16,Male,156,4,5,4,Neither good nor poor
+R11781,2025-09-30,Emergency Department,43,Male,425,5,4,4,Good
+R11782,2025-09-30,Emergency Department,16,Male,90,5,5,5,Very good
+R11783,2025-10-01,Outpatients,69,Male,60,4,4,3,Very good
+R11784,2025-10-01,Outpatients,78,Female,24,5,5,4,Very good
+R11785,2025-10-01,Emergency Department,40,Female,112,3,4,4,Very good
+R11786,2025-10-01,Outpatients,70,Female,18,4,5,4,Good
+R11787,2025-10-01,Outpatients,23,Male,3,5,4,4,Very good
+R11788,2025-10-01,Outpatients,45,Male,22,5,3,4,Good
+R11789,2025-10-01,Emergency Department,50,Female,45,4,3,4,Very good
+R11790,2025-10-01,Emergency Department,65,Female,110,5,5,5,Very good
+R11791,2025-10-02,Inpatients,43,Female,66,4,4,4,Good
+R11792,2025-10-02,Outpatients,46,Male,54,3,4,5,Very good
+R11793,2025-10-02,Outpatients,36,Male,31,4,5,4,Very good
+R11794,2025-10-03,Outpatients,53,Female,49,3,4,3,Neither good nor poor
+R11795,2025-10-03,Outpatients,80,Male,7,5,3,4,Good
+R11796,2025-10-03,Inpatients,80,Female,112,4,4,4,Very good
+R11797,2025-10-03,Emergency Department,53,Female,156,4,5,4,Good
+R11798,2025-10-03,Emergency Department,61,Female,523,4,4,3,Very good
+R11799,2025-10-04,Inpatients,58,Female,84,4,3,4,Good
+R11800,2025-10-04,Outpatients,35,Female,27,4,4,5,Very good
+R11801,2025-10-04,Emergency Department,42,Female,109,5,3,5,Very good
+R11802,2025-10-04,Inpatients,79,Female,59,4,5,5,Very good
+R11803,2025-10-04,Outpatients,62,Female,16,4,4,5,Don't know
+R11804,2025-10-04,Emergency Department,47,Female,87,4,4,5,Very good
+R11805,2025-10-04,Inpatients,78,Male,118,3,4,4,Good
+R11806,2025-10-05,Maternity,42,Female,31,4,4,4,Neither good nor poor
+R11807,2025-10-05,Emergency Department,37,Female,188,3,5,5,Very good
+R11808,2025-10-05,Outpatients,41,Male,20,5,5,4,Very good
+R11809,2025-10-05,Inpatients,78,Male,32,5,4,3,Very good
+R11810,2025-10-05,Outpatients,50,Female,13,5,5,4,Very good
+R11811,2025-10-05,Outpatients,49,Female,52,5,4,5,Very good
+R11812,2025-10-05,Inpatients,61,Female,29,5,5,5,Very good
+R11813,2025-10-05,Maternity,28,Female,34,5,4,3,Very good
+R11814,2025-10-05,Inpatients,56,Male,214,4,5,3,Very good
+R11815,2025-10-06,Inpatients,60,Male,48,3,4,3,Very good
+R11816,2025-10-06,Maternity,24,Female,57,4,5,4,Very good
+R11817,2025-10-06,Emergency Department,45,Male,82,4,4,5,Very good
+R11818,2025-10-06,Inpatients,64,Female,66,4,5,4,Very good
+R11819,2025-10-06,Outpatients,38,Male,13,4,4,5,Very good
+R11820,2025-10-06,Outpatients,51,Female,11,3,5,4,Very good
+R11821,2025-10-06,Inpatients,52,Female,60,4,5,3,Very good
+R11822,2025-10-06,Inpatients,73,Male,50,5,4,3,Very good
+R11823,2025-10-06,Maternity,23,Female,24,5,4,4,Very good
+R11824,2025-10-06,Outpatients,67,Male,7,4,4,3,Very good
+R11825,2025-10-06,Inpatients,63,Female,98,5,5,5,Very good
+R11826,2025-10-06,Outpatients,55,Male,32,5,4,5,Very good
+R11827,2025-10-07,Emergency Department,72,Female,83,3,3,4,Very good
+R11828,2025-10-07,Inpatients,84,Male,97,3,4,4,Very good
+R11829,2025-10-07,Outpatients,56,Female,40,3,5,3,Don't know
+R11830,2025-10-07,Outpatients,62,Female,4,4,4,4,Very good
+R11831,2025-10-07,Outpatients,53,Male,15,4,4,4,Very good
+R11832,2025-10-08,Emergency Department,56,Male,55,4,5,3,Very good
+R11833,2025-10-08,Inpatients,33,Male,39,5,4,4,Very good
+R11834,2025-10-08,Emergency Department,63,Female,210,3,4,4,Very good
+R11835,2025-10-08,Inpatients,75,Male,119,4,3,5,Very good
+R11836,2025-10-08,Emergency Department,42,Male,187,4,4,5,Good
+R11837,2025-10-08,Inpatients,74,Male,30,4,5,5,Very good
+R11838,2025-10-08,Maternity,31,Female,39,5,5,4,Very good
+R11839,2025-10-08,Emergency Department,49,Female,125,4,5,4,Very good
+R11840,2025-10-09,Inpatients,53,Male,86,3,5,4,Very good
+R11841,2025-10-09,Emergency Department,38,Male,143,3,5,5,Very good
+R11842,2025-10-09,Inpatients,60,Female,37,4,4,5,Very good
+R11843,2025-10-09,Outpatients,53,Male,22,4,4,5,Very good
+R11844,2025-10-09,Emergency Department,24,Female,133,4,3,4,Good
+R11845,2025-10-09,Outpatients,50,Female,66,4,4,3,Very poor
+R11846,2025-10-09,Inpatients,30,Male,307,4,4,5,Don't know
+R11847,2025-10-09,Inpatients,69,Male,36,5,2,5,Very good
+R11848,2025-10-09,Emergency Department,59,Male,375,5,3,5,Good
+R11849,2025-10-10,Outpatients,43,Female,177,3,5,5,Good
+R11850,2025-10-10,Outpatients,45,Male,45,5,4,4,Very good
+R11851,2025-10-10,Emergency Department,16,Male,113,4,5,4,Neither good nor poor
+R11852,2025-10-10,Inpatients,64,Male,68,5,4,4,Very good
+R11853,2025-10-10,Outpatients,62,Female,13,3,4,4,Very good
+R11854,2025-10-11,Inpatients,65,Male,100,4,4,4,Don't know
+R11855,2025-10-11,Outpatients,37,Male,33,5,5,5,Very good
+R11856,2025-10-11,Emergency Department,21,Female,270,5,5,4,Very good
+R11857,2025-10-11,Emergency Department,29,Male,207,4,5,4,Very good
+R11858,2025-10-11,Inpatients,95,Male,63,3,4,4,Very poor
+R11859,2025-10-11,Inpatients,55,Male,97,4,4,5,Very good
+R11860,2025-10-11,Outpatients,38,Male,25,4,5,5,Very good
+R11861,2025-10-11,Outpatients,67,Female,34,4,3,4,Very good
+R11862,2025-10-11,Inpatients,56,Female,125,3,4,2,Good
+R11863,2025-10-12,Emergency Department,58,Female,169,5,4,3,Very good
+R11864,2025-10-12,Emergency Department,31,Female,73,4,4,4,Good
+R11865,2025-10-12,Maternity,21,Female,20,5,4,5,Very good
+R11866,2025-10-12,Inpatients,48,Female,69,5,3,4,Very good
+R11867,2025-10-13,Emergency Department,39,Female,132,5,5,5,Very good
+R11868,2025-10-13,Emergency Department,42,Female,147,5,5,5,Good
+R11869,2025-10-13,Outpatients,45,Male,27,3,3,4,Very good
+R11870,2025-10-13,Emergency Department,37,Female,287,4,4,4,Very good
+R11871,2025-10-13,Inpatients,92,Female,67,5,4,4,Very good
+R11872,2025-10-13,Outpatients,65,Male,19,4,3,5,Very good
+R11873,2025-10-14,Emergency Department,38,Female,115,5,5,4,Don't know
+R11874,2025-10-14,Emergency Department,45,Female,160,5,4,5,Very good
+R11875,2025-10-14,Maternity,29,Female,28,4,5,5,Very good
+R11876,2025-10-14,Emergency Department,31,Male,224,3,5,4,Very good
+R11877,2025-10-14,Emergency Department,35,Female,190,3,5,5,Neither good nor poor
+R11878,2025-10-14,Inpatients,69,Female,57,3,4,3,Very good
+R11879,2025-10-14,Outpatients,60,Female,22,5,5,5,Very good
+R11880,2025-10-14,Outpatients,56,Female,20,5,4,5,Good
+R11881,2025-10-14,Emergency Department,64,Male,384,4,5,5,Good
+R11882,2025-10-15,Maternity,29,Female,19,4,5,5,Very good
+R11883,2025-10-15,Outpatients,48,Male,17,4,5,4,Very good
+R11884,2025-10-15,Inpatients,57,Female,40,3,5,5,Very good
+R11885,2025-10-15,Outpatients,34,Female,14,5,4,4,Good
+R11886,2025-10-15,Outpatients,57,Female,18,4,5,5,Very good
+R11887,2025-10-15,Emergency Department,41,Male,61,4,4,4,Very good
+R11888,2025-10-15,Inpatients,60,Female,101,5,5,5,Very good
+R11889,2025-10-15,Maternity,20,Female,101,3,4,3,Good
+R11890,2025-10-16,Emergency Department,54,Female,110,4,4,5,Good
+R11891,2025-10-16,Emergency Department,37,Male,183,4,4,4,Poor
+R11892,2025-10-16,Inpatients,45,Female,43,4,5,5,Very good
+R11893,2025-10-16,Inpatients,79,Male,27,4,5,4,Very good
+R11894,2025-10-16,Outpatients,65,Male,15,4,4,5,Very good
+R11895,2025-10-16,Outpatients,51,Female,10,4,5,5,Very good
+R11896,2025-10-16,Outpatients,50,Female,17,5,5,3,Very good
+R11897,2025-10-17,Outpatients,42,Male,127,5,4,4,Very good
+R11898,2025-10-17,Outpatients,77,Male,11,3,5,3,Good
+R11899,2025-10-17,Outpatients,37,Male,17,4,5,5,Very good
+R11900,2025-10-17,Outpatients,59,Female,18,4,4,4,Very good
+R11901,2025-10-17,Inpatients,60,Female,121,4,4,4,Very good
+R11902,2025-10-17,Inpatients,58,Male,114,4,5,3,Good
+R11903,2025-10-18,Outpatients,31,Male,38,4,5,5,Very good
+R11904,2025-10-18,Emergency Department,41,Female,301,4,5,4,Good
+R11905,2025-10-18,Outpatients,50,Female,8,5,4,5,Very good
+R11906,2025-10-19,Outpatients,60,Female,10,4,4,4,Very good
+R11907,2025-10-19,Inpatients,56,Male,45,3,4,4,Good
+R11908,2025-10-19,Emergency Department,27,Male,213,4,5,3,Good
+R11909,2025-10-19,Emergency Department,47,Male,111,4,5,4,Very good
+R11910,2025-10-19,Outpatients,45,Female,43,5,4,4,Very good
+R11911,2025-10-19,Outpatients,42,Male,11,4,4,4,Very good
+R11912,2025-10-19,Maternity,34,Female,37,3,4,4,Very good
+R11913,2025-10-19,Inpatients,69,Male,96,3,3,5,Very good
+R11914,2025-10-19,Inpatients,54,Female,89,4,4,4,Good
+R11915,2025-10-20,Emergency Department,50,Male,65,4,5,3,Very good
+R11916,2025-10-20,Outpatients,74,Male,20,4,4,5,Very good
+R11917,2025-10-20,Outpatients,57,Male,15,4,3,4,Very good
+R11918,2025-10-20,Emergency Department,28,Male,94,4,4,4,Very good
+R11919,2025-10-20,Outpatients,57,Female,82,4,3,4,Neither good nor poor
+R11920,2025-10-20,Outpatients,55,Female,44,4,4,3,Very good
+R11921,2025-10-21,Outpatients,54,Female,52,3,5,5,Very good
+R11922,2025-10-21,Inpatients,38,Male,126,4,4,5,Very good
+R11923,2025-10-21,Maternity,25,Female,17,4,4,4,Very good
+R11924,2025-10-21,Emergency Department,48,Female,163,5,4,3,Very good
+R11925,2025-10-21,Inpatients,60,Male,73,5,4,5,Very good
+R11926,2025-10-21,Emergency Department,71,Male,246,4,5,5,Good
+R11927,2025-10-21,Emergency Department,43,Male,57,5,5,3,Very good
+R11928,2025-10-21,Outpatients,47,Male,10,4,4,5,Neither good nor poor
+R11929,2025-10-21,Inpatients,67,Female,57,4,4,5,Very good
+R11930,2025-10-21,Inpatients,66,Female,63,3,3,3,Very good
+R11931,2025-10-22,Emergency Department,50,Female,100,3,3,4,Very good
+R11932,2025-10-22,Emergency Department,69,Female,153,5,4,5,Very poor
+R11933,2025-10-22,Outpatients,58,Female,27,3,4,5,Very good
+R11934,2025-10-22,Emergency Department,44,Male,187,4,4,5,Good
+R11935,2025-10-22,Emergency Department,56,Female,224,3,5,4,Good
+R11936,2025-10-22,Emergency Department,50,Female,177,4,5,2,Neither good nor poor
+R11937,2025-10-22,Inpatients,48,Female,50,5,3,4,Very good
+R11938,2025-10-22,Outpatients,48,Female,27,3,5,4,Good
+R11939,2025-10-22,Outpatients,64,Male,19,5,4,4,Very good
+R11940,2025-10-23,Outpatients,26,Male,36,5,5,5,Very good
+R11941,2025-10-23,Inpatients,65,Male,29,5,5,4,Very good
+R11942,2025-10-23,Emergency Department,46,Female,76,4,4,4,Very good
+R11943,2025-10-23,Maternity,20,Female,34,5,4,4,Very good
+R11944,2025-10-23,Inpatients,40,Male,48,5,4,4,Very good
+R11945,2025-10-23,Emergency Department,48,Male,208,4,4,5,Very poor
+R11946,2025-10-23,Emergency Department,35,Male,96,5,4,5,Very good
+R11947,2025-10-24,Emergency Department,35,Female,373,4,5,4,Good
+R11948,2025-10-24,Inpatients,87,Female,60,3,4,3,Very good
+R11949,2025-10-24,Emergency Department,39,Male,48,4,4,3,Good
+R11950,2025-10-24,Inpatients,51,Male,61,5,5,5,Very good
+R11951,2025-10-24,Emergency Department,38,Male,274,3,5,4,Very good
+R11952,2025-10-24,Emergency Department,67,Female,162,4,4,4,Good
+R11953,2025-10-25,Outpatients,66,Female,21,5,5,4,Very good
+R11954,2025-10-25,Emergency Department,68,Female,192,3,3,5,Neither good nor poor
+R11955,2025-10-25,Inpatients,61,Male,70,5,4,5,Very good
+R11956,2025-10-25,Maternity,26,Female,27,4,5,5,Very good
+R11957,2025-10-25,Emergency Department,73,Male,242,5,3,5,Neither good nor poor
+R11958,2025-10-25,Outpatients,42,Female,18,5,3,5,Very good
+R11959,2025-10-25,Inpatients,57,Female,34,4,3,4,Very good
+R11960,2025-10-25,Outpatients,46,Male,44,4,5,5,Very good
+R11961,2025-10-26,Emergency Department,54,Female,98,4,4,4,Good
+R11962,2025-10-26,Outpatients,51,Female,24,4,5,5,Very good
+R11963,2025-10-26,Outpatients,53,Male,33,5,5,5,Very good
+R11964,2025-10-26,Maternity,21,Female,22,5,5,4,Very good
+R11965,2025-10-26,Inpatients,42,Female,36,4,5,5,Very good
+R11966,2025-10-26,Emergency Department,45,Female,247,4,5,4,Very good
+R11967,2025-10-27,Emergency Department,53,Male,128,5,4,5,Good
+R11968,2025-10-27,Inpatients,94,Male,133,5,5,4,Very good
+R11969,2025-10-27,Emergency Department,30,Female,288,5,4,4,Good
+R11970,2025-10-27,Emergency Department,16,Male,184,4,5,4,Poor
+R11971,2025-10-27,Outpatients,42,Male,35,5,5,5,Very good
+R11972,2025-10-27,Outpatients,62,Female,12,5,5,5,Good
+R11973,2025-10-27,Emergency Department,30,Female,190,3,4,4,Very good
+R11974,2025-10-27,Emergency Department,56,Female,251,4,4,5,Neither good nor poor
+R11975,2025-10-28,Inpatients,50,Female,48,5,5,4,Very good
+R11976,2025-10-28,Inpatients,55,Female,26,5,5,3,Very good
+R11977,2025-10-28,Maternity,30,Female,55,5,4,3,Very good
+R11978,2025-10-29,Outpatients,55,Female,20,3,5,4,Good
+R11979,2025-10-29,Inpatients,81,Female,98,3,4,3,Very good
+R11980,2025-10-29,Inpatients,72,Male,114,3,4,4,Very good
+R11981,2025-10-29,Inpatients,30,Male,131,3,4,4,Very good
+R11982,2025-10-29,Emergency Department,42,Male,61,4,4,5,Good
+R11983,2025-10-29,Inpatients,32,Female,71,4,5,5,Very good
+R11984,2025-10-29,Outpatients,71,Female,5,4,4,4,Good
+R11985,2025-10-29,Emergency Department,40,Male,221,4,5,5,Good
+R11986,2025-10-30,Outpatients,63,Female,5,5,4,5,Very good
+R11987,2025-10-30,Outpatients,59,Female,26,4,5,4,Very good
+R11988,2025-10-30,Outpatients,51,Male,10,4,5,5,Very good
+R11989,2025-10-30,Outpatients,60,Female,9,5,4,4,Very good
+R11990,2025-10-30,Emergency Department,50,Female,180,5,5,5,Very good
+R11991,2025-10-30,Outpatients,58,Male,44,4,4,5,Very good
+R11992,2025-10-31,Maternity,22,Female,19,4,5,5,Very good
+R11993,2025-10-31,Emergency Department,78,Male,600,3,4,3,Good
+R11994,2025-10-31,Emergency Department,49,Female,132,4,5,4,Very good
+R11995,2025-10-31,Emergency Department,49,Male,156,5,4,3,Good
+R11996,2025-10-31,Inpatients,38,Female,70,4,5,3,Very good
+R11997,2025-10-31,Maternity,24,Female,11,4,5,5,Very good
+R11998,2025-10-31,Outpatients,45,Female,22,5,4,5,Very good
+R11999,2025-10-31,Inpatients,72,Female,135,5,5,5,Very good
+R12000,2025-11-01,Inpatients,54,Female,23,4,5,3,Very good
+R12001,2025-11-01,Outpatients,68,Female,8,3,5,3,Very good
+R12002,2025-11-01,Outpatients,62,Female,10,3,3,4,Very good
+R12003,2025-11-01,Maternity,38,Female,15,4,5,4,Very good
+R12004,2025-11-01,Outpatients,47,Male,8,4,4,4,Very good
+R12005,2025-11-01,Maternity,27,Female,49,4,3,4,Very good
+R12006,2025-11-01,Maternity,21,Female,41,3,5,5,Very good
+R12007,2025-11-02,Inpatients,48,Male,32,5,4,4,Very good
+R12008,2025-11-02,Emergency Department,42,Female,29,4,5,5,Good
+R12009,2025-11-02,Emergency Department,42,Male,90,4,3,5,Poor
+R12010,2025-11-02,Inpatients,77,Male,24,5,3,5,Very good
+R12011,2025-11-02,Inpatients,53,Female,72,5,4,4,Very good
+R12012,2025-11-02,Maternity,28,Female,77,4,4,4,Very good
+R12013,2025-11-02,Inpatients,62,Female,46,3,4,4,Very good
+R12014,2025-11-02,Emergency Department,40,Female,68,4,5,4,Very good
+R12015,2025-11-02,Outpatients,26,Male,6,3,3,4,Neither good nor poor
+R12016,2025-11-03,Maternity,24,Female,70,4,5,4,Very good
+R12017,2025-11-03,Inpatients,35,Male,133,4,5,5,Very good
+R12018,2025-11-03,Inpatients,47,Female,118,3,4,4,Neither good nor poor
+R12019,2025-11-03,Outpatients,63,Female,37,4,4,3,Good
+R12020,2025-11-03,Maternity,33,Female,18,2,4,3,Very good
+R12021,2025-11-03,Outpatients,53,Male,39,4,4,4,Very good
+R12022,2025-11-03,Emergency Department,31,Female,205,5,2,4,Good
+R12023,2025-11-03,Outpatients,56,Female,27,5,4,4,Very good
+R12024,2025-11-04,Inpatients,67,Male,26,4,4,5,Very good
+R12025,2025-11-04,Emergency Department,50,Female,343,5,3,4,Neither good nor poor
+R12026,2025-11-04,Maternity,30,Female,21,4,5,4,Very good
+R12027,2025-11-04,Emergency Department,33,Male,166,3,4,4,Very good
+R12028,2025-11-04,Emergency Department,51,Female,176,4,4,4,Very poor
+R12029,2025-11-04,Inpatients,77,Female,40,5,4,4,Very good
+R12030,2025-11-04,Inpatients,73,Female,37,5,4,3,Very good
+R12031,2025-11-04,Emergency Department,42,Male,175,4,5,4,Very good
+R12032,2025-11-04,Maternity,22,Female,23,5,4,4,Very good
+R12033,2025-11-05,Outpatients,40,Female,4,5,4,5,Very good
+R12034,2025-11-05,Outpatients,51,Female,25,4,2,3,Good
+R12035,2025-11-05,Inpatients,70,Female,85,4,5,5,Very good
+R12036,2025-11-05,Outpatients,90,Male,16,5,4,4,Good
+R12037,2025-11-05,Emergency Department,31,Male,106,3,4,5,Very good
+R12038,2025-11-05,Emergency Department,64,Male,114,4,5,5,Very good
+R12039,2025-11-05,Outpatients,42,Female,7,4,3,3,Very good
+R12040,2025-11-06,Inpatients,41,Female,56,4,4,3,Very good
+R12041,2025-11-06,Outpatients,36,Male,30,3,4,5,Very good
+R12042,2025-11-06,Outpatients,51,Male,23,5,5,5,Good
+R12043,2025-11-06,Outpatients,35,Female,5,4,4,4,Very good
+R12044,2025-11-06,Maternity,34,Female,38,5,5,5,Very good
+R12045,2025-11-06,Inpatients,92,Male,118,3,4,5,Neither good nor poor
+R12046,2025-11-06,Inpatients,63,Female,13,4,5,4,Very good
+R12047,2025-11-06,Maternity,32,Female,24,5,4,3,Don't know
+R12048,2025-11-07,Outpatients,67,Male,33,4,5,4,Very good
+R12049,2025-11-07,Inpatients,57,Male,152,3,5,4,Very good
+R12050,2025-11-07,Outpatients,49,Female,29,4,4,5,Good
+R12051,2025-11-07,Inpatients,41,Male,92,4,4,4,Very good
+R12052,2025-11-07,Emergency Department,68,Male,117,5,4,4,Good
+R12053,2025-11-07,Emergency Department,47,Male,154,3,5,5,Good
+R12054,2025-11-07,Emergency Department,36,Female,191,3,5,5,Very good
+R12055,2025-11-08,Outpatients,37,Male,75,4,5,4,Very good
+R12056,2025-11-08,Emergency Department,67,Female,126,4,4,4,Very poor
+R12057,2025-11-08,Outpatients,49,Male,126,3,4,5,Very good
+R12058,2025-11-08,Inpatients,73,Male,71,4,4,4,Very good
+R12059,2025-11-08,Inpatients,83,Male,83,5,4,4,Very good
+R12060,2025-11-08,Outpatients,36,Female,41,2,5,5,Good
+R12061,2025-11-09,Maternity,35,Female,63,4,4,4,Very good
+R12062,2025-11-09,Outpatients,39,Male,74,4,4,4,Good
+R12063,2025-11-09,Inpatients,53,Female,101,5,5,4,Very good
+R12064,2025-11-10,Emergency Department,43,Male,128,5,4,4,Very good
+R12065,2025-11-10,Inpatients,49,Male,65,4,4,5,Good
+R12066,2025-11-10,Outpatients,59,Male,56,5,5,4,Very good
+R12067,2025-11-11,Emergency Department,51,Female,119,5,5,5,Very good
+R12068,2025-11-11,Outpatients,77,Male,7,4,5,5,Very good
+R12069,2025-11-11,Outpatients,68,Female,27,5,4,5,Neither good nor poor
+R12070,2025-11-11,Maternity,33,Female,15,5,4,4,Good
+R12071,2025-11-11,Inpatients,72,Female,60,3,4,5,Very good
+R12072,2025-11-11,Emergency Department,43,Female,71,4,3,4,Neither good nor poor
+R12073,2025-11-11,Emergency Department,28,Female,172,4,4,4,Very good
+R12074,2025-11-11,Inpatients,70,Female,112,4,4,5,Very good
+R12075,2025-11-11,Outpatients,58,Male,4,4,5,3,Very good
+R12076,2025-11-11,Outpatients,36,Female,23,5,5,3,Good
+R12077,2025-11-12,Inpatients,56,Female,99,3,4,5,Don't know
+R12078,2025-11-12,Emergency Department,48,Male,178,3,5,4,Very good
+R12079,2025-11-12,Inpatients,47,Male,71,3,4,3,Very good
+R12080,2025-11-12,Emergency Department,44,Female,275,5,5,4,Very good
+R12081,2025-11-12,Inpatients,22,Female,59,4,4,4,Good
+R12082,2025-11-12,Outpatients,50,Male,6,5,4,5,Very good
+R12083,2025-11-13,Emergency Department,17,Male,60,3,4,5,Good
+R12084,2025-11-13,Outpatients,70,Male,24,4,4,4,Very good
+R12085,2025-11-13,Outpatients,39,Female,30,5,5,5,Good
+R12086,2025-11-13,Inpatients,47,Female,56,3,5,4,Very good
+R12087,2025-11-13,Outpatients,49,Female,42,5,4,5,Very good
+R12088,2025-11-13,Inpatients,66,Female,74,4,5,3,Very good
+R12089,2025-11-14,Emergency Department,25,Female,235,5,4,4,Very good
+R12090,2025-11-14,Emergency Department,76,Male,144,5,4,5,Very good
+R12091,2025-11-14,Emergency Department,17,Female,200,4,5,2,Neither good nor poor
+R12092,2025-11-14,Outpatients,43,Male,16,4,4,3,Very poor
+R12093,2025-11-14,Outpatients,45,Male,2,3,4,5,Very good
+R12094,2025-11-14,Emergency Department,72,Female,187,2,4,5,Very good
+R12095,2025-11-14,Maternity,27,Female,23,5,5,5,Very good
+R12096,2025-11-14,Outpatients,63,Female,30,5,5,5,Very good
+R12097,2025-11-15,Emergency Department,41,Male,195,4,5,4,Very good
+R12098,2025-11-15,Maternity,29,Female,54,4,4,5,Good
+R12099,2025-11-15,Maternity,36,Female,30,4,4,4,Good
+R12100,2025-11-15,Inpatients,80,Male,66,4,4,4,Good
+R12101,2025-11-15,Emergency Department,55,Female,394,4,4,3,Good
+R12102,2025-11-15,Emergency Department,72,Male,66,5,3,4,Very good
+R12103,2025-11-16,Emergency Department,48,Male,69,5,5,4,Very good
+R12104,2025-11-16,Emergency Department,36,Male,156,4,5,4,Good
+R12105,2025-11-16,Emergency Department,30,Male,136,4,5,4,Neither good nor poor
+R12106,2025-11-17,Outpatients,53,Female,19,4,3,3,Good
+R12107,2025-11-17,Inpatients,73,Female,94,4,4,4,Very good
+R12108,2025-11-17,Outpatients,88,Male,7,5,5,5,Very good
+R12109,2025-11-17,Emergency Department,54,Female,402,3,4,5,Neither good nor poor
+R12110,2025-11-17,Outpatients,61,Male,13,5,5,4,Very good
+R12111,2025-11-17,Inpatients,42,Male,54,4,4,5,Very good
+R12112,2025-11-17,Emergency Department,38,Male,281,5,4,5,Very good
+R12113,2025-11-17,Maternity,37,Female,57,4,4,4,Good
+R12114,2025-11-18,Maternity,22,Female,21,5,5,3,Very good
+R12115,2025-11-18,Inpatients,71,Male,16,4,5,5,Very good
+R12116,2025-11-18,Emergency Department,28,Male,134,4,5,4,Good
+R12117,2025-11-18,Inpatients,72,Male,28,4,5,4,Very good
+R12118,2025-11-18,Maternity,24,Female,27,4,4,4,Very poor
+R12119,2025-11-18,Outpatients,47,Female,22,4,5,4,Good
+R12120,2025-11-19,Outpatients,40,Male,11,5,4,5,Very good
+R12121,2025-11-19,Outpatients,53,Female,62,3,5,4,Very good
+R12122,2025-11-19,Outpatients,44,Male,12,4,5,3,Very good
+R12123,2025-11-20,Outpatients,38,Male,19,5,4,3,Very good
+R12124,2025-11-20,Inpatients,64,Male,44,2,4,4,Very good
+R12125,2025-11-20,Emergency Department,69,Female,328,4,3,5,Good
+R12126,2025-11-20,Maternity,23,Female,14,4,5,4,Very good
+R12127,2025-11-20,Outpatients,77,Female,7,5,5,4,Very good
+R12128,2025-11-21,Inpatients,78,Male,153,4,4,4,Very good
+R12129,2025-11-21,Emergency Department,34,Male,188,5,5,3,Very good
+R12130,2025-11-21,Emergency Department,55,Male,71,4,5,3,Good
+R12131,2025-11-21,Emergency Department,50,Male,276,5,5,4,Very good
+R12132,2025-11-21,Maternity,30,Female,10,5,5,4,Very poor
+R12133,2025-11-21,Inpatients,79,Male,43,4,4,5,Very good
+R12134,2025-11-21,Emergency Department,56,Male,184,3,5,5,Good
+R12135,2025-11-22,Outpatients,95,Female,47,3,4,3,Good
+R12136,2025-11-22,Emergency Department,52,Female,155,5,3,4,Very good
+R12137,2025-11-22,Outpatients,60,Male,34,4,5,5,Very good
+R12138,2025-11-22,Emergency Department,77,Female,128,5,4,4,Very good
+R12139,2025-11-22,Outpatients,54,Male,13,5,5,5,Very good
+R12140,2025-11-22,Outpatients,56,Female,27,5,4,4,Good
+R12141,2025-11-23,Outpatients,55,Female,20,5,5,4,Very good
+R12142,2025-11-23,Emergency Department,41,Female,225,4,5,3,Very good
+R12143,2025-11-23,Maternity,32,Female,24,5,4,5,Very good
+R12144,2025-11-23,Outpatients,65,Male,14,3,5,5,Neither good nor poor
+R12145,2025-11-23,Emergency Department,30,Male,164,5,5,3,Very good
+R12146,2025-11-23,Emergency Department,42,Male,67,4,5,5,Don't know
+R12147,2025-11-23,Outpatients,40,Female,13,5,5,4,Very good
+R12148,2025-11-23,Inpatients,77,Female,107,5,3,4,Good
+R12149,2025-11-24,Outpatients,54,Female,12,4,4,5,Good
+R12150,2025-11-24,Emergency Department,29,Female,112,5,5,3,Good
+R12151,2025-11-24,Emergency Department,45,Female,172,3,5,4,Very good
+R12152,2025-11-24,Inpatients,66,Female,107,4,4,5,Good
+R12153,2025-11-24,Emergency Department,17,Female,83,5,5,3,Very good
+R12154,2025-11-24,Emergency Department,39,Male,129,5,4,4,Very good
+R12155,2025-11-24,Inpatients,59,Male,73,5,4,4,Very good
+R12156,2025-11-25,Maternity,21,Female,20,4,3,2,Very good
+R12157,2025-11-25,Outpatients,37,Male,24,4,4,4,Very good
+R12158,2025-11-25,Maternity,30,Female,14,4,5,5,Very good
+R12159,2025-11-25,Outpatients,73,Female,45,5,5,4,Good
+R12160,2025-11-25,Emergency Department,44,Male,217,4,5,4,Poor
+R12161,2025-11-25,Inpatients,60,Female,87,4,5,4,Very good
+R12162,2025-11-25,Emergency Department,50,Female,163,4,4,5,Good
+R12163,2025-11-25,Inpatients,76,Female,43,5,5,3,Very good
+R12164,2025-11-26,Emergency Department,44,Female,180,5,5,4,Good
+R12165,2025-11-26,Emergency Department,53,Female,165,4,5,2,Good
+R12166,2025-11-26,Maternity,30,Female,17,4,4,2,Good
+R12167,2025-11-26,Emergency Department,35,Male,93,4,3,4,Good
+R12168,2025-11-26,Emergency Department,37,Male,240,4,5,5,Poor
+R12169,2025-11-26,Emergency Department,17,Female,373,5,4,4,Very good
+R12170,2025-11-26,Inpatients,54,Female,108,5,4,3,Good
+R12171,2025-11-26,Emergency Department,40,Female,104,5,4,5,Good
+R12172,2025-11-26,Emergency Department,32,Female,151,5,3,4,Very good
+R12173,2025-11-26,Maternity,34,Female,29,4,4,5,Very good
+R12174,2025-11-27,Outpatients,53,Female,28,2,4,5,Neither good nor poor
+R12175,2025-11-27,Emergency Department,31,Male,111,3,5,5,Very good
+R12176,2025-11-27,Inpatients,65,Female,21,5,5,4,Very good
+R12177,2025-11-27,Inpatients,41,Male,32,4,4,5,Very good
+R12178,2025-11-27,Emergency Department,54,Male,137,4,5,5,Good
+R12179,2025-11-27,Outpatients,20,Female,44,3,5,5,Very good
+R12180,2025-11-27,Emergency Department,58,Female,93,5,4,5,Very good
+R12181,2025-11-28,Inpatients,74,Female,81,5,4,3,Good
+R12182,2025-11-28,Outpatients,47,Female,54,4,5,5,Very good
+R12183,2025-11-28,Emergency Department,63,Female,225,4,5,4,Neither good nor poor
+R12184,2025-11-29,Emergency Department,51,Female,132,4,4,4,Good
+R12185,2025-11-29,Emergency Department,45,Female,242,3,4,3,Neither good nor poor
+R12186,2025-11-29,Inpatients,45,Female,45,4,5,4,Very good
+R12187,2025-11-29,Emergency Department,16,Female,72,5,5,4,Very good
+R12188,2025-11-29,Emergency Department,51,Female,148,5,3,5,Good
+R12189,2025-11-29,Emergency Department,37,Male,226,4,4,5,Good
+R12190,2025-11-29,Emergency Department,65,Male,140,3,5,4,Good
+R12191,2025-11-29,Inpatients,76,Male,186,3,4,4,Very good
+R12192,2025-11-29,Inpatients,58,Female,66,5,5,5,Very good
+R12193,2025-11-29,Emergency Department,52,Male,251,3,4,4,Poor
+R12194,2025-11-29,Outpatients,59,Male,9,5,5,5,Very good
+R12195,2025-11-29,Outpatients,47,Male,15,5,2,4,Very good
+R12196,2025-11-29,Inpatients,51,Male,33,5,4,4,Very good
+R12197,2025-11-29,Emergency Department,44,Female,200,5,5,5,Very good
+R12198,2025-11-30,Maternity,30,Female,84,4,5,5,Very good
+R12199,2025-11-30,Inpatients,51,Female,111,4,5,4,Very good
+R12200,2025-11-30,Emergency Department,33,Female,129,4,4,4,Good
+R12201,2025-11-30,Outpatients,70,Male,7,5,4,4,Very good
+R12202,2025-11-30,Inpatients,82,Male,62,3,5,5,Very good
+R12203,2025-11-30,Inpatients,34,Male,33,5,4,2,Very good
+R12204,2025-12-01,Emergency Department,40,Female,272,3,4,3,Very good
+R12205,2025-12-01,Emergency Department,40,Female,138,4,4,4,Good
+R12206,2025-12-01,Outpatients,58,Male,46,3,5,5,Good
+R12207,2025-12-01,Inpatients,36,Female,85,5,4,4,Very good
+R12208,2025-12-01,Emergency Department,23,Male,128,4,4,5,Good
+R12209,2025-12-01,Inpatients,53,Male,174,3,4,5,Neither good nor poor
+R12210,2025-12-01,Outpatients,73,Female,11,4,3,4,Good
+R12211,2025-12-01,Outpatients,33,Female,54,5,3,5,Good
+R12212,2025-12-01,Emergency Department,43,Female,154,4,5,4,Very good
+R12213,2025-12-01,Outpatients,57,Male,4,5,4,5,Very good
+R12214,2025-12-02,Maternity,21,Female,36,4,4,4,Very good
+R12215,2025-12-02,Outpatients,59,Female,24,3,5,4,Very good
+R12216,2025-12-02,Inpatients,69,Male,80,4,3,3,Very good
+R12217,2025-12-02,Outpatients,62,Female,16,5,5,5,Very good
+R12218,2025-12-02,Outpatients,45,Female,64,3,5,5,Good
+R12219,2025-12-02,Outpatients,59,Female,6,4,3,5,Very good
+R12220,2025-12-02,Outpatients,43,Female,26,3,4,4,Very good
+R12221,2025-12-02,Outpatients,20,Female,32,4,5,5,Very good
+R12222,2025-12-02,Emergency Department,40,Female,174,3,4,5,Good
+R12223,2025-12-03,Outpatients,60,Male,32,5,4,4,Good
+R12224,2025-12-03,Inpatients,70,Female,76,5,4,4,Very good
+R12225,2025-12-03,Outpatients,41,Male,14,4,3,4,Good
+R12226,2025-12-03,Emergency Department,57,Female,88,4,4,4,Very good
+R12227,2025-12-03,Inpatients,68,Male,74,5,5,4,Very good
+R12228,2025-12-03,Outpatients,37,Female,34,4,3,5,Good
+R12229,2025-12-03,Outpatients,57,Female,58,5,5,5,Very good
+R12230,2025-12-03,Inpatients,71,Female,136,4,5,3,Very good
+R12231,2025-12-04,Outpatients,48,Female,128,4,4,5,Very good
+R12232,2025-12-05,Emergency Department,28,Female,162,4,5,4,Neither good nor poor
+R12233,2025-12-05,Outpatients,35,Female,11,4,4,4,Very good
+R12234,2025-12-05,Outpatients,58,Male,70,4,3,4,Very good
+R12235,2025-12-05,Emergency Department,27,Male,246,5,5,4,Very good
+R12236,2025-12-05,Emergency Department,38,Male,382,4,3,3,Poor
+R12237,2025-12-05,Emergency Department,52,Male,215,5,5,5,Neither good nor poor
+R12238,2025-12-07,Maternity,22,Female,45,3,5,4,Very good
+R12239,2025-12-07,Emergency Department,47,Male,171,5,4,5,Very good
+R12240,2025-12-07,Emergency Department,49,Male,155,5,4,5,Very poor
+R12241,2025-12-07,Emergency Department,60,Female,419,5,5,5,Very good
+R12242,2025-12-07,Emergency Department,62,Female,191,5,5,5,Very good
+R12243,2025-12-07,Emergency Department,44,Male,218,4,5,4,Good
+R12244,2025-12-07,Maternity,26,Female,54,4,5,4,Very poor
+R12245,2025-12-07,Inpatients,63,Female,176,4,4,5,Very good
+R12246,2025-12-08,Maternity,32,Female,16,3,4,4,Very good
+R12247,2025-12-08,Inpatients,51,Male,23,4,4,5,Very good
+R12248,2025-12-08,Outpatients,35,Male,19,4,3,4,Very good
+R12249,2025-12-09,Inpatients,54,Female,126,5,5,5,Very good
+R12250,2025-12-09,Inpatients,61,Female,153,4,3,5,Very good
+R12251,2025-12-09,Inpatients,44,Female,35,4,5,4,Very good
+R12252,2025-12-09,Outpatients,65,Male,8,5,4,5,Very good
+R12253,2025-12-09,Outpatients,47,Female,66,4,5,5,Very good
+R12254,2025-12-09,Emergency Department,63,Female,399,5,4,5,Very good
+R12255,2025-12-09,Emergency Department,19,Female,196,4,4,3,Very good
+R12256,2025-12-09,Outpatients,17,Female,33,4,4,5,Good
+R12257,2025-12-10,Outpatients,29,Female,20,4,4,4,Very good
+R12258,2025-12-10,Emergency Department,63,Female,137,5,4,5,Very good
+R12259,2025-12-10,Emergency Department,55,Female,455,3,5,5,Don't know
+R12260,2025-12-10,Maternity,33,Female,50,3,3,4,Good
+R12261,2025-12-10,Outpatients,34,Female,17,3,4,5,Very good
+R12262,2025-12-10,Inpatients,42,Female,64,5,4,4,Very good
+R12263,2025-12-10,Emergency Department,48,Female,235,5,5,5,Good
+R12264,2025-12-10,Emergency Department,37,Female,259,3,4,3,Very good
+R12265,2025-12-10,Inpatients,65,Male,56,3,4,5,Very good
+R12266,2025-12-10,Maternity,23,Female,9,5,4,5,Very good
+R12267,2025-12-10,Inpatients,84,Female,83,5,3,5,Very good
+R12268,2025-12-10,Maternity,30,Female,17,4,5,4,Very good
+R12269,2025-12-11,Emergency Department,54,Female,87,4,3,4,Neither good nor poor
+R12270,2025-12-11,Emergency Department,40,Female,326,5,4,4,Good
+R12271,2025-12-11,Emergency Department,57,Female,117,4,5,5,Don't know
+R12272,2025-12-11,Inpatients,42,Female,41,5,5,4,Very good
+R12273,2025-12-11,Outpatients,77,Female,11,5,4,3,Very good
+R12274,2025-12-11,Emergency Department,67,Male,173,4,5,4,Very good
+R12275,2025-12-12,Emergency Department,34,Female,274,5,4,5,Very good
+R12276,2025-12-12,Outpatients,43,Female,11,4,5,5,Very good
+R12277,2025-12-12,Inpatients,71,Female,52,3,5,4,Very good
+R12278,2025-12-12,Outpatients,56,Female,26,3,4,4,Good
+R12279,2025-12-12,Inpatients,76,Male,57,4,5,5,Very good
+R12280,2025-12-12,Inpatients,31,Male,115,5,4,5,Very good
+R12281,2025-12-13,Emergency Department,25,Male,226,5,5,4,Good
+R12282,2025-12-13,Outpatients,57,Female,5,5,5,4,Very good
+R12283,2025-12-13,Outpatients,56,Female,18,5,4,2,Don't know
+R12284,2025-12-14,Emergency Department,25,Female,141,4,4,4,Very good
+R12285,2025-12-14,Inpatients,52,Male,32,5,4,4,Very good
+R12286,2025-12-14,Emergency Department,48,Male,337,5,4,5,Very poor
+R12287,2025-12-14,Inpatients,66,Male,38,4,4,5,Very good
+R12288,2025-12-14,Outpatients,21,Male,8,4,4,5,Very good
+R12289,2025-12-14,Maternity,26,Female,24,4,4,5,Good
+R12290,2025-12-14,Outpatients,28,Male,24,4,5,5,Very good
+R12291,2025-12-14,Outpatients,69,Female,12,5,5,3,Very good
+R12292,2025-12-15,Inpatients,51,Male,37,4,5,4,Very good
+R12293,2025-12-15,Emergency Department,49,Male,269,3,4,4,Good
+R12294,2025-12-15,Outpatients,61,Male,24,4,4,5,Don't know
+R12295,2025-12-15,Maternity,30,Female,25,4,4,5,Very good
+R12296,2025-12-15,Emergency Department,45,Male,263,3,5,4,Poor
+R12297,2025-12-15,Outpatients,49,Male,49,4,5,5,Very poor
+R12298,2025-12-15,Inpatients,63,Female,83,3,5,4,Very good
+R12299,2025-12-15,Emergency Department,62,Male,82,5,4,4,Good
+R12300,2025-12-15,Emergency Department,53,Female,426,4,5,4,Very good
+R12301,2025-12-15,Maternity,41,Female,23,5,4,4,Very good
+R12302,2025-12-15,Inpatients,40,Female,63,5,4,5,Very good
+R12303,2025-12-16,Emergency Department,67,Male,332,3,4,4,Very poor
+R12304,2025-12-16,Inpatients,85,Male,42,5,5,5,Very good
+R12305,2025-12-16,Inpatients,62,Female,104,5,5,5,Very good
+R12306,2025-12-16,Inpatients,52,Male,92,4,4,4,Very good
+R12307,2025-12-16,Maternity,24,Female,36,4,3,5,Good
+R12308,2025-12-16,Emergency Department,65,Female,106,4,5,5,Very good
+R12309,2025-12-17,Emergency Department,54,Male,227,3,5,4,Very good
+R12310,2025-12-17,Emergency Department,43,Female,255,5,5,5,Very good
+R12311,2025-12-17,Emergency Department,48,Male,227,4,5,5,Good
+R12312,2025-12-18,Inpatients,33,Female,102,4,3,4,Very good
+R12313,2025-12-18,Inpatients,55,Female,139,3,4,5,Good
+R12314,2025-12-18,Emergency Department,70,Female,179,5,4,3,Poor
+R12315,2025-12-18,Emergency Department,23,Male,204,5,5,5,Good
+R12316,2025-12-18,Emergency Department,25,Female,193,5,4,5,Very good
+R12317,2025-12-18,Outpatients,42,Male,34,4,3,5,Very good
+R12318,2025-12-18,Outpatients,79,Male,18,5,4,4,Good
+R12319,2025-12-18,Inpatients,74,Male,70,4,4,4,Very good
+R12320,2025-12-18,Inpatients,57,Male,34,4,5,3,Good
+R12321,2025-12-18,Inpatients,58,Male,106,4,4,3,Very good
+R12322,2025-12-19,Emergency Department,38,Male,280,4,4,4,Poor
+R12323,2025-12-19,Inpatients,52,Female,63,4,4,5,Very good
+R12324,2025-12-19,Emergency Department,27,Male,95,4,3,3,Very good
+R12325,2025-12-19,Outpatients,35,Male,21,4,3,3,Good
+R12326,2025-12-19,Inpatients,71,Female,112,3,4,3,Very good
+R12327,2025-12-19,Inpatients,95,Female,48,2,3,5,Very good
+R12328,2025-12-19,Maternity,24,Female,27,4,4,4,Very good
+R12329,2025-12-19,Outpatients,53,Male,26,3,4,5,Very good
+R12330,2025-12-20,Emergency Department,19,Female,144,5,5,4,Very good
+R12331,2025-12-20,Emergency Department,54,Female,114,5,5,5,Don't know
+R12332,2025-12-20,Outpatients,30,Male,45,4,5,5,Very good
+R12333,2025-12-20,Maternity,38,Female,21,3,3,5,Very good
+R12334,2025-12-20,Emergency Department,46,Male,127,5,5,3,Very good
+R12335,2025-12-20,Emergency Department,54,Male,182,4,3,4,Very good
+R12336,2025-12-20,Emergency Department,75,Female,76,4,4,4,Good
+R12337,2025-12-20,Outpatients,65,Male,10,4,4,4,Very good
+R12338,2025-12-20,Maternity,36,Female,17,5,3,5,Good
+R12339,2025-12-20,Emergency Department,51,Female,128,5,5,5,Good
+R12340,2025-12-20,Emergency Department,63,Female,146,4,4,3,Very good
+R12341,2025-12-20,Emergency Department,16,Female,136,4,3,4,Poor
+R12342,2025-12-20,Outpatients,46,Female,33,4,5,4,Very good
+R12343,2025-12-20,Outpatients,35,Male,4,3,5,4,Good
+R12344,2025-12-21,Inpatients,63,Female,101,3,4,3,Very good
+R12345,2025-12-21,Emergency Department,51,Female,426,4,5,4,Good
+R12346,2025-12-21,Maternity,34,Female,57,5,5,4,Very good
+R12347,2025-12-21,Outpatients,53,Female,13,3,5,5,Very good
+R12348,2025-12-21,Emergency Department,52,Female,217,4,5,4,Very good
+R12349,2025-12-22,Emergency Department,52,Female,388,4,5,3,Very good
+R12350,2025-12-22,Inpatients,55,Male,30,4,5,5,Very good
+R12351,2025-12-22,Maternity,29,Female,45,5,3,3,Very good
+R12352,2025-12-22,Emergency Department,44,Female,148,4,3,5,Good
+R12353,2025-12-23,Maternity,32,Female,8,5,3,3,Very good
+R12354,2025-12-23,Outpatients,73,Female,13,4,5,4,Very good
+R12355,2025-12-23,Emergency Department,51,Male,315,3,4,4,Poor
+R12356,2025-12-23,Maternity,25,Female,15,5,3,4,Very good
+R12357,2025-12-23,Emergency Department,61,Female,148,3,3,5,Good
+R12358,2025-12-23,Outpatients,64,Female,12,4,5,4,Very good
+R12359,2025-12-24,Emergency Department,57,Female,75,5,5,3,Very good
+R12360,2025-12-24,Emergency Department,40,Male,303,3,3,5,Very good
+R12361,2025-12-24,Outpatients,49,Male,273,3,4,3,Good
+R12362,2025-12-25,Outpatients,32,Male,51,5,4,5,Very good
+R12363,2025-12-25,Inpatients,63,Female,122,5,5,3,Very good
+R12364,2025-12-25,Outpatients,67,Female,18,4,4,5,Good
+R12365,2025-12-25,Inpatients,66,Male,55,4,5,4,Good
+R12366,2025-12-25,Emergency Department,53,Male,305,2,5,4,Good
+R12367,2025-12-26,Outpatients,56,Male,3,5,3,4,Very good
+R12368,2025-12-26,Maternity,24,Female,75,4,3,5,Good
+R12369,2025-12-26,Emergency Department,55,Male,166,4,5,4,Neither good nor poor
+R12370,2025-12-27,Maternity,29,Female,35,4,4,5,Very good
+R12371,2025-12-27,Outpatients,54,Male,28,4,5,4,Very good
+R12372,2025-12-27,Inpatients,52,Male,48,5,3,4,Very good
+R12373,2025-12-27,Maternity,25,Female,29,5,4,4,Very good
+R12374,2025-12-27,Outpatients,64,Female,12,4,4,4,Good
+R12375,2025-12-28,Inpatients,76,Male,77,5,5,5,Very good
+R12376,2025-12-28,Inpatients,46,Female,31,5,4,5,Don't know
+R12377,2025-12-28,Outpatients,62,Male,11,4,4,3,Very good
+R12378,2025-12-28,Inpatients,36,Female,61,5,4,5,Very good
+R12379,2025-12-28,Inpatients,81,Female,37,4,3,5,Very good
+R12380,2025-12-28,Outpatients,23,Female,13,5,4,5,Very good
+R12381,2025-12-28,Emergency Department,25,Male,148,4,3,4,Very good
+R12382,2025-12-28,Inpatients,82,Male,149,4,4,5,Poor
+R12383,2025-12-29,Outpatients,45,Male,19,4,4,5,Very good
+R12384,2025-12-29,Emergency Department,50,Male,207,3,5,5,Very good
+R12385,2025-12-29,Outpatients,50,Female,27,2,5,4,Very good
+R12386,2025-12-29,Inpatients,94,Female,29,4,4,2,Good
+R12387,2025-12-29,Maternity,21,Female,43,3,4,5,Good
+R12388,2025-12-30,Inpatients,63,Male,103,2,5,4,Very good
+R12389,2025-12-30,Outpatients,42,Male,12,4,4,4,Very good
+R12390,2025-12-30,Outpatients,65,Male,29,4,3,4,Very good
+R12391,2025-12-30,Maternity,33,Female,18,4,4,5,Very good
+R12392,2025-12-30,Inpatients,68,Female,40,4,4,4,Very good
+R12393,2025-12-30,Outpatients,40,Female,6,5,4,5,Very good
+R12394,2025-12-30,Emergency Department,41,Male,140,4,3,4,Very poor
+R12395,2025-12-30,Outpatients,56,Female,17,5,4,4,Very good
+R12396,2025-12-31,Inpatients,47,Male,48,4,4,5,Very good
+R12397,2025-12-31,Outpatients,36,Male,9,4,3,4,Good
+R12398,2025-12-31,Emergency Department,32,Female,322,4,3,5,Neither good nor poor
+R12399,2025-12-31,Outpatients,27,Female,9,4,5,5,Very good
