@@ -2,7 +2,7 @@
 
 > **Important note on data:** This project uses **simulated data**. It contains no patient or hospital data. The 2,400 survey responses were generated to resemble NHS Friends and Family Test (FFT) results, with positive scores set close to figures published by an NHS trust (see Data sources). How waiting time, communication, kindness, and cleanliness affect the rating is an **assumption**, not a published effect size. The results show how the analysis works, not what any real hospital achieves.
 
-**Live dashboard:** _link will be added after deployment_
+**Live dashboard:** [Open the interactive dashboard](https://patient-satisfaction-dashboard-9tk3fmyv7wdcfbpbeqdbapp.streamlit.app/)
 
 ## Question
 How satisfied are patients across four hospital services, and which factors (waiting time, communication, staff kindness, cleanliness) are linked to a positive experience?
